@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 C:\Users\Angela\git\grobid\grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The author&apos;s software system for planning and selection of personnel in SME</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Justyna</forename><surname>Patalas-Maliszewska</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Zielona Góra</orgName>
+								<address>
+									<country key="PL">Poland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Vienna University of Technology</orgName>
+								<address>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The author&apos;s software system for planning and selection of personnel in SME</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.4.5-dummy" ident="GROBID" when="2017-12-29T00:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>		<profileDesc>
+			<textClass>
+				<keywords>intellectual capital, strategic knowledge management</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The strategic management of intellectual capital involves rethinking how the companies creates value from a knowledge-centric perspective and redesigning and orchestrating the role of staff knowledge in the firm's strategy. This paper presents the author's software system for facilitating decision making at a strategic level in terms of the profitability of investment in staff knowledge. This software is a computer implementation of the method for planning and selection of personnel in SME.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>The advantage of a company in the SME sector (small and medium sizes enterprises) is determined by effectiveness and the extent of the knowledge-workers' involvement. The role of intellectual capital management consists in striving to increase the share of immaterial resources (at the costs of the material ones) in the generated products, services, and the total market value of an organization <ref type="bibr" target="#b0">(Król and Ludwiczyński, 2007)</ref>.</p><p>To manage of intellectual capital more systematically, the firm must devise an agenda for transforming from an organisation simply comprising knowledge able individuals to a knowledge-focused organisation that stewards the creation and sharing of knowledge within and across internal business function and that orchestrates the flow of know-how to and from external firms.</p><p>Many studies have focused on knowledge management strategies and methodologies from an organizational perspective <ref type="bibr" target="#b1">(Barthelme et al., 1998)</ref>, <ref type="bibr" target="#b2">(Basu, 1998)</ref>, (Carayannis, 1998), <ref type="bibr" target="#b4">(Drew, 1999)</ref>. Many useful studies on the development of information sharing systems and collaborative tools to support intra-organizational processes and teamwork also exist <ref type="bibr" target="#b5">(Chen and Liang, 1999)</ref>. However, both the methodology and software system functionality for knowledge management are highly dependent on the process characteristics and the knowledge involved.</p><p>The competitive advantage of companies, especially SMEs, decide to increasingly knowledge and innovation potential. Knowledge is a broad concept, embracing both the knowledge formalized (explicit) and non-formal knowledge (hidden). Looking at the relationship between data, information, management information and knowledge <ref type="bibr" target="#b6">(Senn, 1990</ref>) should be regarded knowledge as a strategic resource company. Application of information systems that support knowledge management in SMEs can give guarantees a constant competitive advantage in the market.</p><p>The article presents the description of strategic knowledge resources in companies and author's method for plannig and selection of personnel in SME (see chapter 2). In the third chapter the author's software system for facilitating decision making at a strategic level in terms of the profitability of investment in staff knowledge is presented on example of the decision-making situation in which an innovative SME is considering the employment of a new m-th employee. The summary shows the directions of further work.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Author's method for planning and selection of strategic knowledge resources in SME</head><p>While resources are important to the performance of a firm, according to a resource-based view, whether or not an organization gains a competitive advantage and any associated returns, depends on the strategic planning used to leverage those resources (Chrisman et al. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Strategic Knowledge Resource in SMEs:</head><p>unique resources of individual employees which allow SMEs to gain a sustainable competitive advantage</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fig. 1 Definition of strategic-knowledge resources in</head><p>SMEs So, the following personnel SME usefulness function Wnm for the m-th employee in the SME is proposed:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Wnm = f1(GK) +f2(PK) +f3(A) +f4(E) + f5(P) + f6(C) + f7(R),</head><p>where: n, m∈ N,</p><p>The linear form of this function Wnm is chosen because all elements are independent and equally important to assess the effectiveness and efficiency of investment in knowledge. It is possible to receive indispensable data for account of value personnel usefulness function from companies belonged to reference model of SMEs (Patalas-Maliszewska, 2009) by interview in each enterprise. Each employee should complete the questionnaire. On the basis of an algorithm for testing solutions for each employee it is possible to receive a specific value of the personnel usefulness function and each of the parameters of this function.</p><p>A four-element method for the planning and selection of strategic knowledge resources in SME has been built. The four elements are:</p><p>• A reference model of an SME-sector company,</p><p>• The value of the personnel usefulness function for each m-th employee in SME • The qualifying criteria in an innovative company, • An algorithm which will enable the connection of the value of strategic resources of knowledge to the value of the qualifying criteria for an innovative company -GMDH.</p><p>The method was created on the basis of methods for the assessment of capital value and on the characteristics of innovative companies. It combines available knowledge gained from literature, and experiences of SMEs which have the potential for innovation.</p><p>The method allows for making an assessment of the future value of the decision about the selection of an employee in the relation to increasing innovation in a SMEsector company.</p><p>The next chapter presents the author's software system for facilitating decision making at a strategic level in terms of the profitability of investment in staff knowledge, which considers all elements of the presented method.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">The author's software system for</head><p>facilitating decision making at a strategic level in terms of the profitability of investment in staff knowledge -example of using</p><p>The decision regarding the selection of an appropriate employee requires the company management to assess the efficiency of this investment. The application of the model makes it possible to obtain a forecast of the value of the strategic knowledge resources within a given organisation. The decision-making situation, in which an innovative SME is considering the employment of the m-th employee, is presented in the diagram: Strategic Knowledge Resource: personnel SME usefulness function Wnm for the m-th employee in the SME:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Wnm = f1(GK) +f2(PK) +f3(A) +f4(E) + f5(P) + f6(C) + f7(R),</head><p>where: n, m∈ N,</p><p>• f1(GK) -the general knowledge function for the m-th employee in SME, • f2(PK) -the professional knowledge function for the m-th employee in SME, • f3(A) -the professional abilities function for the m-th employee in SME, • f4(E) -the experience function for the m-th employee in SME, • f5(P) -the patents function for the m-th employee in SME, • f6(C) -the clients function for the m-th employee in SME, • f7(R) -the m-th employee's personality in an SME. Is an employee being sought who guarantees that the SME may gain the desired values of the qualification criteria for an innovative company?</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Stage 1:</head><p>The implementation of data which is characteristic for an SME-sector company in a computer program (consistent with the reference model)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Stage 2:</head><p>The application of a defined decision-making model with use of the implemented data of a company with the aid of a computer program</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Stage 3:</head><p>The forecasting of the value of strategic knowledge resources in an innovative SME (the value of personnel usefulness function); depending on the defined values of the innovation characteristics</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Stage 4:</head><p>Conducting an interview with a potential employee using the programestablishing the current value of the value of personnel usefulness function <ref type="figure">Fig. 2</ref> The decision-making situation in which an innovative SME is considering the employment of a new m-th employee</p><p>The decision-making situation of the SME sector has been presented; this decides on the employment of new employees in sales. Also the author has described the example of the company A2, which is looking for an employee to the fill the position of 'regional assistant'. The company expects to retain its current level of innovation.</p><p>Stage 1:</p><p>Using the proposed system, it is possible to check to see whether the company complies with the specified reference model. A potential new employee selects actions that will be performed in the company. The developed reference model will help companies to determine the work place for a new employee.  Through the use of the tool known as the system to support decision making at the strategic level with regards to the assessment of knowledge in an innovative SME, which is the implementation of the method for planning and selection of personnel in SME, the following information was produced:</p><p>• For m4 -Regional Assistant: Using the the author's software system, the actual value of the personnel usefulness function for a new employee is checked (see <ref type="figure">Fig. 6</ref>):</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Stage 5:</head><p>The comparison of the forecasted value of a strategic resource of knowledge with its current value</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Stage 6:</head><p>The recommendation of the m-th employee (in terms of the smallest discrepancy between the forecasted value of a strategic resource of knowledge with its current value) <ref type="figure">Fig. 6</ref> Example of using the author's software system Stage 5:</p><p>Then we compare the actual value of the personnel usefulness function with the expected new employee. If these values are similar, it is assumed that the employment of the employee will allow us to maintain the current level of innovation within the company.</p><p>The actual value of the function: Wm4 = 19</p><p>The forecast value of the function: The company can decide to recruit new employees for the position of 'Regional assistant' because the predicted value of the personnel usefulness function for the new employee is in line with the actual value of the function, which would allow the company to maintain a certain level of innovation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusion and direction for further work</head><p>This paper presents the author's system for supporting decision making at the strategic level with regards to the assessment of knowledge in an innovative SME. Through the example of using this system, the author shows how the forecasting of the values of strategic knowledge resources (values of the personnel usefulness function for the m-th employee) will be carried out. The current state of advancement of research allows the application of this system for SME sector in line adopted reference model (the reference model of SME is strictly defined in the other works of the author). The selection of employees using the proposed system is characterized by objectivity, me-thodical and uniformity, fairness and impartiality, professionalism.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>, 2003); (McGrath and MacMillan, 2000). The need to describe a strategic-knowledge resource was motivated by the concept of resource management (Sirmon and Hitt, 2003) as well as competence management (Berio and Harzallah, 2005)-see Fig. Hitt et al., 2001].</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>The two databases created on the basis of the replies of respondents in a questionnaire-based survey, the experiences of 10 Polish SMEs:•Database of values of the personnel usefulness function: Wnm for each m-th employee in area Fn n,m∈N, • Database of the values of the characteristics of innovation: xi in SME for k-companies i,k∈N The decision-making model for the assessment of the efficiency of the selection of the m-th employee for an SME: • Built on the basis of a defined database with the use of GMDH, • Combined selected indicators.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3</head><label>3</label><figDesc>Example of using the author's software systemFig. 4Example of using the author's software system</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 5</head><label>5</label><figDesc>Example of using the author's software system Stage 2:</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>number of employees with scientific degrees, X13 -the number of purchased and used licenses.Stage 3:For the new potential employee as a 'Regional Assistant', by using the decision model we obtain the following forecast of the personnel usefulness function, the company's request for the sample of A2's values of characteristics of innovation:</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head></head><label></label><figDesc>number of employees with scientific degrees -X7 = 2, X13 -the number of purchased and used licenses -X13 = 1</figDesc></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Tytuł: Autorski system informatyczny wspomagający podejmowanie decyzji w zakresie planowania i doboru personelu w MSP Streszczenie: Strategiczne zarządzanie kapitałem intelektualnym w przedsiębiorstwach, w szczególności w sektorze MSP, wymaga właściwego postrzegania wartości wiedzy oraz pracowników wiedzy. W artykule przedstawiono autorski system informatyczny wspomagający podejmowanie decyzji w zakresie planowania i doboru personelu w MSP. System ten stanowi implementację autorskiej metody planowania i doboru personelu w MSP. </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Human Resource Management, PWN, Warszawa (in polish)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Król</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Ludwiczyński</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">An architecture for knowledge evolution in organisations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Barthelme</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Ermine</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Rosenthal-Sabroux</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Operational Research</title>
+		<imprint>
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Perspectives on operations research in data and knowledge management</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Basu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Operational Research</title>
+		<imprint>
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">The strategic management of technological learning in project/program management: the role of extranets, intranets and intelligent agents in knowledge generation, diffusion, and leveraging</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">G</forename><surname>Carayannis</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<publisher>Elsevier</publisher>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="697" to="703" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Technovation.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Making sense of a new perspective. Long Range Plan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Drew</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note>Building knowledge management into strategy</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Design and implementation of a collaborative engineering information system for allied concurrent engineering</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">M</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">W</forename><surname>Liang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Comput Integrated Manuf</title>
+		<imprint>
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Information Systems in Management</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Senn</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990" />
+			<pubPlace>Wadsworth CA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Creating wealth in family firms through managing resources: Comments and extensions. Entrepreneurship Theory and Practice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Chrisman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Chua</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Zahra</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="359" to="365" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">The entrepreneurial mindset</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Mcgrath</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Macmillan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000" />
+			<publisher>Harvard Business School Press</publisher>
+			<pubPlace>Boston</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Managing resources: linking unique resources, management and wealth creation in family firms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">G</forename><surname>Sirmon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Hitt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Entrepreneurship Theory and Practice</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="339" to="358" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Knowledge management for competence management</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Berio</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Harzallah</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+			<biblScope unit="volume">0</biblScope>
+			<biblScope unit="page" from="21" to="38" />
+		</imprint>
+	</monogr>
+	<note>Journal of Universal Knowledge Management</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Acknowledgement: The research leading to these results has received funding from the European Community&apos;s, Seventh Framework Programme [FP7</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Patalas-Maliszewska</surname></persName>
+		</author>
+		<idno>FP7-PEOPLE-IEF- 2008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Computer Science</title>
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note>The concept of system supporting decision making enabling to asses and forecast of knowledge in SMEs -research results. under grant agreement n°[ 235585] &quot;SKnowInn ov</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

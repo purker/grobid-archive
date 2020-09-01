@@ -1,0 +1,712 @@
+<Publication>
+  <id>TUW-247743</id>
+  <title>MASTERARBEIT Coloring of the Self-Organising Maps based on class labels</title>
+  <note>Visualization can also involve the data itself so that it helps accessing information that are not available in the trained SOM, thereby enabling a deeper look inside the data. If the data comes with supervised class labels, these labels can be also involved in the visualization, thus enabling the user to have a clearer idea about the data and the structures learned by the SOM. In this work we propose a novel SOM visualization method, namely the SOM class coloring, which is based on the data class labels. This method nds a ii colored partitioning of the SOM lattice, that reects the class distribution. SOM class coloring helps discovering class information such as class topology, class clusters, and class distribution. Furthermore class labels can be assigned to new data items by estimating the point on the lattice, that best represents the data item and then assigning the class of the partition that includes this point to the data item.</note>
+  <keywords/>
+  <authors>
+    <Author>
+      <firstNames>
+        <string>Anleitung</string>
+      </firstNames>
+      <lastName>Von</lastName>
+      <affiliations>
+        <Affiliation>
+          <id>aff0</id>
+          <institution>Technischen Universität Wien</institution>
+          <department>ausgeführt am Institut für Softwaretechnik</department>
+        </Affiliation>
+      </affiliations>
+    </Author>
+    <Author>
+      <firstNames>
+        <string>Ao</string>
+        <string>Andreas</string>
+      </firstNames>
+      <lastName>Univ</lastName>
+      <affiliations>
+        <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+      </affiliations>
+    </Author>
+    <Author>
+      <firstNames/>
+      <lastName>Rauber</lastName>
+      <affiliations>
+        <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+      </affiliations>
+    </Author>
+    <Author>
+      <firstNames>
+        <string>Taha</string>
+        <string>Abdel</string>
+      </firstNames>
+      <lastName>Aziz</lastName>
+      <affiliations>
+        <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+      </affiliations>
+    </Author>
+  </authors>
+  <affiliations>
+    <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+  </affiliations>
+  <sections>
+    <Section>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Introduction</title>
+      <referenceIds>
+        <string>ref7</string>
+        <string>ref1</string>
+        <string>ref19</string>
+        <string>ref8</string>
+        <string>ref7</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Related Work</title>
+      <referenceIds>
+        <string>ref8</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.1.1</level>
+      <title>The map initialization</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.1.2</level>
+      <title>The training process</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.2</level>
+      <title>Clustering and classication</title>
+      <referenceIds>
+        <string>ref1</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.2.1</level>
+      <title>Hierarchical algorithms</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.2.2</level>
+      <title>Partitive algorithms</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>2.2.3</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.3</level>
+      <title>Projection</title>
+      <referenceIds>
+        <string>ref20</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.3.1</level>
+      <title>Sammon&apos;s Mapping</title>
+      <referenceIds>
+        <string>ref13</string>
+        <string>ref20</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.4</level>
+      <title>Visualizations</title>
+      <referenceIds>
+        <string>ref11</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Vector eld visualization</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.4.2</level>
+      <title>Visualization of SOM with Labeled data</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Graph-based class visualization</title>
+      <referenceIds>
+        <string>ref3</string>
+        <string>ref6</string>
+        <string>ref3</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Pie-chart class visualization</title>
+      <referenceIds>
+        <string>ref12</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.1</level>
+      <title>SOM Toolbox</title>
+      <referenceIds>
+        <string>ref12</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.2</level>
+      <title>Problem formulation</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.3</level>
+      <title>SOM coloring by color ooding</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.4.1</level>
+      <title>Voronoi diagrams and Delaunay triangulations</title>
+      <referenceIds>
+        <string>ref6</string>
+        <string>ref2</string>
+        <string>ref4</string>
+        <string>ref5</string>
+        <string>ref6</string>
+        <string>ref5</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>The randomized-incremental algorithm (Bowyer-Watson algorithm)</title>
+      <referenceIds>
+        <string>ref5</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.4.2</level>
+      <title>Voronoi cell coloring</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.4.4</level>
+      <title>Smooth partitioning of Voronoi cells</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Distance Function</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Coloring algorithm</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Chessboard visualization</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.5</level>
+      <title>Summary</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>4.2</level>
+      <title>Text data</title>
+      <referenceIds>
+        <string>ref14</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>4.3</level>
+      <title>Audio data</title>
+      <referenceIds>
+        <string>ref9</string>
+        <string>ref9</string>
+        <string>ref9</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+  </sections>
+  <citationContexts/>
+  <references>
+    <Reference>
+      <id>ref1</id>
+      <referenceIdString>b0</referenceIdString>
+      <title>Data clustering: a review</title>
+      <source>ACM Computing Surveys</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>P</string>
+            <string>J</string>
+          </firstNames>
+          <lastName>Flynn Anil Jain</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+            <string>N</string>
+          </firstNames>
+          <lastName>Murty</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>31</volume>
+      <issue>3</issue>
+      <publicationDateString>1999-09</publicationDateString>
+      <publicationYear>1999</publicationYear>
+      <publicationMonth>09</publicationMonth>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref2</id>
+      <referenceIdString>b1</referenceIdString>
+      <title>A simple on-line randomized incremental algorithm for computing higher order voronoi diagrams</title>
+      <source>Annual Symposium on Computational Geometry, Proceedings of the seventh annual symposium on Computational geometry</source>
+      <publisher>ACM Press</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Franz</string>
+          </firstNames>
+          <lastName>Aurenhammer</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Otfried</string>
+          </firstNames>
+          <lastName>Schwarzkopf</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1992</publicationDateString>
+      <publicationYear>1992</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref3</id>
+      <referenceIdString>b2</referenceIdString>
+      <title>High-dimensional labeled data analysis with gabriel graphs</title>
+      <source>Proceedings Intl. European Symp. on Articial Neural Networks (ESANN&apos;03)</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Michael</string>
+          </firstNames>
+          <lastName>Aupetit</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <note>Dside publications</note>
+      <publicationDateString>2003</publicationDateString>
+      <publicationYear>2003</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref4</id>
+      <referenceIdString>b3</referenceIdString>
+      <title>Improved incremental randomized delaunay triangulation</title>
+      <source>Proceedings 14th Annu. ACM Sympos. Computer Geometry</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Olivier</string>
+          </firstNames>
+          <lastName>Devillers</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1998</publicationDateString>
+      <publicationYear>1998</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref5</id>
+      <referenceIdString>b4</referenceIdString>
+      <title>A sweepline algorithm for voronoi diagrams</title>
+      <source>SCG 86: Proceedings of the second annual symposium on Computational geometry</source>
+      <publisher>ACM Press</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Steven</string>
+          </firstNames>
+          <lastName>Fortune</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1986</publicationDateString>
+      <publicationYear>1986</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref6</id>
+      <referenceIdString>b5</referenceIdString>
+      <source>Voronoi diagrams and delaunay triangulations</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Steven</string>
+          </firstNames>
+          <lastName>Fortune</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1997</publicationDateString>
+      <publicationYear>1997</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref7</id>
+      <referenceIdString>b6</referenceIdString>
+      <title>Data exploration using self-organizing maps</title>
+      <source>Acta Polytechnica Scandinavica, Mathematics, Computing and Management in Engineering Series</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Samuel</string>
+          </firstNames>
+          <lastName>Kaski</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <issue>82</issue>
+      <publicationDateString>1997-03</publicationDateString>
+      <publicationYear>1997</publicationYear>
+      <publicationMonth>03</publicationMonth>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref8</id>
+      <referenceIdString>b7</referenceIdString>
+      <title>Exploration of very large databases by self-organizing maps</title>
+      <source>Proceedings of ICNN&apos;97, International Conference on Neural Networks</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Teuvo</string>
+          </firstNames>
+          <lastName>Kohonen</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <pageFrom>1</pageFrom>
+      <pageTo>6</pageTo>
+      <publicationDateString>1997</publicationDateString>
+      <publicationYear>1997</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref9</id>
+      <referenceIdString>b8</referenceIdString>
+      <title>Visually proling radio stations</title>
+      <source>Proceedings of the 7th International Conference on Music Information Retrieval (ISMIR 2006)</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Thomas</string>
+          </firstNames>
+          <lastName>Lidy</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Andreas</string>
+          </firstNames>
+          <lastName>Rauber</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>10</volume>
+      <publicationDateString>2006</publicationDateString>
+      <publicationYear>2006</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref10</id>
+      <referenceIdString>b9</referenceIdString>
+      <source>Advanced visualization of self-organizingmaps with vector elds</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Georg</string>
+          </firstNames>
+          <lastName>Pölzlbauer</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Michael</string>
+          </firstNames>
+          <lastName>Dittenbach</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Andreas</string>
+          </firstNames>
+          <lastName>Rauber</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref11</id>
+      <referenceIdString>b10</referenceIdString>
+      <title>Using smoothed data histograms for cluster visualization in self-organizing maps</title>
+      <source>Proceedings of the International Conference on Artical Neural Networks (ICANN&apos;02)</source>
+      <publisher>Springer</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Elias</string>
+          </firstNames>
+          <lastName>Pampalk</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Andreas</string>
+          </firstNames>
+          <lastName>Rauber</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Dieter</string>
+          </firstNames>
+          <lastName>Merkl</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2002</publicationDateString>
+      <publicationYear>2002</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref12</id>
+      <referenceIdString>b11</referenceIdString>
+      <title>The som-enhanced jukebox organization and visualization of music collections based on perceptual models</title>
+      <source>New Music Research</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Andreas</string>
+          </firstNames>
+          <lastName>Rauber</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Elias</string>
+          </firstNames>
+          <lastName>Pampalk</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Dieter</string>
+          </firstNames>
+          <lastName>Merkl</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>32</volume>
+      <issue>2</issue>
+      <publicationDateString>2003-06</publicationDateString>
+      <publicationYear>2003</publicationYear>
+      <publicationMonth>06</publicationMonth>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref13</id>
+      <referenceIdString>b12</referenceIdString>
+      <title>A nonlinear mapping for data structure analysis</title>
+      <source>In IEEE Trans. Computer</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>John</string>
+          </firstNames>
+          <lastName>Sammon</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>18</volume>
+      <publicationDateString>1969-05</publicationDateString>
+      <publicationYear>1969</publicationYear>
+      <publicationMonth>05</publicationMonth>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref14</id>
+      <referenceIdString>b13</referenceIdString>
+      <title>A large benchmark dataset for web document clustering</title>
+      <source>Soft Computing Systems: Design, Management and Applications</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Mark</string>
+          </firstNames>
+          <lastName>Sinka</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>David</string>
+          </firstNames>
+          <lastName>Corne</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>87</volume>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref15</id>
+      <referenceIdString>b14</referenceIdString>
+      <title>Pareto density estimation: Probability density estimation for knowledge discovery</title>
+      <source>Proceedings Conf. Soc. for Information and Classication</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Alfred</string>
+          </firstNames>
+          <lastName>Ultsch</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2003</publicationDateString>
+      <publicationYear>2003</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref16</id>
+      <referenceIdString>b15</referenceIdString>
+      <source>Esom-maps: tools for clustering, visualization, and classication with emergent som</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Alfred</string>
+          </firstNames>
+          <lastName>Ultsch</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <location>Germany</location>
+      <volume>46</volume>
+      <note>Technical Report</note>
+      <publicationDateString>2005-03</publicationDateString>
+      <publicationYear>2005</publicationYear>
+      <publicationMonth>03</publicationMonth>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref17</id>
+      <referenceIdString>b16</referenceIdString>
+      <source>Clustering of the self-organizing map</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Juha</string>
+          </firstNames>
+          <lastName>Vesanto</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>E</string>
+          </firstNames>
+          <lastName>Alhoniemi</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref18</id>
+      <referenceIdString>b17</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Ieee-Nn</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>11</volume>
+      <publicationDateString>2000-05</publicationDateString>
+      <publicationYear>2000</publicationYear>
+      <publicationMonth>05</publicationMonth>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref19</id>
+      <referenceIdString>b18</referenceIdString>
+      <source>SOM-based data visualization methods</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Juha</string>
+          </firstNames>
+          <lastName>Vesanto</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>3</volume>
+      <note>Intelligent-Data-Analysis</note>
+      <publicationDateString>1999</publicationDateString>
+      <publicationYear>1999</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref20</id>
+      <referenceIdString>b19</referenceIdString>
+      <title>Nonlinear multidimensional data projection and visualisation</title>
+      <source>Lecture Notes in Computer Science 2690</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Hujun</string>
+          </firstNames>
+          <lastName>Yin</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref21</id>
+      <referenceIdString>b20</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>U</string>
+            <string>K</string>
+          </firstNames>
+          <lastName>1qd</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2003</publicationDateString>
+      <publicationYear>2003</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+  </references>
+</Publication>

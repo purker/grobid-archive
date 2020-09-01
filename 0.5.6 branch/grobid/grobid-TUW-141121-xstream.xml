@@ -1,0 +1,280 @@
+<Publication>
+  <id>TUW-141121</id>
+  <title>Integration of Text and Audio Features for Genre Classification in Music Information Retrieval</title>
+  <keywords/>
+  <authors>
+    <Author>
+      <firstNames>
+        <string>Robert</string>
+      </firstNames>
+      <lastName>Neumayer</lastName>
+      <email>neumayer@ifs.tuwien.ac.at</email>
+      <affiliations>
+        <Affiliation>
+          <id>aff0</id>
+          <institution>Vienna University of Technology</institution>
+          <department>Institute of Software Technology and Interactive Systems</department>
+        </Affiliation>
+      </affiliations>
+    </Author>
+    <Author>
+      <firstNames>
+        <string>Andreas</string>
+      </firstNames>
+      <lastName>Rauber</lastName>
+      <email>rauber@ifs.tuwien.ac.at</email>
+      <affiliations>
+        <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+      </affiliations>
+    </Author>
+  </authors>
+  <affiliations>
+    <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+  </affiliations>
+  <sections>
+    <Section>
+      <level>1</level>
+      <title>Introduction</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2</level>
+      <title>Related Work</title>
+      <referenceIds>
+        <string>ref1</string>
+        <string>ref6</string>
+        <string>ref5</string>
+        <string>ref2</string>
+        <string>ref4</string>
+        <string>ref3</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3</level>
+      <title>Experiments</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.1</level>
+      <title>Audio Features</title>
+      <referenceIds>
+        <string>ref5</string>
+        <string>ref2</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.2</level>
+      <title>Lyrics Features</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.3</level>
+      <title>Classification Results</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>4</level>
+      <title>Conclusions and Future Work</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+  </sections>
+  <citationContexts/>
+  <references>
+    <Reference>
+      <id>ref1</id>
+      <referenceIdString>b0</referenceIdString>
+      <title>An overview of audio information retrieval</title>
+      <source>Multimedia Systems</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Jonathan</string>
+          </firstNames>
+          <lastName>Foote</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>7</volume>
+      <issue>1</issue>
+      <pageFrom>2</pageFrom>
+      <pageTo>10</pageTo>
+      <publicationDateString>1999</publicationDateString>
+      <publicationYear>1999</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref2</id>
+      <referenceIdString>b1</referenceIdString>
+      <title>Evaluation of feature extractors and psychoacoustic transformations for music genre classification</title>
+      <source>Proceedings of the Sixth International Conference on Music Information Retrieval (ISMIR 2005)</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Thomas</string>
+          </firstNames>
+          <lastName>Lidy</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Andreas</string>
+          </firstNames>
+          <lastName>Rauber</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <pageFrom>34</pageFrom>
+      <pageTo>41</pageTo>
+      <publicationDateString>2005</publicationDateString>
+      <publicationYear>2005</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref3</id>
+      <referenceIdString>b2</referenceIdString>
+      <title>Semantic analysis of song lyrics</title>
+      <source>Proceedings of the 2004 IEEE International Conference on Multimedia and Expo, ICME</source>
+      <publisher>IEEE</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Beth</string>
+          </firstNames>
+          <lastName>Logan</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Andrew</string>
+          </firstNames>
+          <lastName>Kositsky</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Pedro</string>
+          </firstNames>
+          <lastName>Moreno</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2004-06-30</publicationDateString>
+      <publicationYear>2004</publicationYear>
+      <publicationMonth>06</publicationMonth>
+      <publicationDay>30</publicationDay>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref4</id>
+      <referenceIdString>b3</referenceIdString>
+      <title>Natural language processing of lyrics</title>
+      <source>MULTIMEDIA &apos;05: Proceedings of the 13th annual ACM international conference on Multimedia</source>
+      <publisher>ACM Press</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>P</string>
+            <string>G</string>
+          </firstNames>
+          <lastName>Jose</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Álvaro</string>
+          </firstNames>
+          <lastName>Mahedero</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Pedro</string>
+          </firstNames>
+          <lastName>Martínez</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Markus</string>
+          </firstNames>
+          <lastName>Cano</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Fabien</string>
+          </firstNames>
+          <lastName>Koppenberger</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Gouyon</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <pageFrom>475</pageFrom>
+      <pageTo>478</pageTo>
+      <publicationDateString>2005</publicationDateString>
+      <publicationYear>2005</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref5</id>
+      <referenceIdString>b4</referenceIdString>
+      <title>Using psycho-acoustic models and self-organizing maps to create a hierarchical structuring of music by musical styles</title>
+      <source>Proceedings of the 3rd International Symposium on Music Information Retrieval</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Andreas</string>
+          </firstNames>
+          <lastName>Rauber</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Elias</string>
+          </firstNames>
+          <lastName>Pampalk</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Dieter</string>
+          </firstNames>
+          <lastName>Merkl</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <pageFrom>71</pageFrom>
+      <pageTo>80</pageTo>
+      <publicationDateString>2002</publicationDateString>
+      <publicationYear>2002</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref6</id>
+      <referenceIdString>b5</referenceIdString>
+      <title>Marsyas: A framework for audio analysis</title>
+      <source>Organized Sound</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>George</string>
+          </firstNames>
+          <lastName>Tzanetakis</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Perry</string>
+          </firstNames>
+          <lastName>Cook</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>4</volume>
+      <issue>30</issue>
+      <publicationDateString>2000</publicationDateString>
+      <publicationYear>2000</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+  </references>
+</Publication>

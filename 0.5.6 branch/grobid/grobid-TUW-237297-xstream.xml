@@ -1,0 +1,303 @@
+<Publication>
+  <id>TUW-237297</id>
+  <title>e-Learning as a solution for transition from high school to university:Challenges and possible solutions</title>
+  <note>International Conference on e-Learning&apos;14 55</note>
+  <keywords>
+    <string>E-Learning</string>
+    <string>learners&apos; requirements</string>
+    <string>higher education</string>
+    <string>self-regulated learning</string>
+  </keywords>
+  <authors>
+    <Author>
+      <firstNames>
+        <string>Hilda</string>
+      </firstNames>
+      <lastName>Tellioğlu</lastName>
+      <affiliations/>
+    </Author>
+  </authors>
+  <affiliations/>
+  <sections>
+    <Section>
+      <title>INTRODUCTION</title>
+      <referenceIds>
+        <string>ref6</string>
+        <string>ref9</string>
+        <string>ref4</string>
+        <string>ref3</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>THE SETTING</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>METHODOLOGY</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>RESULTS</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Challenge of having no time for social life:</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Challenge of complexity caused by the density of the lectures and responsibilities:</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>CONCLUSIONS</title>
+      <referenceIds>
+        <string>ref2</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+  </sections>
+  <citationContexts/>
+  <references>
+    <Reference>
+      <id>ref1</id>
+      <referenceIdString>b0</referenceIdString>
+      <source>How People Learn: Brain, Mind, Experience and School</source>
+      <publisher>National Academic Press</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+            <string>D</string>
+          </firstNames>
+          <lastName>Bransford</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+            <string>L</string>
+          </firstNames>
+          <lastName>Brown</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+            <string>R</string>
+          </firstNames>
+          <lastName>Cocking</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <location>Washington</location>
+      <publicationDateString>2000</publicationDateString>
+      <publicationYear>2000</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref2</id>
+      <referenceIdString>b1</referenceIdString>
+      <source>A 360-degree Evaluation Framework for Doctoral Programs</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Calatrava</string>
+          </firstNames>
+          <lastName>Moreno</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+            <string>D C</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2014</publicationDateString>
+      <publicationYear>2014</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref3</id>
+      <referenceIdString>b2</referenceIdString>
+      <source>Mind Over Machine: The power of Human Intuition and Expertise in the Era of the Computer</source>
+      <publisher>Free Press</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>H</string>
+            <string>L</string>
+          </firstNames>
+          <lastName>Dreyfus</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+            <string>E</string>
+          </firstNames>
+          <lastName>Dreyfus</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <location>New York</location>
+      <publicationDateString>1986</publicationDateString>
+      <publicationYear>1986</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref4</id>
+      <referenceIdString>b3</referenceIdString>
+      <title>Constructivism: New Implications for Instructional Technology</title>
+      <source>Constructivism and the Technology of Instruction: A Conversation. Hillsdale</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>T</string>
+            <string>M</string>
+          </firstNames>
+          <lastName>Duffy</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+            <string>H</string>
+          </firstNames>
+          <lastName>Jonassen</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <pageFrom>1</pageFrom>
+      <pageTo>16</pageTo>
+      <publicationDateString>1992</publicationDateString>
+      <publicationYear>1992</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref5</id>
+      <referenceIdString>b4</referenceIdString>
+      <title>Self-Regulation and Learning</title>
+      <source>Handbook of Psychology. Part Two: Cognitive Contributions to Learning, Development, and Instruction</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+            <string>H</string>
+          </firstNames>
+          <lastName>Schunk</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>B</string>
+            <string>J</string>
+          </firstNames>
+          <lastName>Zimmerman</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>4</volume>
+      <pageFrom>59</pageFrom>
+      <pageTo>78</pageTo>
+      <publicationDateString>2003</publicationDateString>
+      <publicationYear>2003</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref6</id>
+      <referenceIdString>b5</referenceIdString>
+      <title>Is e-Learning the Solution for Individual Learning</title>
+      <source>Electronic Journal of e-Learning</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+          </firstNames>
+          <lastName>Tavangarian</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+          </firstNames>
+          <lastName>Leypold</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>K</string>
+          </firstNames>
+          <lastName>Nölting</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+          </firstNames>
+          <lastName>Röser</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+          </firstNames>
+          <lastName>Voigt</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>2</volume>
+      <issue>2</issue>
+      <pageFrom>273</pageFrom>
+      <pageTo>280</pageTo>
+      <publicationDateString>2004</publicationDateString>
+      <publicationYear>2004</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref7</id>
+      <referenceIdString>b6</referenceIdString>
+      <source>Bericht zur Spezialauswertung: Zeugnisse zu den Lehrveranstaltungen der Studieneingangs-und Orientierungsphase (StEOP) der</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Sh</string>
+            <string>M</string>
+          </firstNames>
+          <lastName>Tauböck</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2014</publicationDateString>
+      <publicationYear>2014</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref8</id>
+      <referenceIdString>b7</referenceIdString>
+      <source>Bachelorstudien Informatik für die Beginnkohorten der Wintersemester 2011-2012 an der TU Wien, Stabstelle Studienbezogene Daten</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref9</id>
+      <referenceIdString>b8</referenceIdString>
+      <title>Modes of classroom assessment in computer science</title>
+      <source>Proceedings of the 12th International Conference on Computer Systems and Technologies, CompSysTech&apos;11</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>H</string>
+          </firstNames>
+          <lastName>Tellioğlu</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <pageFrom>546</pageFrom>
+      <pageTo>551</pageTo>
+      <publicationDateString>2011-06-16</publicationDateString>
+      <publicationYear>2011</publicationYear>
+      <publicationMonth>06</publicationMonth>
+      <publicationDay>16</publicationDay>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+  </references>
+</Publication>

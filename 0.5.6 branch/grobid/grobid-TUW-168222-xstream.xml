@@ -1,0 +1,114 @@
+<Publication>
+  <id>TUW-168222</id>
+  <title>Optimization of communication by analyzing the interlocutor&apos;s wording</title>
+  <keywords/>
+  <authors>
+    <Author>
+      <firstNames>
+        <string>Gudrun</string>
+      </firstNames>
+      <lastName>Kellner</lastName>
+      <email>kellner@ec.tuwien.ac.at</email>
+      <affiliations>
+        <Affiliation>
+          <id>aff0</id>
+          <institution>Vienna University of Technology Vienna</institution>
+          <department>Institute of Software Technology and Interactive Systems</department>
+          <country>Austria</country>
+          <countryCode>AT</countryCode>
+        </Affiliation>
+      </affiliations>
+    </Author>
+  </authors>
+  <affiliations>
+    <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+  </affiliations>
+  <sections>
+    <Section>
+      <title>I. INTRODUCTION</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>II. A LEXICAL CORPUS OF PERCEPTIONAL EXPRESSIONS</title>
+      <referenceIds>
+        <string>ref1</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>III. THE ANALYZING TOOL</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>[ [prefix] + root word + [infix] + (word joint) ] [prefix] + root word + [infix] + (ending)</title>
+      <referenceIds>
+        <string>ref2</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>IV. FURTHER RESEARCH</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+  </sections>
+  <citationContexts/>
+  <references>
+    <Reference>
+      <id>ref1</id>
+      <referenceIdString>b0</referenceIdString>
+      <source>Wege der Kommunikationsoptimierung. Anwendung von NLP im Bereich der Künstlichen Intelligenz</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>G</string>
+          </firstNames>
+          <lastName>Kellner</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <location>Wien, Austria</location>
+      <note>Master Thesis</note>
+      <publicationDateString>2006</publicationDateString>
+      <publicationYear>2006</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref2</id>
+      <referenceIdString>b1</referenceIdString>
+      <source>Duden &quot;Grammatik der deutschen Gegenwartssprache</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>G</string>
+          </firstNames>
+          <lastName>Drosdowski</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <location>Duden, Mannheim, Germany</location>
+      <publicationDateString>1995</publicationDateString>
+      <publicationYear>1995</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref3</id>
+      <referenceIdString>b2</referenceIdString>
+      <source>Computerlinguistik und Sprachtechnologie. Eine Einführung. Spektrum</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>K.-U</string>
+          </firstNames>
+          <lastName>Carstensen</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2004</publicationDateString>
+      <publicationYear>2004</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+  </references>
+</Publication>

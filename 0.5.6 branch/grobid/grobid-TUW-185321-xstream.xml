@@ -1,0 +1,107 @@
+<Publication>
+  <id>TUW-185321</id>
+  <title>Bridging Semantic Heterogeneities in Open Source Software Development Projects with Semantic Web Technologies</title>
+  <keywords/>
+  <authors>
+    <Author>
+      <firstNames>
+        <string>Wikan</string>
+      </firstNames>
+      <lastName>Danar</lastName>
+      <affiliations>
+        <Affiliation>
+          <id>aff0</id>
+          <institution>Vienna University of Technology Vienna</institution>
+          <department>Faculty Mentor) Institute of Software Technology and Interactive Systems</department>
+          <country>Austria</country>
+          <countryCode>AT</countryCode>
+        </Affiliation>
+      </affiliations>
+    </Author>
+    <Author>
+      <firstNames>
+        <string>Sunindyo</string>
+      </firstNames>
+      <affiliations>
+        <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+      </affiliations>
+    </Author>
+    <Author>
+      <firstNames>
+        <string>Stefan</string>
+      </firstNames>
+      <lastName>Biffl</lastName>
+      <email>biffl@ifs.tuwien.ac.at</email>
+      <affiliations>
+        <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+      </affiliations>
+    </Author>
+  </authors>
+  <affiliations>
+    <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+  </affiliations>
+  <sections>
+    <Section>
+      <title>I. INTRODUCTION</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>II. RESEARCH ISSUES</title>
+      <referenceIds>
+        <string>ref1</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>III. EVALUATION</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>IV. CONCLUSION AND FUTURE WORK</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+  </sections>
+  <citationContexts/>
+  <references>
+    <Reference>
+      <id>ref1</id>
+      <referenceIdString>b0</referenceIdString>
+      <title>Integrating Production Automation Expert Knowledge Across Engineering Stakeholder Domains</title>
+      <source>Proceedings of the 2010 International Conference on Complex, Intelligent and Software Intensive Systems (to be published)</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>T</string>
+          </firstNames>
+          <lastName>Moser</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+          </firstNames>
+          <lastName>Biffl</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>W</string>
+            <string>D</string>
+          </firstNames>
+          <lastName>Sunindyo</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+          </firstNames>
+          <lastName>Winkler</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2010</publicationDateString>
+      <publicationYear>2010</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+  </references>
+</Publication>

@@ -1,0 +1,157 @@
+<Publication>
+  <id>TUW-202824</id>
+  <title>Integration of Cloud Computing in The Public Sector: A Case Study in the Austrian Government</title>
+  <keywords/>
+  <authors>
+    <Author>
+      <firstNames>
+        <string>Amirreza</string>
+      </firstNames>
+      <lastName>Tahamtan</lastName>
+      <email>tahamtan@ifs.tuwien.ac.at</email>
+      <affiliations>
+        <Affiliation>
+          <id>aff0</id>
+          <institution>Vienna University of Technology</institution>
+          <department>State of Public Sector Cloud Computing Council</department>
+          <country>Austria</country>
+          <countryCode>AT</countryCode>
+        </Affiliation>
+      </affiliations>
+    </Author>
+    <Author>
+      <firstNames>
+        <string>Rainer</string>
+      </firstNames>
+      <lastName>Kern</lastName>
+      <affiliations>
+        <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+      </affiliations>
+    </Author>
+    <Author>
+      <firstNames>
+        <string>Min</string>
+      </firstNames>
+      <lastName>Tjoa</lastName>
+      <affiliations>
+        <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+      </affiliations>
+    </Author>
+  </authors>
+  <affiliations>
+    <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+  </affiliations>
+  <sections>
+    <Section>
+      <referenceIds>
+        <string>ref1</string>
+        <string>ref2</string>
+        <string>ref3</string>
+        <string>ref4</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+  </sections>
+  <citationContexts/>
+  <references>
+    <Reference>
+      <id>ref1</id>
+      <referenceIdString>b0</referenceIdString>
+      <title></title>
+      <source>IT-PROFESSIONAL</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+            <string>L</string>
+          </firstNames>
+          <lastName>Grossman</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>&amp;quot;</string>
+          </firstNames>
+          <lastName>Case For</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Cloud Computing</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>11</volume>
+      <issue>2</issue>
+      <pageFrom>23</pageFrom>
+      <pageTo>27</pageTo>
+      <publicationDateString>2009</publicationDateString>
+      <publicationYear>2009</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref2</id>
+      <referenceIdString>b1</referenceIdString>
+      <title>The Cloudy Future of Government IT: Cloud Computing and the Public Sector Around the World</title>
+      <source>International Journal of Web &amp; Semantic Technology</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+            <string>C</string>
+          </firstNames>
+          <lastName>Wyld</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>1</volume>
+      <issue>1</issue>
+      <publicationDateString>2010</publicationDateString>
+      <publicationYear>2010</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref3</id>
+      <referenceIdString>b2</referenceIdString>
+      <title>E-Governance challenges and cloud benefits</title>
+      <source>Proceedings of the IEEE International Conference on Computer Science and Automation Engineering (CSAE)</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+          </firstNames>
+          <lastName>Tripathi</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>B</string>
+          </firstNames>
+          <lastName>Parihar</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2011</publicationDateString>
+      <publicationYear>2011</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref4</id>
+      <referenceIdString>b3</referenceIdString>
+      <source>State of Public Sector Cloud Computing</source>
+      <publisher>CIO Council</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>V</string>
+          </firstNames>
+          <lastName>Kundra</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <location>Washington, D.C.</location>
+      <publicationDateString>2010-05-20</publicationDateString>
+      <publicationYear>2010</publicationYear>
+      <publicationMonth>05</publicationMonth>
+      <publicationDay>20</publicationDay>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+  </references>
+</Publication>

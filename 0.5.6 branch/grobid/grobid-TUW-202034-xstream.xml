@@ -1,0 +1,949 @@
+<Publication>
+  <id>TUW-202034</id>
+  <title>Clustering Heuristics for the Hierarchical Ring Network Problem DIPLOMARBEIT zur Erlangung des akademischen Grades Computational Intelligence eingereicht von</title>
+  <keywords/>
+  <authors>
+    <Author>
+      <firstNames/>
+      <lastName>Diplom-Ingenieur</lastName>
+      <affiliations>
+        <Affiliation>
+          <id>aff0</id>
+          <institution>Universität Wien Betreuung</institution>
+          <department>Fakultät für Informatik der Technischen</department>
+        </Affiliation>
+      </affiliations>
+    </Author>
+    <Author>
+      <firstNames>
+        <string>Rainer</string>
+      </firstNames>
+      <lastName>Schuster</lastName>
+      <affiliations>
+        <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+      </affiliations>
+    </Author>
+  </authors>
+  <affiliations>
+    <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+  </affiliations>
+  <sections>
+    <Section>
+      <title>Introduction</title>
+      <referenceIds>
+        <string>ref1</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>1.1</level>
+      <title>Problem Definition</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Definitions</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Partition Types / Cluster Types</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Input</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Instance Constraints</title>
+      <referenceIds>
+        <string>ref3</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Informal constraints for the heuristics:</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>1.2</level>
+      <title>About the Complexity</title>
+      <referenceIds>
+        <string>ref14</string>
+        <string>ref13</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>9</level>
+      <title>CHAPTER 2</title>
+      <referenceIds>
+        <string>ref5</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Multi-level Network Design Problem</title>
+      <referenceIds>
+        <string>ref1</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Aspects of Network Design</title>
+      <referenceIds>
+        <string>ref12</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Survivable Networks with Bounded Rings</title>
+      <referenceIds>
+        <string>ref8</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Ear-inserting method</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Cutting cycles into two equal parts</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Path following method</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Stringy method</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Hierarchical Network Topologies</title>
+      <referenceIds>
+        <string>ref18</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Ring-chain Dual Homing</title>
+      <referenceIds>
+        <string>ref15</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>12</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>CHAPTER 3</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.1</level>
+      <title>Datastructures</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Dendrogram</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Cluster-Tree</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.2</level>
+      <title>Algorithms</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Cluster Analysis</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Girvan-Newman Clustering</title>
+      <referenceIds>
+        <string>ref6</string>
+        <string>ref9</string>
+        <string>ref4</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Example</title>
+      <referenceIds>
+        <string>ref7</string>
+        <string>ref8</string>
+        <string>ref8</string>
+        <string>ref9</string>
+        <string>ref6</string>
+        <string>ref3</string>
+        <string>ref4</string>
+        <string>ref2</string>
+        <string>ref4</string>
+        <string>ref3</string>
+        <string>ref4</string>
+        <string>ref7</string>
+        <string>ref8</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>K-means Clustering</title>
+      <referenceIds>
+        <string>ref1</string>
+        <string>ref4</string>
+        <string>ref17</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Kernighan-Lin Clustering</title>
+      <referenceIds>
+        <string>ref11</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Merging Rings</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>2-Opt Heuristic</title>
+      <referenceIds>
+        <string>ref16</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Multilevel Heuristics</title>
+      <referenceIds>
+        <string>ref20</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Floyd Algorithm</title>
+      <referenceIds>
+        <string>ref19</string>
+        <string>ref7</string>
+        <string>ref10</string>
+        <string>ref2</string>
+        <string>ref2</string>
+        <string>ref2</string>
+        <string>ref2</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Heuristic Solutions / Implementations</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>4.1</level>
+      <title>Overview</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>4.2</level>
+      <title>Hierarchical Clustering Techniques</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Girvan-Newman Hierarchical Clustering</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>K-means Hierarchical Clustering</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Kernighan-Lin Clustering</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>4.3</level>
+      <title>Heuristics for Finding Rings in the Dendrogram</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Heuristic1: Variate Ringsize Heuristic</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Heuristic3: Node Insertion Heuristic</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Test Results and Critical Reflection</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>5.1</level>
+      <title>Test Instance Generation</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Random Instance Generator</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>TSPLIB Instances</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>35</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>5.2</level>
+      <title>Random Test Instances</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>5.3</level>
+      <title>TSPLIB-based Test Instances</title>
+      <referenceIds>
+        <string>ref21</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Additional Techniques Loop Transformation</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>while ( Expression ) Statement</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>if ( Expression ) { Statement while ( Expression ) Statement }</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Distinct Pairs Iterator</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Results from the Random Instances</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+  </sections>
+  <citationContexts/>
+  <references>
+    <Reference>
+      <id>ref1</id>
+      <referenceIdString>b0</referenceIdString>
+      <source>The multi-level network design problem. Working papers 3366-91</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+          </firstNames>
+          <lastName>Balakrishnan</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>T</string>
+            <string>L</string>
+          </firstNames>
+          <lastName>Magnanti</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>P</string>
+          </firstNames>
+          <lastName>Mirchandani</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1991</publicationDateString>
+      <publicationYear>1991</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref2</id>
+      <referenceIdString>b1</referenceIdString>
+      <title>Programming pearls: a sample of brilliance</title>
+      <source>Communications ACM</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+          </firstNames>
+          <lastName>Bentley</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>B</string>
+          </firstNames>
+          <lastName>Floyd</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>30</volume>
+      <pageFrom>754</pageFrom>
+      <pageTo>757</pageTo>
+      <publicationDateString>1987</publicationDateString>
+      <publicationYear>1987</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref3</id>
+      <referenceIdString>b2</referenceIdString>
+      <source>Optimization over Integers. Dynamic Ideas</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+          </firstNames>
+          <lastName>Bertsimas</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+          </firstNames>
+          <lastName>Weismantel</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <edition>1</edition>
+      <publicationDateString>2005</publicationDateString>
+      <publicationYear>2005</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref4</id>
+      <referenceIdString>b3</referenceIdString>
+      <title>A faster algorithm for betweenness centrality</title>
+      <source>Journal of Mathematical Sociology</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>U</string>
+          </firstNames>
+          <lastName>Brandes</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>25</volume>
+      <pageFrom>163</pageFrom>
+      <pageTo>177</pageTo>
+      <publicationDateString>2001</publicationDateString>
+      <publicationYear>2001</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref5</id>
+      <referenceIdString>b4</referenceIdString>
+      <title>The hierarchical network design problem</title>
+      <source>European Journal of Operational Research</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+            <string>R</string>
+          </firstNames>
+          <lastName>Current</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>C</string>
+            <string>S</string>
+          </firstNames>
+          <lastName>Revelle</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+            <string>L</string>
+          </firstNames>
+          <lastName>Cohon</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>27</volume>
+      <issue>1</issue>
+      <pageFrom>57</pageFrom>
+      <pageTo>66</pageTo>
+      <publicationDateString>1986</publicationDateString>
+      <publicationYear>1986</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref6</id>
+      <referenceIdString>b5</referenceIdString>
+      <source>Networks, Crowds, and Markets: Reasoning About a Highly Connected World</source>
+      <publisher>Cambridge University Press</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+          </firstNames>
+          <lastName>Easley</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+          </firstNames>
+          <lastName>Kleinberg</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2010</publicationDateString>
+      <publicationYear>2010</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref7</id>
+      <referenceIdString>b6</referenceIdString>
+      <title>Development of sampling plans by using sequential (item by item) selection techniques and digital computers</title>
+      <source>Journal of the American Statistical Association</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>C</string>
+            <string>T</string>
+          </firstNames>
+          <lastName>Fan</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+            <string>E</string>
+          </firstNames>
+          <lastName>Muller</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>I</string>
+          </firstNames>
+          <lastName>Rezucha</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>57</volume>
+      <pageFrom>387</pageFrom>
+      <pageTo>402</pageTo>
+      <publicationDateString>1962</publicationDateString>
+      <publicationYear>1962</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref8</id>
+      <referenceIdString>b7</referenceIdString>
+      <source>Design of Survivable Networks with Bounded Rings</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>B</string>
+          </firstNames>
+          <lastName>Fortz</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <note>PhD thesis</note>
+      <publicationDateString>2000</publicationDateString>
+      <publicationYear>2000</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref9</id>
+      <referenceIdString>b8</referenceIdString>
+      <title>Community structure in social and biological networks</title>
+      <source>Proceedings of the National Academy of Science</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+          </firstNames>
+          <lastName>Girvan</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+            <string>E J</string>
+          </firstNames>
+          <lastName>Newman</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>99</volume>
+      <pageFrom>7821</pageFrom>
+      <pageTo>7826</pageTo>
+      <publicationDateString>2002</publicationDateString>
+      <publicationYear>2002</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref10</id>
+      <referenceIdString>b9</referenceIdString>
+      <title>A note on sampling a tape-file</title>
+      <source>Communications ACM</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>T</string>
+            <string>G</string>
+          </firstNames>
+          <lastName>Jones</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>5</volume>
+      <publicationDateString>1962</publicationDateString>
+      <publicationYear>1962</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref11</id>
+      <referenceIdString>b10</referenceIdString>
+      <source>An Efficient Heuristic Procedure for Partitioning Graphs. The Bell system technical journal</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>B</string>
+            <string>W</string>
+          </firstNames>
+          <lastName>Kernighan</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+          </firstNames>
+          <lastName>Lin</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>49</volume>
+      <pageFrom>291</pageFrom>
+      <pageTo>307</pageTo>
+      <publicationDateString>1970</publicationDateString>
+      <publicationYear>1970</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref12</id>
+      <referenceIdString>b11</referenceIdString>
+      <title>Hub location in backbone/tributary network design: a review</title>
+      <source>Location Science</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+            <string>G</string>
+          </firstNames>
+          <lastName>Klincewicz</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>6</volume>
+      <issue>1-4</issue>
+      <pageFrom>307</pageFrom>
+      <pageTo>335</pageTo>
+      <publicationDateString>1998</publicationDateString>
+      <publicationYear>1998</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref13</id>
+      <referenceIdString>b12</referenceIdString>
+      <title>Locating a cycle in a transportation or a telecommunications network</title>
+      <source>Networks</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>G</string>
+          </firstNames>
+          <lastName>Laporte</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>I</string>
+            <string>R</string>
+          </firstNames>
+          <lastName>Martín</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>50</volume>
+      <pageFrom>92</pageFrom>
+      <pageTo>108</pageTo>
+      <publicationDateString>2007</publicationDateString>
+      <publicationYear>2007</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref14</id>
+      <referenceIdString>b13</referenceIdString>
+      <source>The Traveling Salesman Problem: A Guided Tour of Combinatorial Optimization</source>
+      <publisher>Wiley</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>E</string>
+            <string>L</string>
+          </firstNames>
+          <lastName>Lawler</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+            <string>K</string>
+          </firstNames>
+          <lastName>Lenstra</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+            <string>H G R</string>
+          </firstNames>
+          <lastName>Kan</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+            <string>B</string>
+          </firstNames>
+          <lastName>Shmoys</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <location>New York</location>
+      <publicationDateString>1985</publicationDateString>
+      <publicationYear>1985</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref15</id>
+      <referenceIdString>b14</referenceIdString>
+      <title>A design of the minimum cost ring-chain network with dualhoming survivability: A tabu search approach</title>
+      <source>Computers &amp; Operations Research</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>C</string>
+            <string>Y</string>
+          </firstNames>
+          <lastName>Lee</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+            <string>J</string>
+          </firstNames>
+          <lastName>Koh</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>24</volume>
+      <issue>9</issue>
+      <pageFrom>883</pageFrom>
+      <pageTo>897</pageTo>
+      <publicationDateString>1997</publicationDateString>
+      <publicationYear>1997</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref16</id>
+      <referenceIdString>b15</referenceIdString>
+      <title>An effective heuristic algorithm for the travelling-salesman problem</title>
+      <source>Operations Research</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+          </firstNames>
+          <lastName>Lin</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>B</string>
+            <string>W</string>
+          </firstNames>
+          <lastName>Kernighan</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>21</volume>
+      <pageFrom>498</pageFrom>
+      <pageTo>516</pageTo>
+      <publicationDateString>1973</publicationDateString>
+      <publicationYear>1973</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref17</id>
+      <referenceIdString>b16</referenceIdString>
+      <source>Fast k-means algorithm clustering</source>
+      <publisher>CoRR</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+          </firstNames>
+          <lastName>Salman</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>V</string>
+          </firstNames>
+          <lastName>Kecman</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Q</string>
+          </firstNames>
+          <lastName>Li</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+          </firstNames>
+          <lastName>Strack</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>E</string>
+          </firstNames>
+          <lastName>Test</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2011</publicationDateString>
+      <publicationYear>2011</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref18</id>
+      <referenceIdString>b17</referenceIdString>
+      <source>Hierarchical Network Design</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>T</string>
+          </firstNames>
+          <lastName>Thomadsen</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <note>PhD thesis</note>
+      <publicationDateString>2005</publicationDateString>
+      <publicationYear>2005</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref19</id>
+      <referenceIdString>b18</referenceIdString>
+      <title>An efficient algorithm for sequential random sampling</title>
+      <source>ACM Transactions Mathematical Software</source>
+      <publisher>ACM</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+            <string>S</string>
+          </firstNames>
+          <lastName>Vitter</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>13</volume>
+      <pageFrom>58</pageFrom>
+      <pageTo>67</pageTo>
+      <publicationDateString>1987</publicationDateString>
+      <publicationYear>1987</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref20</id>
+      <referenceIdString>b19</referenceIdString>
+      <title>Multilevel refinement for combinatorial optimisation problems</title>
+      <source>Annals of Operations Research</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>C</string>
+          </firstNames>
+          <lastName>Walshaw</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>131</volume>
+      <pageFrom>325</pageFrom>
+      <pageTo>372</pageTo>
+      <publicationDateString>2004</publicationDateString>
+      <publicationYear>2004</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref21</id>
+      <referenceIdString>b20</referenceIdString>
+      <title>Overlapping community detection in networks: the state of the art and comparative study</title>
+      <source>CoRR</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+          </firstNames>
+          <lastName>Xie</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+          </firstNames>
+          <lastName>Kelley</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>B</string>
+            <string>K</string>
+          </firstNames>
+          <lastName>Szymanski</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2011</publicationDateString>
+      <publicationYear>2011</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+  </references>
+</Publication>

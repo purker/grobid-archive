@@ -1,0 +1,357 @@
+<Publication>
+  <id>TUW-182414</id>
+  <title>Web Archivierung und Web Archive Mining: Notwendigkeit, Probleme und Lösungsansätze</title>
+  <keywords/>
+  <authors>
+    <Author>
+      <firstNames>
+        <string>Andreas</string>
+      </firstNames>
+      <lastName>Rauber</lastName>
+      <email>rauber@ifs.tuwien.ac.at</email>
+      <affiliations>
+        <Affiliation>
+          <id>aff0</id>
+          <institution>Vienna University of Technology</institution>
+          <country>Austria, Österreich</country>
+        </Affiliation>
+      </affiliations>
+    </Author>
+    <Author>
+      <firstNames>
+        <string>Max</string>
+      </firstNames>
+      <lastName>Kaiser</lastName>
+      <email>max.kaiser@onb.ac.at</email>
+      <affiliations>
+        <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+      </affiliations>
+    </Author>
+    <Author>
+      <firstNames>
+        <string>Österreichische</string>
+      </firstNames>
+      <lastName>Nationalbibliothek Josefsplatz</lastName>
+      <affiliations>
+        <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+      </affiliations>
+    </Author>
+  </authors>
+  <affiliations>
+    <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+  </affiliations>
+  <sections>
+    <Section>
+      <title>max.kaiser@onb.ac.at</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Kurzfassung</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>1.</level>
+      <title>Kurzlebigkeit von Webinhalten</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.</level>
+      <title>Aufbau von Webarchiven</title>
+      <referenceIds>
+        <string>ref3</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.1</level>
+      <title>Das Web als Publikationsmedium</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.2</level>
+      <title>Die fehlerhafte Flüchtigkeit des Web</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.3</level>
+      <title>Das Archiv von öffentlichen Inhalten</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>4.</level>
+      <title>Ansätze für &quot;ethisch verantwortungsvolle&quot; Webarchive</title>
+      <referenceIds>
+        <string>ref10</string>
+        <string>ref8</string>
+        <string>ref9</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+  </sections>
+  <citationContexts/>
+  <references>
+    <Reference>
+      <id>ref1</id>
+      <referenceIdString>b0</referenceIdString>
+      <title>Die Bewahrung unserer Online-Kultur. Vorschläge und Strategien zur Webarchivierung</title>
+      <source>Sichtungen, 6</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Aschenbrenner</string>
+          </firstNames>
+          <lastName>Andreas Und Rauber</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Andreas</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <volume>7</volume>
+      <pageFrom>99</pageFrom>
+      <pageTo>115</pageTo>
+      <publicationDateString>2005</publicationDateString>
+      <publicationYear>2005</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref2</id>
+      <referenceIdString>b1</referenceIdString>
+      <source>Archiving Websites: A Practical Guide for Information Management Professionals. Facet Publisching. 2006. [HBL08] DPA: Handelsblatt: Internet als Quelle für Personalberater</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Adrian</string>
+          </firstNames>
+          <lastName>Brown</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2008-11-27</publicationDateString>
+      <publicationYear>2008</publicationYear>
+      <publicationMonth>11</publicationMonth>
+      <publicationDay>27</publicationDay>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref3</id>
+      <referenceIdString>b2</referenceIdString>
+      <source>Preserving the Internet. Scientific American</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Kahle</string>
+          </firstNames>
+          <lastName>Brewster</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1997-03</publicationDateString>
+      <publicationYear>1997</publicationYear>
+      <publicationMonth>03</publicationMonth>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref4</id>
+      <referenceIdString>b3</referenceIdString>
+      <title>The Kulturarw3 project -The Royal Swedish Web Archiw3e. An Example of »Complete« Collection of Web Pages</title>
+      <source>Proceedings of the 66th IFLA Council and General Conference</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Mannerheim</string>
+          </firstNames>
+          <lastName>Johan</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Arvidson</string>
+          </firstNames>
+          <lastName>Allan Und Persson</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Krister</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2000</publicationDateString>
+      <publicationYear>2000</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref5</id>
+      <referenceIdString>b4</referenceIdString>
+      <source>Web Archiving</source>
+      <publisher>Springer</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Julien</string>
+            <string>(</string>
+          </firstNames>
+          <lastName>Masanes</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Hrsg</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2006</publicationDateString>
+      <publicationYear>2006</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref6</id>
+      <referenceIdString>b5</referenceIdString>
+      <source>nestor Handbuch: eine kleine Enzyklopädie der digitalen Langzeitarchivierung. SUB Göttingen, Dezember</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Neuroth</string>
+          </firstNames>
+          <lastName>Heike</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>(</string>
+          </firstNames>
+          <lastName>Hrsg</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2008</publicationDateString>
+      <publicationYear>2008</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref7</id>
+      <referenceIdString>b6</referenceIdString>
+      <title>Ethical Issues in Web Archive Creation and Usage -Towards a Research Agenda</title>
+      <source>Proceedings of the 8th International Web Archiving Workshop</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Rauber</string>
+          </firstNames>
+          <lastName>Andreas</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Kaiser</string>
+          </firstNames>
+          <lastName>Max Und</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Wachter</string>
+          </firstNames>
+          <lastName>Bernhard</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2008</publicationDateString>
+      <publicationYear>2008</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref8</id>
+      <referenceIdString>b7</referenceIdString>
+      <source>Automatic Identification of Genre in Web Pages</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Marina</string>
+          </firstNames>
+          <lastName>Santini</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <location>Brighton, UK.</location>
+      <note>PhD thesis</note>
+      <publicationDateString>2007</publicationDateString>
+      <publicationYear>2007</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref9</id>
+      <referenceIdString>b8</referenceIdString>
+      <title>Kokkinakis: Text genre detection using common word frequencies</title>
+      <source>18th International Conf. on Computational Linguistics</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>E</string>
+          </firstNames>
+          <lastName>Stamatatos</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>N</string>
+          </firstNames>
+          <lastName>Fakotakis</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2000</publicationDateString>
+      <publicationYear>2000</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref10</id>
+      <referenceIdString>b9</referenceIdString>
+      <title>Sussman Gerald Jay: Information Accountability</title>
+      <source>Communications of the ACM</source>
+      <publisher>Juni</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Weitzner</string>
+          </firstNames>
+          <lastName>Daniel</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Abelson</string>
+          </firstNames>
+          <lastName>Harold</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Berners-Lee</string>
+          </firstNames>
+          <lastName>Tim</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Feigenbaum</string>
+          </firstNames>
+          <lastName>Joan</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Hendler</string>
+          </firstNames>
+          <lastName>James</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>51</volume>
+      <issue>6</issue>
+      <pageFrom>82</pageFrom>
+      <pageTo>87</pageTo>
+      <publicationDateString>2008</publicationDateString>
+      <publicationYear>2008</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+  </references>
+</Publication>
