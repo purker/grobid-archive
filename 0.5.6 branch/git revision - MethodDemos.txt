@@ -1,3 +1,3 @@
 adaptions_0.5.6
-3919047334544c3e7a9a696237090bbce1889407
+fe8ddd62234e9401d7f9efdc6a4f3ae3b6d7b793
 https://github.com/purker/MethodDemosGit.git

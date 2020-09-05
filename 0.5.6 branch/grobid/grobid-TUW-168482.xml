@@ -3,7 +3,7 @@
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:schemaLocation="http://www.tei-c.org/ns/1.0 C:\Users\Angela\git\grobid\grobid-home/schemas/xsd/Grobid.xsd"
  xmlns:xlink="http://www.w3.org/1999/xlink">
-	<teiHeader xml:lang="en">
+	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
 				<title level="a" type="main">Dialogue Games for Fuzzy Logics DIPLOMARBEIT zur Erlangung des akademischen Grades Computational Intelligence eingereicht von _______________________ ______________________ Dialogue Games for Fuzzy Logics</title>
@@ -82,7 +82,7 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 C:\Users\Angela\git\grobid\grobi
 			</abstract>
 		</profileDesc>
 	</teiHeader>
-	<text xml:lang="en">
+	<text xml:lang="de">
 		<body>
 <div xmlns="http://www.tei-c.org/ns/1.0"> <ref type="bibr">. . 37</ref> <p>4 Extending Giles's Game to Other Logics 43</p><p>iii     Vagueness is a ubiquitous and pervasive phenomenon in information processing. Modelling vagueness is often accomplished by assigning degrees of truth to propositions. Fuzzy logics, taken here in Zadeh's "narrow sense" <ref type="bibr" target="#b26">[Zad96]</ref>, are based on the extension of the two classical truth values by infinitely many intermediary degrees of truth. Degrees of truth should strictly be distinguished from degrees of belief, and therefore require methods different from probability theory. In particular, in fuzzy logics the semantics of the logical connectives is required to be truth functional.</p><p>In the 1970s Robin Giles attempted to provide an operational foundation for formal reasoning in physical theories based on atomic experiments that may show dispersion. A formula is interpreted by a strategic game, where two players bet on the combined results of atomic experiments, that may show different outcomes when repeated. The degree of truth is then related to the expected loss of the player initially asserting the formula. Giles proved that the propositions that a player can bet on without expecting loss coincide with those that are valid in Lukasiewicz Logic, one of three fundamental, so-called t-norm based fuzzy logics.</p><p>Giles's remarkable result can, with hindsight, be seen as one of the few attempts to solve a fundamental problem in approximate reasoning: how to derive a fuzzy logic from first principles, in this case from dialogue rules combined with a betting scheme. "There is nothing worse than a sharp image of a fuzzy concept."</p></div>
 <div xmlns="http://www.tei-c.org/ns/1.0"><head>Anselm Adams</head></div>
