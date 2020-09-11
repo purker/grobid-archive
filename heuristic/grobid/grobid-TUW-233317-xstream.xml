@@ -1,0 +1,331 @@
+<Publication>
+  <id>TUW-233317</id>
+  <title>QualityTrails: Data Quality Provenance as a Basis for Sensemaking</title>
+  <publicationType>BEITRAEGE_AUS_TAGUNGSBAENDEN</publicationType>
+  <abstractText>Visual Analytics prototypes increasingly support human sensemak-ing through providing Provenance information. For data analysts the challenge of knowledge generation starts with assessing the quality of a data set, but Provenance is not yet utilized to aid this task. This position paper aims at characterizing the complexity of Visual Analytics methods introducing Provenance in Data Quality by highlighting the challenges of (1) generating Provenance from Data Quality Control and (2) sensemaking based on Data Quality Provenance.</abstractText>
+  <keywords>
+    <string>data provenance</string>
+    <string>analytic provenance</string>
+    <string>sensemaking</string>
+    <string>data quality</string>
+    <string>quality metrics</string>
+    <string>visual data analysis Index Terms: Human-centered Computing [Visualization]: Vi-sualization application domains-Visual Analytics Mathematics of computing [Probability and statistics]: Statistical paradigms-Exploratory data analysis</string>
+  </keywords>
+  <authors>
+    <Author>
+      <firstNames>
+        <string>Christian</string>
+      </firstNames>
+      <lastName>Bors</lastName>
+      <affiliations>
+        <Affiliation>
+          <id>aff0</id>
+          <institution>Vienna University of Technology</institution>
+          <department>Institute of Software Technology &amp; Interactive Systems (ISIS)</department>
+          <country>Austria</country>
+          <countryCode>AT</countryCode>
+        </Affiliation>
+      </affiliations>
+    </Author>
+    <Author>
+      <firstNames>
+        <string>Theresia</string>
+      </firstNames>
+      <lastName>Gschwandtner</lastName>
+      <affiliations>
+        <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+      </affiliations>
+    </Author>
+    <Author>
+      <firstNames>
+        <string>Silvia</string>
+      </firstNames>
+      <lastName>Miksch</lastName>
+      <affiliations>
+        <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+      </affiliations>
+    </Author>
+    <Author>
+      <firstNames>
+        <string>Johannes</string>
+        <string>G ¨</string>
+      </firstNames>
+      <lastName>Artner</lastName>
+      <email>gaertner@ximes.com</email>
+      <affiliations>
+        <Affiliation>
+          <id>aff1</id>
+          <department>XIMES GmbH, Vienna</department>
+          <country>Austria</country>
+          <countryCode>AT</countryCode>
+        </Affiliation>
+      </affiliations>
+    </Author>
+  </authors>
+  <affiliations>
+    <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+    <Affiliation reference="/Publication[1]/authors[1]/Author[4]/affiliations[1]/Affiliation[1]"/>
+  </affiliations>
+  <sections>
+    <Section>
+      <level>1</level>
+      <title>INTRODUCTION</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2</level>
+      <title>CHALLENGES</title>
+      <referenceIds>
+        <string>ref2</string>
+        <string>ref1</string>
+        <string>ref4</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.1</level>
+      <title>Provenance from Data Quality Control</title>
+      <referenceIds>
+        <string>ref5</string>
+        <string>ref2</string>
+        <string>ref3</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3</level>
+      <title>OUTLOOK</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.2</level>
+      <title>Sensemaking based on Data Quality Provenance</title>
+      <referenceIds>
+        <string>ref4</string>
+        <string>ref1</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+  </sections>
+  <citationContexts/>
+  <references>
+    <Reference>
+      <id>ref1</id>
+      <referenceIdString>b0</referenceIdString>
+      <title>Analytic trails: Supporting prove-nance, collaboration, and reuse for visual data analysis by business users</title>
+      <source>Proc. 13th IFIP TC 13 Int. Conf. HCI-Vol. IV, INTER-ACT&apos;11</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+          </firstNames>
+          <lastName>Lu</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Z</string>
+          </firstNames>
+          <lastName>Wen</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+          </firstNames>
+          <lastName>Pan</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+          </firstNames>
+          <lastName>Lai</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <pageFrom>256</pageFrom>
+      <pageTo>273</pageTo>
+      <publicationDateString>2011</publicationDateString>
+      <publicationYear>2011</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref2</id>
+      <referenceIdString>b1</referenceIdString>
+      <title>The open provenance model core spec. (v1.1)</title>
+      <source>Future Gen. Computer Systems</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>L</string>
+          </firstNames>
+          <lastName>Moreau</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>B</string>
+          </firstNames>
+          <lastName>Clifford</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+          </firstNames>
+          <lastName>Freire</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+          </firstNames>
+          <lastName>Futrelle</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Y</string>
+          </firstNames>
+          <lastName>Gil</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>P</string>
+          </firstNames>
+          <lastName>Groth</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>N</string>
+          </firstNames>
+          <lastName>Kwas-Nikowska</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+          </firstNames>
+          <lastName>Miles</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>P</string>
+          </firstNames>
+          <lastName>Missier</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+          </firstNames>
+          <lastName>Myers</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>B</string>
+          </firstNames>
+          <lastName>Plale</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Y</string>
+          </firstNames>
+          <lastName>Simmhan</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>E</string>
+          </firstNames>
+          <lastName>Stephan</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+            <string>V D</string>
+          </firstNames>
+          <lastName>Bussche</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>27</volume>
+      <issue>6</issue>
+      <pageFrom>743</pageFrom>
+      <pageTo>756</pageTo>
+      <publicationDateString>2011</publicationDateString>
+      <publicationYear>2011</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref3</id>
+      <referenceIdString>b2</referenceIdString>
+      <source>Handbook of Data Quality</source>
+      <publisher>Springer Verlag</publisher>
+      <authors/>
+      <location>Berlin, Heidelberg</location>
+      <publicationDateString>2013</publicationDateString>
+      <publicationYear>2013</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref4</id>
+      <referenceIdString>b3</referenceIdString>
+      <title>Supporting the analytical reason-ing process in information visualization</title>
+      <source>Proc. SIGCHI Conference on Human Factors in Computing Systems, CHI &apos;08</source>
+      <publisher>ACM</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Y</string>
+            <string>B</string>
+          </firstNames>
+          <lastName>Shrinivasan</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+            <string>J</string>
+          </firstNames>
+          <lastName>Van Wijk</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <pageFrom>1237</pageFrom>
+      <pageTo>1246</pageTo>
+      <publicationDateString>2008</publicationDateString>
+      <publicationYear>2008</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref5</id>
+      <referenceIdString>b4</referenceIdString>
+      <title>A survey of data provenance in e-science</title>
+      <source>SIGMOD Rec</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Y</string>
+            <string>L</string>
+          </firstNames>
+          <lastName>Simmhan</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>B</string>
+          </firstNames>
+          <lastName>Plale</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+          </firstNames>
+          <lastName>Gannon</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>34</volume>
+      <issue>3</issue>
+      <pageFrom>31</pageFrom>
+      <pageTo>36</pageTo>
+      <publicationDateString>2005-09</publicationDateString>
+      <publicationYear>2005</publicationYear>
+      <publicationMonth>09</publicationMonth>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+  </references>
+</Publication>

@@ -1,0 +1,1134 @@
+<Publication>
+  <id>TUW-174216</id>
+  <title>Systematic Characterisation of Objects in Digital Preservation: The eXtensible Characterisation Languages</title>
+  <publicationType>BEITRAEGE_AUS_TAGUNGSBAENDEN</publicationType>
+  <source>Journal of Universal Computer Science</source>
+  <volume>14</volume>
+  <issue>18</issue>
+  <pageFrom>2936</pageFrom>
+  <pageTo>2952</pageTo>
+  <publicationDateString>2008</publicationDateString>
+  <publicationYear>2008</publicationYear>
+  <note>submitted: 1/3/08, accepted: 29/9/08, appeared: 1/10/08 © J.UCS</note>
+  <abstractText>During the last decades, digital objects have become the primary medium to create, shape, and exchange information. However, in contrast to analog objects such as books that directly represent their content, digital objects are not usable without a corresponding technical environment. The fast changes in these environments and in formats and technologies mean that digital documents have a short lifespan before they become obsolete. Digital preservation, i.e. actions to ensure longevity of digital information, thus has become a pressing challenge. The dominant strategies prevailing today are migration and emulation; for each strategy, different tools are available. When converting an object to a different representation, a validation of the content is needed to verify that the transformed objects are still authentically representing the same intellectual content. This validation so far is largely done manually, which is infeasible for large collections. Preservation planning supports decision makers in reaching accountable decisions by evaluating potential strategies against well-defined requirements. Especially the evaluation of different migration tools for digital preservation has to rely on validating the converted objects and thus on an analysis of the logical structure and the content of documents. Existing approaches for characterising and describing objects do not attempt to fully extract the informational content of digital objects and thus are not suffficient for an in-depth validation of transformed content. This paper describes the eXtensible Characterisation Languages (XCL) that support the automatic validation of document conversions and the evaluation of migration quality by hierarchically decomposing a document and representing documents from different sources in an abstract XML language. The description language XCDL provides an abstract representation of digital content in XML, while the extraction language XCEL allows an extraction engine to create such an abstract description by mapping file format structures to XCDL concepts. We present the context of the development of these languages and tools and describe the overall concept and features of the languages. We further give examples and show how the languages can be applied to the evaluation of digital preservation solutions in the context of preservation planning.</abstractText>
+  <keywords>
+    <string>Digital Libraries</string>
+    <string>Digital Preservation</string>
+    <string>Preservation Planning</string>
+    <string>Content Characterisation</string>
+    <string>Migration</string>
+    <string>XML languages</string>
+    <string>Evaluation</string>
+    <string>File formats</string>
+    <string>File conversion Category: H37 Information Storage and Retrieval-Digital Libraries;</string>
+  </keywords>
+  <authors>
+    <Author>
+      <firstNames>
+        <string>Christoph</string>
+      </firstNames>
+      <lastName>Becker</lastName>
+      <affiliations>
+        <Affiliation>
+          <id>aff0</id>
+          <institution>Vienna University of Technology</institution>
+          <country>Austria</country>
+          <countryCode>AT</countryCode>
+        </Affiliation>
+      </affiliations>
+    </Author>
+    <Author>
+      <firstNames>
+        <string>Andreas</string>
+      </firstNames>
+      <lastName>Rauber</lastName>
+      <affiliations>
+        <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+      </affiliations>
+    </Author>
+    <Author>
+      <firstNames>
+        <string>Volker</string>
+      </firstNames>
+      <lastName>Heydegger</lastName>
+      <affiliations>
+        <Affiliation>
+          <id>aff1</id>
+          <institution>University of Cologne</institution>
+          <country>Germany</country>
+          <countryCode>DE</countryCode>
+        </Affiliation>
+      </affiliations>
+    </Author>
+    <Author>
+      <firstNames>
+        <string>Jan</string>
+      </firstNames>
+      <lastName>Schnasse</lastName>
+      <affiliations>
+        <Affiliation reference="/Publication[1]/authors[1]/Author[3]/affiliations[1]/Affiliation[1]"/>
+      </affiliations>
+    </Author>
+    <Author>
+      <firstNames>
+        <string>Manfred</string>
+      </firstNames>
+      <lastName>Thaller</lastName>
+      <affiliations>
+        <Affiliation reference="/Publication[1]/authors[1]/Author[3]/affiliations[1]/Affiliation[1]"/>
+      </affiliations>
+    </Author>
+  </authors>
+  <affiliations>
+    <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+    <Affiliation reference="/Publication[1]/authors[1]/Author[3]/affiliations[1]/Affiliation[1]"/>
+  </affiliations>
+  <sections>
+    <Section>
+      <level>1</level>
+      <title>Introduction</title>
+      <referenceIds>
+        <string>ref6</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2</level>
+      <title>Related work</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.2</level>
+      <title>The extraction language XCEL</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.3</level>
+      <title>The description language XCDL</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.4</level>
+      <title>Comparing digital objects</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.5</level>
+      <title>Summary</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>4</level>
+      <title>Summary and Outlook</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+  </sections>
+  <citationContexts/>
+  <references>
+    <Reference>
+      <id>ref1</id>
+      <referenceIdString>b0</referenceIdString>
+      <source>Reality and Chimeras in the Preservation</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>David</string>
+          </firstNames>
+          <lastName>Bearman</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref2</id>
+      <referenceIdString>b1</referenceIdString>
+      <title></title>
+      <source>Electronic Records. In: D-Lib Magazine</source>
+      <authors/>
+      <volume>5</volume>
+      <issue>4</issue>
+      <publicationDateString>1999-04</publicationDateString>
+      <publicationYear>1999</publicationYear>
+      <publicationMonth>04</publicationMonth>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref3</id>
+      <referenceIdString>b2</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Christoph</string>
+            <string>;</string>
+          </firstNames>
+          <lastName>Becker</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Kulovits</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>;</string>
+          </firstNames>
+          <lastName>Hannes</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Andreas</string>
+          </firstNames>
+          <lastName>Rauber</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref4</id>
+      <referenceIdString>b3</referenceIdString>
+      <source>Hans: Plato: A Service Oriented Decision Support System for Preser</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref5</id>
+      <referenceIdString>b4</referenceIdString>
+      <source>Proceedings of the 8th ACM IEEE Joint Conference on</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref6</id>
+      <referenceIdString>b5</referenceIdString>
+      <source>ital Libraries (JCDL&apos;08)</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Becker</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2008</publicationDateString>
+      <publicationYear>2008</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref7</id>
+      <referenceIdString>b6</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Andreas</string>
+            <string>;</string>
+          </firstNames>
+          <lastName>Christoph ; Rauber</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Heydegger</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref8</id>
+      <referenceIdString>b7</referenceIdString>
+      <source>Manfred: A Generic XML Language for</source>
+      <publisher>Thaller</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Schnasse</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref9</id>
+      <referenceIdString>b8</referenceIdString>
+      <title>racterising Objects to Support Digital Preservation</title>
+      <source>Proc. 23rd Annual</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref10</id>
+      <referenceIdString>b9</referenceIdString>
+      <source>Symposium on Applied Computing (SAC&apos;08)</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref11</id>
+      <referenceIdString>b10</referenceIdString>
+      <source>GGF DFDL Primer / Global Grid Forum Data Format Description Language Working</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+          </firstNames>
+          <lastName>Beckerle</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+          </firstNames>
+          <lastName>Westhead</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref12</id>
+      <referenceIdString>b11</referenceIdString>
+      <source></source>
+      <publisher>Long</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Stefan</string>
+            <string>;</string>
+          </firstNames>
+          <lastName>Brandl</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Peter</string>
+          </firstNames>
+          <lastName>Keller-Marxer</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref13</id>
+      <referenceIdString>b12</referenceIdString>
+      <source>kshop on Database Preservation (PresDB&apos;07)</source>
+      <authors/>
+      <publicationDateString>2007-03</publicationDateString>
+      <publicationYear>2007</publicationYear>
+      <publicationMonth>03</publicationMonth>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref14</id>
+      <referenceIdString>b13</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>E</string>
+            <string>R</string>
+          </firstNames>
+          <lastName>Canfield</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Guangming</string>
+          </firstNames>
+          <lastName>Xing</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref15</id>
+      <referenceIdString>b14</referenceIdString>
+      <source>SAC &apos;05: Proceedings of the 2005 ACM sympo</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref16</id>
+      <referenceIdString>b15</referenceIdString>
+      <source>on Applied computing</source>
+      <publisher>ACM Press</publisher>
+      <authors/>
+      <publicationDateString>2005</publicationDateString>
+      <publicationYear>2005</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref17</id>
+      <referenceIdString>b16</referenceIdString>
+      <source>Consultative Com</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref18</id>
+      <referenceIdString>b17</referenceIdString>
+      <source>Model for an Open Archival Infor</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref19</id>
+      <referenceIdString>b18</referenceIdString>
+      <source>on System (OAIS). CCSDS 650.0-B-1</source>
+      <authors/>
+      <publicationDateString>2002</publicationDateString>
+      <publicationYear>2002</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref20</id>
+      <referenceIdString>b19</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Luis</string>
+            <string>M ;</string>
+          </firstNames>
+          <lastName>Díaz</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Erik</string>
+            <string>;</string>
+          </firstNames>
+          <lastName>Wüstner</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Peter</string>
+          </firstNames>
+          <lastName>Buxmann</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref21</id>
+      <referenceIdString>b20</referenceIdString>
+      <source>Facing the conversion problem with XML</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref22</id>
+      <referenceIdString>b21</referenceIdString>
+      <source>SAC &apos;02: Proceedings of the 2002 ACM symposium on Applied computing</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref23</id>
+      <referenceIdString>b22</referenceIdString>
+      <source></source>
+      <publisher>ACM Press</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>N</string>
+            <string>Y</string>
+          </firstNames>
+          <lastName>Ork</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Usa</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <note>Digital Preservation Testbed Project, 2002] Digital Preservation Testbed</note>
+      <pageFrom>1043</pageFrom>
+      <pageTo>1047</pageTo>
+      <publicationDateString>2002</publicationDateString>
+      <publicationYear>2002</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref24</id>
+      <referenceIdString>b23</referenceIdString>
+      <source>XML and Digital Preservation</source>
+      <authors/>
+      <publicationDateString>2002</publicationDateString>
+      <publicationYear>2002</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref25</id>
+      <referenceIdString>b24</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Miguel</string>
+            <string>;</string>
+          </firstNames>
+          <lastName>Ferreira</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Ana</string>
+            <string>A</string>
+          </firstNames>
+          <lastName>Baptista</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Ramalho</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>C</string>
+          </firstNames>
+          <lastName>Jose</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref26</id>
+      <referenceIdString>b25</referenceIdString>
+      <title></title>
+      <source>onal Journal on Digital Libraries</source>
+      <authors/>
+      <volume>6</volume>
+      <issue>4</issue>
+      <pageFrom>295</pageFrom>
+      <pageTo>304</pageTo>
+      <publicationDateString>2007-07</publicationDateString>
+      <publicationYear>2007</publicationYear>
+      <publicationMonth>07</publicationMonth>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref27</id>
+      <referenceIdString>b26</referenceIdString>
+      <source>The next</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>K</string>
+          </firstNames>
+          <lastName>Fisher</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Y</string>
+          </firstNames>
+          <lastName>Mandelbaum</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+          </firstNames>
+          <lastName>Walker</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref28</id>
+      <referenceIdString>b27</referenceIdString>
+      <title>Data Description Languages</title>
+      <source>Conference record of the 33rd ACM</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref29</id>
+      <referenceIdString>b28</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Jeffrey</string>
+          </firstNames>
+          <lastName>Hoeven</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Van Der</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <note>Wijn</note>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref30</id>
+      <referenceIdString>b29</referenceIdString>
+      <source>Hilde van: Modular emulation as a long-term preservation strategy</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref31</id>
+      <referenceIdString>b30</referenceIdString>
+      <source>5th International Web Archiving Workshop (IWAW05)</source>
+      <authors/>
+      <publicationDateString>2005</publicationDateString>
+      <publicationYear>2005</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref32</id>
+      <referenceIdString>b31</referenceIdString>
+      <source>ISO: Information technology-Multimedia content description</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref33</id>
+      <referenceIdString>b32</referenceIdString>
+      <source>Systems (ISO/IEC</source>
+      <authors/>
+      <volume>1</volume>
+      <note>International Standards</note>
+      <pageFrom>15938</pageFrom>
+      <pageTo>15939</pageTo>
+      <publicationDateString>2002</publicationDateString>
+      <publicationYear>2002</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref34</id>
+      <referenceIdString>b33</referenceIdString>
+      <source>Information technology-Computer graphics and im</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref35</id>
+      <referenceIdString>b34</referenceIdString>
+      <source>Functional specification (ISO/IEC 15948:2004). International Standards Organization (Veranst</source>
+      <authors/>
+      <publicationDateString>2004</publicationDateString>
+      <publicationYear>2004</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref36</id>
+      <referenceIdString>b35</referenceIdString>
+      <source>ISO: Information technology-Open Document Format for Office</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref37</id>
+      <referenceIdString>b36</referenceIdString>
+      <source>International Standards Organization (Veranst</source>
+      <authors/>
+      <volume>26300</volume>
+      <publicationDateString>2006</publicationDateString>
+      <publicationYear>2006</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref38</id>
+      <referenceIdString>b37</referenceIdString>
+      <source>ISO: Document management-Electronic document file for</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref39</id>
+      <referenceIdString>b38</referenceIdString>
+      <source>International Standards Organization (Veranst</source>
+      <authors/>
+      <publicationDateString>2004</publicationDateString>
+      <publicationYear>2004</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref40</id>
+      <referenceIdString>b39</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+            <string>J</string>
+          </firstNames>
+          <lastName>Gilliland-Swetland</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>P</string>
+            <string>B</string>
+          </firstNames>
+          <lastName>Eppard</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref41</id>
+      <referenceIdString>b40</referenceIdString>
+      <title></title>
+      <source>The InterPARES Project</source>
+      <authors/>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref42</id>
+      <referenceIdString>b41</referenceIdString>
+      <title></title>
+      <source>Lib Magazine</source>
+      <authors/>
+      <volume>6</volume>
+      <issue>7</issue>
+      <publicationDateString>2000-07</publicationDateString>
+      <publicationYear>2000</publicationYear>
+      <publicationMonth>07</publicationMonth>
+      <url>http://www.dlib.org/</url>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref43</id>
+      <referenceIdString>b42</referenceIdString>
+      <source>A Domain-Specific Lan</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>K</string>
+          </firstNames>
+          <lastName>Fisher</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+          </firstNames>
+          <lastName>Gruber</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref44</id>
+      <referenceIdString>b43</referenceIdString>
+      <title>for Processing Ad Hoc Data</title>
+      <source>Proceedings of the 2005 ACM SIG</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref45</id>
+      <referenceIdString>b44</referenceIdString>
+      <title></title>
+      <source>conference on Programming language design and implementation</source>
+      <authors/>
+      <publicationDateString>2005</publicationDateString>
+      <publicationYear>2005</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref46</id>
+      <referenceIdString>b45</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Gregory</string>
+            <string>W</string>
+          </firstNames>
+          <lastName>Lawrence</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>William</string>
+            <string>R</string>
+          </firstNames>
+          <lastName>Kehoe</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Rieger</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref47</id>
+      <referenceIdString>b46</referenceIdString>
+      <source>Risk Management of Digital</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>William</string>
+            <string>H</string>
+          </firstNames>
+          <lastName>Walters</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Anne</string>
+            <string>R</string>
+          </firstNames>
+          <lastName>Kenney</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref48</id>
+      <referenceIdString>b47</referenceIdString>
+      <source>A File Format Investigation / Council on Library and Infor</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref49</id>
+      <referenceIdString>b48</referenceIdString>
+      <source>Migration on</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>P</string>
+          </firstNames>
+          <lastName>Mellor</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>P</string>
+          </firstNames>
+          <lastName>Wheatley</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+            <string>M</string>
+          </firstNames>
+          <lastName>Sergeant</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref50</id>
+      <referenceIdString>b49</referenceIdString>
+      <source>a practical technique for preservation</source>
+      <publisher>Thanos</publisher>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref51</id>
+      <referenceIdString>b50</referenceIdString>
+      <source>Proceedings of the 6th European Conference on Digital Libraries (ECDL&apos;02)</source>
+      <publisher>Springer</publisher>
+      <authors/>
+      <pageFrom>516</pageFrom>
+      <pageTo>526</pageTo>
+      <publicationDateString>2002</publicationDateString>
+      <publicationYear>2002</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref52</id>
+      <referenceIdString>b51</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>José</string>
+            <string>C</string>
+          </firstNames>
+          <lastName>Ramalho</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Miguel</string>
+            <string>;</string>
+          </firstNames>
+          <lastName>Ferreira</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Faria</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>;</string>
+          </firstNames>
+          <lastName>Luís</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Cas</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref53</id>
+      <referenceIdString>b52</referenceIdString>
+      <title>Rui: Relational Database Preservation through XML modelling</title>
+      <source>Pro</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref54</id>
+      <referenceIdString>b53</referenceIdString>
+      <source>ngs of Extreme Markup Languages</source>
+      <authors/>
+      <location>Montréal, Québec</location>
+      <publicationDateString>2007-08</publicationDateString>
+      <publicationYear>2007</publicationYear>
+      <publicationMonth>08</publicationMonth>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref55</id>
+      <referenceIdString>b54</referenceIdString>
+      <source>Avoiding Technological Quicksand: Find-ing a Viable Technical Foundation for Digital Preservation</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+          </firstNames>
+          <lastName>Rothenberg</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref56</id>
+      <referenceIdString>b55</referenceIdString>
+      <source>Carrying Au</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Jeff</string>
+            <string>;</string>
+          </firstNames>
+          <lastName>Rothenberg</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Tora</string>
+          </firstNames>
+          <lastName>Bikson</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref57</id>
+      <referenceIdString>b56</referenceIdString>
+      <source>Understandable and Usable Digital Records Through Time / Report</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref58</id>
+      <referenceIdString>b57</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Stephan</string>
+            <string>;</string>
+          </firstNames>
+          <lastName>Strodl</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Christoph</string>
+            <string>;</string>
+          </firstNames>
+          <lastName>Becker</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Robert</string>
+          </firstNames>
+          <lastName>Neumayer</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref59</id>
+      <referenceIdString>b58</referenceIdString>
+      <source>Andreas: How to Choose a Digital Preservation Strategy: Evaluating</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref60</id>
+      <referenceIdString>b59</referenceIdString>
+      <title>Preservation Planning Procedure</title>
+      <source>Proceedings of the 7th ACM IEEE</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref61</id>
+      <referenceIdString>b60</referenceIdString>
+      <source>nt Conference on Digital Libraries (JCDL&apos;07)</source>
+      <authors/>
+      <pageFrom>29</pageFrom>
+      <pageTo>38</pageTo>
+      <publicationDateString>2007-06</publicationDateString>
+      <publicationYear>2007</publicationYear>
+      <publicationMonth>06</publicationMonth>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref62</id>
+      <referenceIdString>b61</referenceIdString>
+      <source>Migration: Context and current status</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Digital</string>
+            <string>P</string>
+          </firstNames>
+          <lastName>Testbed</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref63</id>
+      <referenceIdString>b62</referenceIdString>
+      <source>nal Archives and Ministry of the Interior and Kingdom Relations</source>
+      <authors/>
+      <publicationDateString>2001</publicationDateString>
+      <publicationYear>2001</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref64</id>
+      <referenceIdString>b63</referenceIdString>
+      <source>The 100 Year Archive Task Force</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref65</id>
+      <referenceIdString>b64</referenceIdString>
+      <source>100 Year Archive Requirements Survey</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref66</id>
+      <referenceIdString>b65</referenceIdString>
+      <source>The Library of Congress: Preferences in</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref67</id>
+      <referenceIdString>b66</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Textual</string>
+          </firstNames>
+          <lastName>Ry For</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Content</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Website</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2007-08</publicationDateString>
+      <publicationYear>2007</publicationYear>
+      <publicationMonth>08</publicationMonth>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref68</id>
+      <referenceIdString>b67</referenceIdString>
+      <source>UNESCO: UNESCO Charter on the Preservation of Dig</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref69</id>
+      <referenceIdString>b68</referenceIdString>
+      <source>Adopted at the 32nd session of the General Conference of</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Heritage</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref70</id>
+      <referenceIdString>b69</referenceIdString>
+      <source>SCO. October</source>
+      <authors/>
+      <volume>17</volume>
+      <publicationDateString>2003</publicationDateString>
+      <publicationYear>2003</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+  </references>
+</Publication>

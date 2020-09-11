@@ -1,6 +1,7 @@
 <Publication>
   <id>TUW-203409</id>
   <title>Fast JIT Code Generation for x86-64 with LLVM</title>
+  <publicationType>BEITRAEGE_AUS_TAGUNGSBAENDEN</publicationType>
   <keywords>
     <string>code generation</string>
     <string>instruction selection</string>

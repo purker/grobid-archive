@@ -1,6 +1,7 @@
 <Publication>
   <id>TUW-200950</id>
   <title>On the Complexity of Some Colorful Problems Parameterized by Treewidth</title>
+  <publicationType>BEITRAEGE_AUS_TAGUNGSBAENDEN</publicationType>
   <keywords>
     <string>Topics: Parameterized Complexity</string>
     <string>Bounded Treewidth</string>

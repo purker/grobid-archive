@@ -1,0 +1,640 @@
+<Publication>
+  <id>TUW-236120</id>
+  <title>Competence Orientation in Vocational Schools-the Case of Industrial Information Technology in Austria</title>
+  <publicationType>BEITRAEGE_AUS_TAGUNGSBAENDEN</publicationType>
+  <abstractText>As part of the project &quot;Educational standards in vocational schools&quot; the responsible Federal Ministry compiled competence models, descriptors and didactic examples for Informatics in technical high schools (HTL). The implementation of this project implies a paradigm shift for the vocational school system , which requires a new pedagogic foundation. This paper presents a didacti-cal concept, that meets the requirements of the educational standards in general and competence orientation in particular. A proposal for the implementation of these educational standards in the competence area industrial information technology (INIT) is presented. The specification is based on selected teaching sessions for micro controller technique. Learner-oriented teaching methods are applied , along with procedures to promote the learners&apos; intrinsic motivation and creativity in general. It became apparent that the competence area INIT conveys remarkably demanding learning outcomes and its implementation proved challenging on multiple levels.</abstractText>
+  <keywords/>
+  <authors>
+    <Author>
+      <firstNames>
+        <string>Markus</string>
+      </firstNames>
+      <lastName>Brunner</lastName>
+      <email>markus.a.brunner@gmail.com</email>
+      <affiliations>
+        <Affiliation>
+          <id>aff0</id>
+          <institution>HTL Krems</institution>
+          <department>Department for Information Technology</department>
+          <country>Austria</country>
+          <countryCode>AT</countryCode>
+        </Affiliation>
+      </affiliations>
+    </Author>
+    <Author>
+      <firstNames>
+        <string>Monika</string>
+        <string>Di</string>
+      </firstNames>
+      <lastName>Angelo</lastName>
+      <email>monika.diangelo@tuwien.ac.at</email>
+      <affiliations>
+        <Affiliation>
+          <id>aff1</id>
+          <institution>Vienna University of Technology</institution>
+          <department>Institute for Computer Aided Automation</department>
+          <country>Austria</country>
+          <countryCode>AT</countryCode>
+        </Affiliation>
+      </affiliations>
+    </Author>
+  </authors>
+  <affiliations>
+    <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+    <Affiliation reference="/Publication[1]/authors[1]/Author[2]/affiliations[1]/Affiliation[1]"/>
+  </affiliations>
+  <sections>
+    <Section>
+      <level>1</level>
+      <title>Introduction</title>
+      <referenceIds>
+        <string>ref1</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2</level>
+      <title>Competence Orientation at Vocational Schools for IT</title>
+      <referenceIds>
+        <string>ref2</string>
+        <string>ref8</string>
+        <string>ref9</string>
+        <string>ref11</string>
+        <string>ref12</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.1</level>
+      <title>Teaching Competencies</title>
+      <referenceIds>
+        <string>ref13</string>
+        <string>ref17</string>
+        <string>ref18</string>
+        <string>ref20</string>
+        <string>ref20</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.2</level>
+      <title>Competence model</title>
+      <referenceIds>
+        <string>ref21</string>
+        <string>ref24</string>
+        <string>ref12</string>
+        <string>ref25</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>A ,B</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Action Dimension</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.3</level>
+      <title>Descriptors</title>
+      <referenceIds>
+        <string>ref24</string>
+        <string>ref24</string>
+        <string>ref24</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3</level>
+      <title>Case study at HTL Krems</title>
+      <referenceIds>
+        <string>ref11</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.1</level>
+      <title>HTL (Technical High Schools)</title>
+      <referenceIds>
+        <string>ref26</string>
+        <string>ref27</string>
+        <string>ref28</string>
+        <string>ref29</string>
+        <string>ref2</string>
+        <string>ref25</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Content</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.2</level>
+      <title>Requirements</title>
+      <referenceIds>
+        <string>ref21</string>
+        <string>ref24</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Cluster C: Legal and institutional constraints C1</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Cluster D: Embedded Systems</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Evaluation and Discussion</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>4.1</level>
+      <title>Evaluation</title>
+      <referenceIds>
+        <string>ref17</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>4.2</level>
+      <title>Discussion</title>
+      <referenceIds>
+        <string>ref25</string>
+        <string>ref24</string>
+        <string>ref24</string>
+        <string>ref25</string>
+        <string>ref24</string>
+        <string>ref25</string>
+        <string>ref25</string>
+        <string>ref24</string>
+        <string>ref25</string>
+        <string>ref31</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+  </sections>
+  <citationContexts/>
+  <references>
+    <Reference>
+      <id>ref1</id>
+      <referenceIdString>b0</referenceIdString>
+      <source>Educational standards for vocational</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref2</id>
+      <referenceIdString>b1</referenceIdString>
+      <source>EQF-European Qualifications Framework</source>
+      <authors/>
+      <publicationDateString>2008</publicationDateString>
+      <publicationYear>2008</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref3</id>
+      <referenceIdString>b2</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Serv</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref4</id>
+      <referenceIdString>b3</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>B</string>
+          </firstNames>
+          <lastName>Linck</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+          </firstNames>
+          <lastName>Magenheim</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>W</string>
+          </firstNames>
+          <lastName>Nelles</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+          </firstNames>
+          <lastName>Neugebauer</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>L</string>
+          </firstNames>
+          <lastName>Ohrndorf</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>N</string>
+          </firstNames>
+          <lastName>Schaper</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Schubert</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref5</id>
+      <referenceIdString>b4</referenceIdString>
+      <source>Empirical refinement of a theoretically derived competence model for informatics</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref6</id>
+      <referenceIdString>b5</referenceIdString>
+      <source>Proceedings of IFIP-Conference Addressing</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref7</id>
+      <referenceIdString>b6</referenceIdString>
+      <source>The Role of ICT (AECRICT)</source>
+      <authors/>
+      <publicationDateString>2005-07-02</publicationDateString>
+      <publicationYear>2005</publicationYear>
+      <publicationMonth>07</publicationMonth>
+      <publicationDay>02</publicationDay>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref8</id>
+      <referenceIdString>b7</referenceIdString>
+      <source>Grundsätze und Standards für die Informatik in der Schule</source>
+      <authors/>
+      <publicationDateString>2008</publicationDateString>
+      <publicationYear>2008</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref9</id>
+      <referenceIdString>b8</referenceIdString>
+      <source>Concept of Competence: A Conceptual Clarification</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>F</string>
+            <string>E</string>
+          </firstNames>
+          <lastName>Weinert</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref10</id>
+      <referenceIdString>b9</referenceIdString>
+      <source>Defining and Selecting Key Competencies. Hofgrefe &amp; Huber</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>L</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2001</publicationDateString>
+      <publicationYear>2001</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref11</id>
+      <referenceIdString>b10</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Htl (bundesgesetzblatt</string>
+          </firstNames>
+          <lastName>Curricula For</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Nr</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref12</id>
+      <referenceIdString>b11</referenceIdString>
+      <title></title>
+      <source>Bildungsstandards in der Berufsbildung</source>
+      <authors/>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref13</id>
+      <referenceIdString>b12</referenceIdString>
+      <source>On Competence-Orientation and Learning Informatics</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>P</string>
+          </firstNames>
+          <lastName>Antonitsch</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref14</id>
+      <referenceIdString>b13</referenceIdString>
+      <source>Informatics in Schools: Situation, Evolution and Perspectives, Proceedings</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref15</id>
+      <referenceIdString>b14</referenceIdString>
+      <source>Selected Papers (on CD). Library and Publishing Centre Comenius Uni</source>
+      <authors/>
+      <publicationDateString>2011</publicationDateString>
+      <publicationYear>2011</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref16</id>
+      <referenceIdString>b15</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Bratislava</string>
+          </firstNames>
+          <lastName>Ty</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2011</publicationDateString>
+      <publicationYear>2011</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref17</id>
+      <referenceIdString>b16</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>K</string>
+          </firstNames>
+          <lastName>Reich</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref18</id>
+      <referenceIdString>b17</referenceIdString>
+      <source>Kompetenzfördernd unterrichten-22 Schritte von der Theorie zur Praxis</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+          </firstNames>
+          <lastName>Lersch</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref19</id>
+      <referenceIdString>b18</referenceIdString>
+      <title></title>
+      <source>agogik</source>
+      <authors/>
+      <volume>12</volume>
+      <publicationDateString>2007</publicationDateString>
+      <publicationYear>2007</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref20</id>
+      <referenceIdString>b19</referenceIdString>
+      <source>Kompetenzorientiertes Unterrichten-Grundlagenpapier. bm:ukk</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>U</string>
+          </firstNames>
+          <lastName>Fritz</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2011</publicationDateString>
+      <publicationYear>2011</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref21</id>
+      <referenceIdString>b20</referenceIdString>
+      <source>A Taxonomy for Learning</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>L</string>
+            <string>W</string>
+          </firstNames>
+          <lastName>Anderson</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+          </firstNames>
+          <lastName>David</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+            <string>R</string>
+          </firstNames>
+          <lastName>Krathwohl</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref22</id>
+      <referenceIdString>b21</referenceIdString>
+      <source>Assessing: A Revision of Bloom&apos;s Taxonomy of Educational Objectives</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref23</id>
+      <referenceIdString>b22</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>&amp;amp;</string>
+          </firstNames>
+          <lastName>Bacon</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+            <string>A</string>
+          </firstNames>
+          <lastName>Boston</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2001</publicationDateString>
+      <publicationYear>2001</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref24</id>
+      <referenceIdString>b23</referenceIdString>
+      <source>Höhere technische Lehranstalt für Informationstechnologie-Bildungsstandards in der Be</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref25</id>
+      <referenceIdString>b24</referenceIdString>
+      <title></title>
+      <source>Höhere technische Lehranstalt für Informationstechnologie-Fachrichtungsstandard</source>
+      <authors/>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref26</id>
+      <referenceIdString>b25</referenceIdString>
+      <source>Mittelfristige Perspektiven der HTL-Erhebung und Analysen zur Si-cherung und Weiterentwicklung der Ausbildungsqualität</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+          </firstNames>
+          <lastName>Schneeberger</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2008-06</publicationDateString>
+      <publicationYear>2008</publicationYear>
+      <publicationMonth>06</publicationMonth>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref27</id>
+      <referenceIdString>b26</referenceIdString>
+      <source>HTL und Qualifikationsbedarf der Wirtschaft-Analy-sen zur Arbeitsmarktlage und europäischer Vergleiche</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+          </firstNames>
+          <lastName>Schneeberger</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+          </firstNames>
+          <lastName>Petanovitsch</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2009-03</publicationDateString>
+      <publicationYear>2009</publicationYear>
+      <publicationMonth>03</publicationMonth>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref28</id>
+      <referenceIdString>b27</referenceIdString>
+      <title>International Standard Classification of</title>
+      <source>UNESCO</source>
+      <authors/>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref29</id>
+      <referenceIdString>b28</referenceIdString>
+      <source>Internationale Einstufung der österreichischen Berufsbildung-Adäqua</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+          </firstNames>
+          <lastName>Schneeberger</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref30</id>
+      <referenceIdString>b29</referenceIdString>
+      <source>CED-Positionierung als bildungspolitische Herausforderung</source>
+      <authors/>
+      <publicationDateString>2010-05</publicationDateString>
+      <publicationYear>2010</publicationYear>
+      <publicationMonth>05</publicationMonth>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref31</id>
+      <referenceIdString>b30</referenceIdString>
+      <source>Lehre von Software-Verifikation in der Berufsbildung unter dem Aspekt</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>T</string>
+          </firstNames>
+          <lastName>Reinbacher</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+  </references>
+</Publication>

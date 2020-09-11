@@ -1,6 +1,7 @@
 <Publication>
   <id>TUW-140253</id>
   <title>FROM STATIC TO DYNAMIC PROCESS TYPES</title>
+  <publicationType>BEITRAEGE_AUS_TAGUNGSBAENDEN</publicationType>
   <keywords>
     <string>Process types</string>
     <string>synchronization</string>

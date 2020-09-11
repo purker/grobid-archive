@@ -1,6 +1,7 @@
 <Publication>
   <id>TUW-205557</id>
   <title>An Evaluation of WCET Analysis using Symbolic Loop Bounds</title>
+  <publicationType>BEITRAEGE_AUS_TAGUNGSBAENDEN</publicationType>
   <source>Proceedings of the 8th International Andrei Ershov Memorial Conference -Perspectives of System Informatics</source>
   <publicationDateString>2011</publicationDateString>
   <publicationYear>2011</publicationYear>

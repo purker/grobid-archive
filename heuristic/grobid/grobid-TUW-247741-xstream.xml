@@ -1,0 +1,950 @@
+<Publication>
+  <id>TUW-247741</id>
+  <title>A FORMAL METHOD FOR SELECTING EVALUATION METRICS FOR IMAGE SEGMENTATION</title>
+  <publicationType>BEITRAEGE_AUS_TAGUNGSBAENDEN</publicationType>
+  <abstractText>Evaluating the quality of segmentations is an important process in image processing, especially in the medical domain. Many evaluation metrics have been used in evaluating segmentation. There exists no formal way to choose the most suitable metric(s) for a particular segmentation task and/or particular data. In this paper we propose a formal method for choosing the most suitable metrics for evaluating the quality of segmenta-tions with respect to ground truth segmentations. The proposed method depends on measuring the bias of metrics towards/against the properties of the the seg-mentations being evaluated. We firstly demonstrate how metrics can have bias towards/against particular properties and then we propose a general method for ranking metrics according to their overall bias. We finally demonstrate for 3D medical image segmentations that ranking produced using metrics with low overall bias strongly correlate with manual rankings done by an expert.</abstractText>
+  <keywords>
+    <string>Index Terms-image segmentation</string>
+    <string>evaluation met-rics</string>
+    <string>selection</string>
+  </keywords>
+  <authors>
+    <Author>
+      <firstNames>
+        <string>Abdel</string>
+        <string>Aziz</string>
+      </firstNames>
+      <lastName>Taha</lastName>
+      <affiliations>
+        <Affiliation>
+          <id>aff0</id>
+          <institution>Vienna University of Technology Univ. of Applied Sciences Western Swizerland</institution>
+        </Affiliation>
+      </affiliations>
+    </Author>
+    <Author>
+      <firstNames>
+        <string>Allan</string>
+      </firstNames>
+      <lastName>Hanbury</lastName>
+      <affiliations>
+        <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+      </affiliations>
+    </Author>
+    <Author>
+      <firstNames>
+        <string>Oscar</string>
+        <string>A</string>
+      </firstNames>
+      <lastName>Jimenez Del Toro</lastName>
+      <affiliations>
+        <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+      </affiliations>
+    </Author>
+  </authors>
+  <affiliations>
+    <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+  </affiliations>
+  <sections>
+    <Section>
+      <level>1</level>
+      <title>Introduction</title>
+      <referenceIds>
+        <string>ref1</string>
+        <string>ref11</string>
+        <string>ref15</string>
+        <string>ref22</string>
+        <string>ref30</string>
+        <string>ref38</string>
+        <string>ref11</string>
+        <string>ref41</string>
+        <string>ref48</string>
+        <string>ref55</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>1.2</level>
+      <title>Problem definition and notations:</title>
+      <referenceIds>
+        <string>ref22</string>
+        <string>ref8</string>
+        <string>ref15</string>
+        <string>ref48</string>
+        <string>ref41</string>
+        <string>ref11</string>
+        <string>ref37</string>
+        <string>ref44</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3</level>
+      <title>Proposed Methods</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2</level>
+      <title>Related Work</title>
+      <referenceIds>
+        <string>ref14</string>
+        <string>ref19</string>
+        <string>ref34</string>
+        <string>ref8</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.1</level>
+      <title>Constructing partitions and rank structure:</title>
+      <referenceIds>
+        <string>ref46</string>
+        <string>ref53</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.3</level>
+      <title>Discussion:</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.2</level>
+      <title>Inferring metric bias:</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>4</level>
+      <title>Experiments</title>
+      <referenceIds>
+        <string>ref57</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>5</level>
+      <title>Conclusion and future work 6 Acknowledgments</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>7</level>
+      <title>References</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+  </sections>
+  <citationContexts/>
+  <references>
+    <Reference>
+      <id>ref1</id>
+      <referenceIdString>b0</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>T</string>
+            <string>H J M</string>
+          </firstNames>
+          <lastName>Peeters</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>P</string>
+            <string>R</string>
+          </firstNames>
+          <lastName>Rodrigues</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+          </firstNames>
+          <lastName>Vilanova</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref2</id>
+      <referenceIdString>b1</referenceIdString>
+      <source>Analysis of dis-tance/similarity measures for diffusion tensor</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref3</id>
+      <referenceIdString>b2</referenceIdString>
+      <source>Visualization and Processing of Tensor</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref4</id>
+      <referenceIdString>b3</referenceIdString>
+      <source>Advances and Perspectives</source>
+      <publisher>Springer</publisher>
+      <authors/>
+      <location>Berlin</location>
+      <publicationDateString>2008</publicationDateString>
+      <publicationYear>2008</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref5</id>
+      <referenceIdString>b4</referenceIdString>
+      <source>Beware of relatively</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+          </firstNames>
+          <lastName>Blanco</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>H</string>
+          </firstNames>
+          <lastName>Zaragoza</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref6</id>
+      <referenceIdString>b5</referenceIdString>
+      <title></title>
+      <source>Tech. Rep</source>
+      <authors/>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref7</id>
+      <referenceIdString>b6</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>!</string>
+          </firstNames>
+          <lastName>Research</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2011</publicationDateString>
+      <publicationYear>2011</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref8</id>
+      <referenceIdString>b7</referenceIdString>
+      <source>Evaluating evaluation metrics</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Tetsuya</string>
+          </firstNames>
+          <lastName>Sakai</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref9</id>
+      <referenceIdString>b8</referenceIdString>
+      <source>Proceedings of the 29th annual international ACM SIGIR conference on Re</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref10</id>
+      <referenceIdString>b9</referenceIdString>
+      <source>h and development in information retrieval</source>
+      <authors/>
+      <publicationDateString>2006</publicationDateString>
+      <publicationYear>2006</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref11</id>
+      <referenceIdString>b10</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Mehrdad</string>
+          </firstNames>
+          <lastName>Fatourechi</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Rabab</string>
+            <string>K</string>
+          </firstNames>
+          <lastName>Ward</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>G</string>
+          </firstNames>
+          <lastName>Steven</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref12</id>
+      <referenceIdString>b11</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Jane</string>
+          </firstNames>
+          <lastName>Huggins</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Alois</string>
+          </firstNames>
+          <lastName>Schloegl</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Gary</string>
+            <string>E</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref13</id>
+      <referenceIdString>b12</referenceIdString>
+      <source>Comparison of evaluation metrics in clas</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref14</id>
+      <referenceIdString>b13</referenceIdString>
+      <source>Using AUC and</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Jin</string>
+          </firstNames>
+          <lastName>Huang</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Charles</string>
+            <string>X</string>
+          </firstNames>
+          <lastName>Ling</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref15</id>
+      <referenceIdString>b14</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Guido</string>
+          </firstNames>
+          <lastName>Gerig</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Matthieu</string>
+          </firstNames>
+          <lastName>Jomier</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Miranda</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref16</id>
+      <referenceIdString>b15</referenceIdString>
+      <source>Valmet: A new validation tool for as</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref17</id>
+      <referenceIdString>b16</referenceIdString>
+      <source>ssing and improving 3D object segmentation</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref18</id>
+      <referenceIdString>b17</referenceIdString>
+      <source>Proceedings of the 4th International Conference on Medical Image Computing and Computer-Assisted In</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref19</id>
+      <referenceIdString>b18</referenceIdString>
+      <source></source>
+      <publisher>Javier Artiles,</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Enrique</string>
+          </firstNames>
+          <lastName>Amigo</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Julio</string>
+          </firstNames>
+          <lastName>Gonzalo</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref20</id>
+      <referenceIdString>b19</referenceIdString>
+      <source>A comparison of extrinsic clus-tering evaluation metrics based on formal con</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref21</id>
+      <referenceIdString>b20</referenceIdString>
+      <title></title>
+      <source>Inf. Retr</source>
+      <authors/>
+      <volume>12</volume>
+      <issue>4</issue>
+      <pageFrom>461</pageFrom>
+      <pageTo>486</pageTo>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref22</id>
+      <referenceIdString>b21</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Daniel</string>
+            <string>B</string>
+          </firstNames>
+          <lastName>Russakoff</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Carlo</string>
+          </firstNames>
+          <lastName>Tomasi</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <location>Torsten Rohlf</location>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref23</id>
+      <referenceIdString>b22</referenceIdString>
+      <source>Image similarity</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Calvin</string>
+            <string>R</string>
+          </firstNames>
+          <lastName>Maurer</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Jr</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref24</id>
+      <referenceIdString>b23</referenceIdString>
+      <source>ing mutual information of regions</source>
+      <authors/>
+      <note>in 8th Eu</note>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref25</id>
+      <referenceIdString>b24</referenceIdString>
+      <source>n Conference on Computer Vision, ECCV</source>
+      <authors/>
+      <publicationDateString>2004</publicationDateString>
+      <publicationYear>2004</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref26</id>
+      <referenceIdString>b25</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Nguyen Xuan</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Vinh</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <location>Julien Epps, and James Bai</location>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref27</id>
+      <referenceIdString>b26</referenceIdString>
+      <source>Information theoretic measures for cluster</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref28</id>
+      <referenceIdString>b27</referenceIdString>
+      <source>Variants, properties, normaliza</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref29</id>
+      <referenceIdString>b28</referenceIdString>
+      <title></title>
+      <source>J. Mach. Learn</source>
+      <authors/>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref30</id>
+      <referenceIdString>b29</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Nguyen Xuan</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Vinh</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <location>Julien Epps, and James Bai</location>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref31</id>
+      <referenceIdString>b30</referenceIdString>
+      <source>Information theoretic measures for cluster</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref32</id>
+      <referenceIdString>b31</referenceIdString>
+      <source>Proceedings of the 26th Annual Inter</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref33</id>
+      <referenceIdString>b32</referenceIdString>
+      <source>nal Conference on Machine Learning</source>
+      <authors/>
+      <publicationDateString>2009</publicationDateString>
+      <publicationYear>2009</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref34</id>
+      <referenceIdString>b33</referenceIdString>
+      <source>Axiometrics: An axiomatic approach to information retrieval ef</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Luca</string>
+          </firstNames>
+          <lastName>Busin</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Stefano</string>
+          </firstNames>
+          <lastName>Mizzaro</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref35</id>
+      <referenceIdString>b34</referenceIdString>
+      <source>Proceedings of the 2013 Con</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Veness Metrics</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref36</id>
+      <referenceIdString>b35</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>N</string>
+            <string>Y</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Usa</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <volume>8</volume>
+      <pageFrom>22</pageFrom>
+      <pageTo>30</pageTo>
+      <publicationDateString>2013</publicationDateString>
+      <publicationYear>2013</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref37</id>
+      <referenceIdString>b36</referenceIdString>
+      <source>On the reliability of information</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Tetsuya</string>
+          </firstNames>
+          <lastName>Sakai</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref38</id>
+      <referenceIdString>b37</referenceIdString>
+      <source>Evaluation: From precision</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+            <string>W</string>
+          </firstNames>
+          <lastName>David</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Powers</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref39</id>
+      <referenceIdString>b38</referenceIdString>
+      <title></title>
+      <source>Journal of Machine Learning Tech</source>
+      <authors/>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref40</id>
+      <referenceIdString>b39</referenceIdString>
+      <title></title>
+      <source>logies</source>
+      <authors/>
+      <volume>2</volume>
+      <pageFrom>37</pageFrom>
+      <pageTo>63</pageTo>
+      <publicationDateString>2011</publicationDateString>
+      <publicationYear>2011</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref41</id>
+      <referenceIdString>b40</referenceIdString>
+      <source>Evaluat</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Chris</string>
+          </firstNames>
+          <lastName>Buckley</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Ellen</string>
+            <string>M</string>
+          </firstNames>
+          <lastName>Voorhees</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref42</id>
+      <referenceIdString>b41</referenceIdString>
+      <source>Proceedings of</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref43</id>
+      <referenceIdString>b42</referenceIdString>
+      <source>23rd annual international ACM SIGIR conference on Research and development in information retrieval</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref44</id>
+      <referenceIdString>b43</referenceIdString>
+      <source>The effect</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Ellen</string>
+            <string>M</string>
+          </firstNames>
+          <lastName>Voorhees</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Chris</string>
+          </firstNames>
+          <lastName>Buckley</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref45</id>
+      <referenceIdString>b44</referenceIdString>
+      <source>ceedings of the 25th annual international ACM SI-GIR conference on Research and development in infor</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref46</id>
+      <referenceIdString>b45</referenceIdString>
+      <source>On a test of whether one of two random variables is stochas</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>H</string>
+            <string>B</string>
+          </firstNames>
+          <lastName>Mann</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+            <string>R</string>
+          </firstNames>
+          <lastName>Whitney</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref47</id>
+      <referenceIdString>b46</referenceIdString>
+      <title></title>
+      <source>The Annals of Mathe</source>
+      <authors/>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref48</id>
+      <referenceIdString>b47</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Halim</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref49</id>
+      <referenceIdString>b48</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Guillaume</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref50</id>
+      <referenceIdString>b49</referenceIdString>
+      <source>A subjective experiment for 3d-mesh segmenta</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Mohamed</string>
+          </firstNames>
+          <lastName>Daoudi</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref51</id>
+      <referenceIdString>b50</referenceIdString>
+      <source>IEEE International Workshop on</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref52</id>
+      <referenceIdString>b51</referenceIdString>
+      <source>media Signal Processing (MMSP)</source>
+      <authors/>
+      <publicationDateString>2010</publicationDateString>
+      <publicationYear>2010</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref53</id>
+      <referenceIdString>b52</referenceIdString>
+      <source>Statistical comparisons of classi</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Janez</string>
+          </firstNames>
+          <lastName>Demsar</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref54</id>
+      <referenceIdString>b53</referenceIdString>
+      <title></title>
+      <source>J. Mach. Learn. Res</source>
+      <authors/>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref55</id>
+      <referenceIdString>b54</referenceIdString>
+      <source>Comparing</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Filip</string>
+          </firstNames>
+          <lastName>Radlinski</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Nick</string>
+          </firstNames>
+          <lastName>Craswell</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref56</id>
+      <referenceIdString>b55</referenceIdString>
+      <source>ceedings of the 33rd international ACM SIGIR con-ference on Research and development in information re</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref57</id>
+      <referenceIdString>b56</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Abdel</string>
+            <string>Aziz</string>
+          </firstNames>
+          <lastName>Taha</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <location>Allan Hanbury, and Os</location>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref58</id>
+      <referenceIdString>b57</referenceIdString>
+      <source>Test data and results of</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+  </references>
+</Publication>

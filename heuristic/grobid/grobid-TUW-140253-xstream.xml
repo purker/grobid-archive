@@ -1,0 +1,1617 @@
+<Publication>
+  <id>TUW-140253</id>
+  <title>FROM STATIC TO DYNAMIC PROCESS TYPES</title>
+  <publicationType>BEITRAEGE_AUS_TAGUNGSBAENDEN</publicationType>
+  <abstractText>Process types-a kind of behavioral types-specify constraints on message acceptance for the purpose of synchronization and to determine object usage and component behavior in object-oriented languages. So far process types have been regarded as a purely static concept for Actor languages incompatible with inherently dynamic programming techniques. We propose solutions of related problems causing the approach to become useable in more conventional dynamic and concurrent languagues. The proposed approach can ensure message acceptability and support local and static checking of race-free programs.</abstractText>
+  <keywords>
+    <string>Process types</string>
+    <string>synchronization</string>
+    <string>type systems</string>
+    <string>race-free programs</string>
+  </keywords>
+  <authors>
+    <Author>
+      <firstNames>
+        <string>Franz</string>
+      </firstNames>
+      <lastName>Puntigam</lastName>
+      <email>Email: franz@complang.tuwien.ac.at</email>
+      <affiliations>
+        <Affiliation>
+          <id>aff0</id>
+          <institution>Technische Universität Wien</institution>
+          <country>Austria</country>
+          <countryCode>AT</countryCode>
+        </Affiliation>
+      </affiliations>
+    </Author>
+  </authors>
+  <affiliations>
+    <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+  </affiliations>
+  <sections>
+    <Section>
+      <level>1</level>
+      <title>INTRODUCTION</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2</level>
+      <title>STATIC PROCESS TYPES</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3</level>
+      <title>DYNAMIC TOKENS</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>4</level>
+      <title>DYNAMIC TYPING</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>5</level>
+      <title>RACE-FREE PROGRAMS</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>6</level>
+      <title>DISCUSSION, RELATED WORK</title>
+      <referenceIds>
+        <string>ref95</string>
+        <string>ref79</string>
+        <string>ref94</string>
+        <string>ref86</string>
+        <string>ref94</string>
+        <string>ref83</string>
+        <string>ref84</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+  </sections>
+  <citationContexts/>
+  <references>
+    <Reference>
+      <id>ref1</id>
+      <referenceIdString>b0</referenceIdString>
+      <source>CONCLUSION Behavioral types like process types gain more and more importance especially together with component composition. By partially specifying object behav-ior these types express synchronization in the form of software contracts clearly determining who is respon</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref2</id>
+      <referenceIdString>b1</referenceIdString>
+      <title>Towards a theory of actor computation</title>
+      <source>Proceed</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>G</string>
+          </firstNames>
+          <lastName>Mason</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>I</string>
+            <string>A</string>
+          </firstNames>
+          <lastName>Smith</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+          </firstNames>
+          <lastName>Talcott</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>C</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1992</publicationDateString>
+      <publicationYear>1992</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref3</id>
+      <referenceIdString>b2</referenceIdString>
+      <source>s CONCUR&apos;92, number 630 in Lecture Notes in</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref4</id>
+      <referenceIdString>b3</referenceIdString>
+      <source>uter Science</source>
+      <publisher>Springer-Verlag</publisher>
+      <authors/>
+      <pageFrom>565</pageFrom>
+      <pageTo>579</pageTo>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref5</id>
+      <referenceIdString>b4</referenceIdString>
+      <title>Abstract behavior types: A foundation model for components and their composition</title>
+      <source>Science</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>F</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2005</publicationDateString>
+      <publicationYear>2005</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref6</id>
+      <referenceIdString>b5</referenceIdString>
+      <title></title>
+      <source>Computer Programming</source>
+      <authors/>
+      <volume>55</volume>
+      <issue>1-3</issue>
+      <pageFrom>3</pageFrom>
+      <pageTo>52</pageTo>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref7</id>
+      <referenceIdString>b6</referenceIdString>
+      <title>Guava: A dialect of Java without data races</title>
+      <source>OOPSLA</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+            <string>F</string>
+          </firstNames>
+          <lastName>Strom</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+            <string>E</string>
+          </firstNames>
+          <lastName>Tarafdar</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2000</publicationDateString>
+      <publicationYear>2000</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref8</id>
+      <referenceIdString>b7</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>C</string>
+          </firstNames>
+          <lastName>Ati</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+          </firstNames>
+          <lastName>Rinard</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <note>A parameterized type</note>
+      <publicationDateString>2001</publicationDateString>
+      <publicationYear>2001</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref9</id>
+      <referenceIdString>b8</referenceIdString>
+      <title>m for race-free Java programs</title>
+      <source>OOPSLA 2001</source>
+      <publisher>ACM</publisher>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref10</id>
+      <referenceIdString>b9</referenceIdString>
+      <source>The grand challenge of trusted com</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>B</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2003</publicationDateString>
+      <publicationYear>2003</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref11</id>
+      <referenceIdString>b10</referenceIdString>
+      <source>ICSE-25 (International Conference on</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref12</id>
+      <referenceIdString>b11</referenceIdString>
+      <source></source>
+      <publisher>IEEE Com-puter Press</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Oregon</string>
+          </firstNames>
+          <lastName>Portland</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref13</id>
+      <referenceIdString>b12</referenceIdString>
+      <title>The programming language Concurrent Pascal</title>
+      <source>IEEE Transactions on Software</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>P</string>
+          </firstNames>
+          <lastName>H-Hansen</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1975</publicationDateString>
+      <publicationYear>1975</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref14</id>
+      <referenceIdString>b13</referenceIdString>
+      <source>Integrating indepen-dent components with on-demand remodularization</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>I</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+          </firstNames>
+          <lastName>Ostermann</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>K</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2002</publicationDateString>
+      <publicationYear>2002</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref15</id>
+      <referenceIdString>b14</referenceIdString>
+      <source>PSLA 2002 Conference Proceedings</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref16</id>
+      <referenceIdString>b15</referenceIdString>
+      <source></source>
+      <publisher>ACM</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Washington</string>
+          </firstNames>
+          <lastName>Seattle</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref17</id>
+      <referenceIdString>b16</referenceIdString>
+      <title>Toward a method of object-oriented concurrent programming</title>
+      <source>Communications</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+          </firstNames>
+          <lastName>El</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1993</publicationDateString>
+      <publicationYear>1993</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref18</id>
+      <referenceIdString>b17</referenceIdString>
+      <source>A calculus of mobile processes (parts I and II)</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+          </firstNames>
+          <lastName>Parrow</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+          </firstNames>
+          <lastName>Walker</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <note>Information and</note>
+      <publicationDateString>1992</publicationDateString>
+      <publicationYear>1992</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref19</id>
+      <referenceIdString>b18</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J.-D</string>
+          </firstNames>
+          <lastName>Gupta</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+          </firstNames>
+          <lastName>Serrano</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+          </firstNames>
+          <lastName>Sreedhar</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>V</string>
+            <string>C</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref20</id>
+      <referenceIdString>b19</referenceIdString>
+      <title>Escape analysis for Java</title>
+      <source>OOP</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+          </firstNames>
+          <lastName>Ff</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1999</publicationDateString>
+      <publicationYear>1999</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref21</id>
+      <referenceIdString>b20</referenceIdString>
+      <source>&apos;99</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref22</id>
+      <referenceIdString>b21</referenceIdString>
+      <source>A calculus of object</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>E</string>
+          </firstNames>
+          <lastName>Nimour</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1997</publicationDateString>
+      <publicationYear>1997</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref23</id>
+      <referenceIdString>b22</referenceIdString>
+      <source>Proceedings FMOODS&apos;97</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref24</id>
+      <referenceIdString>b23</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Hall</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref25</id>
+      <referenceIdString>b24</referenceIdString>
+      <title>A set-constraint-based analysis of actors</title>
+      <source>Proceedings</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>O</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J.-L</string>
+          </firstNames>
+          <lastName>Pantel</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+          </firstNames>
+          <lastName>Salle</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>P</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1997</publicationDateString>
+      <publicationYear>1997</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref26</id>
+      <referenceIdString>b25</referenceIdString>
+      <source>ODS&apos;97</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref27</id>
+      <referenceIdString>b26</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Hall</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref28</id>
+      <referenceIdString>b27</referenceIdString>
+      <source>From CML to pro</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>F</string>
+          </firstNames>
+          <lastName>On</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>H</string>
+            <string>R</string>
+          </firstNames>
+          <lastName>Nielson</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1993</publicationDateString>
+      <publicationYear>1993</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref29</id>
+      <referenceIdString>b28</referenceIdString>
+      <source>Proceedings CONCUR&apos;93</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref30</id>
+      <referenceIdString>b29</referenceIdString>
+      <title></title>
+      <source>Lecture Notes in Computer Science</source>
+      <authors/>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref31</id>
+      <referenceIdString>b30</referenceIdString>
+      <title>Interface au-tomata</title>
+      <source>Proceedings of the Ninth Annual Sympo</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>L</string>
+          </firstNames>
+          <lastName>Faro</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>T</string>
+            <string>A</string>
+          </firstNames>
+          <lastName>Henzinger</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2001</publicationDateString>
+      <publicationYear>2001</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref32</id>
+      <referenceIdString>b31</referenceIdString>
+      <source>s 109-120</source>
+      <publisher>ACM Press</publisher>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref33</id>
+      <referenceIdString>b32</referenceIdString>
+      <source>Regular types for active objects</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>O</string>
+          </firstNames>
+          <lastName>Trasz</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1993</publicationDateString>
+      <publicationYear>1993</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref34</id>
+      <referenceIdString>b33</referenceIdString>
+      <source>SIGPLAN Notices</source>
+      <authors/>
+      <volume>28</volume>
+      <note>Proceedings</note>
+      <pageFrom>1</pageFrom>
+      <pageTo>15</pageTo>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref35</id>
+      <referenceIdString>b34</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Sla&amp;apos;93</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref36</id>
+      <referenceIdString>b35</referenceIdString>
+      <source>Types for safe locking</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>F</string>
+          </firstNames>
+          <lastName>Gan</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+          </firstNames>
+          <lastName>Abadi</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1999</publicationDateString>
+      <publicationYear>1999</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref37</id>
+      <referenceIdString>b36</referenceIdString>
+      <title>The Nether-lands</title>
+      <source>Proceedings ESOP&apos;99</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref38</id>
+      <referenceIdString>b37</referenceIdString>
+      <title>Behavioral protocols for software components</title>
+      <source>IEEE Transactions on Software</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>L</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>F</string>
+          </firstNames>
+          <lastName>Visnovsky</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2002</publicationDateString>
+      <publicationYear>2002</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref39</id>
+      <referenceIdString>b38</referenceIdString>
+      <source>Meta-protocol and type system for the dynamic coupling of binary com</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+          </firstNames>
+          <lastName>Roth</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+          </firstNames>
+          <lastName>Reussner</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1999</publicationDateString>
+      <publicationYear>1999</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref40</id>
+      <referenceIdString>b39</referenceIdString>
+      <source>OORASE&apos;99: OOSPLA&apos;99 Workshop on</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref41</id>
+      <referenceIdString>b40</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Italy</string>
+          </firstNames>
+          <lastName>Bicocca</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref42</id>
+      <referenceIdString>b41</referenceIdString>
+      <title>Flexible types for a concurrent model</title>
+      <source>Proceedings of the Workshop on</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>F</string>
+          </firstNames>
+          <lastName>Gam</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1995</publicationDateString>
+      <publicationYear>1995</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref43</id>
+      <referenceIdString>b42</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Torino</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref44</id>
+      <referenceIdString>b43</referenceIdString>
+      <title>A design pattern based approach to generating synchroniza-tion adaptors from annotated IDL</title>
+      <source>IEEE Interna-tional Conference on Automated Software Engineer</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>H.-A</string>
+          </firstNames>
+          <lastName>Sen</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>B</string>
+            <string>J</string>
+          </firstNames>
+          <lastName>Krämer</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1998</publicationDateString>
+      <publicationYear>1998</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref45</id>
+      <referenceIdString>b44</referenceIdString>
+      <source>ASE&apos;98)</source>
+      <authors/>
+      <pageFrom>63</pageFrom>
+      <pageTo>72</pageTo>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref46</id>
+      <referenceIdString>b45</referenceIdString>
+      <source>Coordination requirements expressed</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>F</string>
+          </firstNames>
+          <lastName>Gam</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1997</publicationDateString>
+      <publicationYear>1997</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref47</id>
+      <referenceIdString>b46</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+          </firstNames>
+          <lastName>Matsuoka</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref48</id>
+      <referenceIdString>b47</referenceIdString>
+      <source>Proceedings ECOOP&apos;97</source>
+      <authors/>
+      <note>number 1241 in</note>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref49</id>
+      <referenceIdString>b48</referenceIdString>
+      <title></title>
+      <source>ure Notes in Computer Science</source>
+      <authors/>
+      <pageFrom>367</pageFrom>
+      <pageTo>388</pageTo>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref50</id>
+      <referenceIdString>b49</referenceIdString>
+      <source></source>
+      <publisher>Springer-Verlag</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Finland</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref51</id>
+      <referenceIdString>b50</referenceIdString>
+      <title>Linearity and the pi-calculus</title>
+      <source>ACM Transactions on Program</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>N</string>
+          </firstNames>
+          <lastName>Ashi</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>B</string>
+          </firstNames>
+          <lastName>Pierce</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Turner</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1999</publicationDateString>
+      <publicationYear>1999</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref52</id>
+      <referenceIdString>b51</referenceIdString>
+      <title></title>
+      <source>g Languages and Systems</source>
+      <authors/>
+      <volume>21</volume>
+      <issue>5</issue>
+      <pageFrom>914</pageFrom>
+      <pageTo>947</pageTo>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref53</id>
+      <referenceIdString>b52</referenceIdString>
+      <source>Concurrent Object-Oriented Pro</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>F</string>
+          </firstNames>
+          <lastName>Gam</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2000</publicationDateString>
+      <publicationYear>2000</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref54</id>
+      <referenceIdString>b53</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Germany</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref55</id>
+      <referenceIdString>b54</referenceIdString>
+      <source>Type-theoretic foundations for concurrent object</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>N</string>
+          </firstNames>
+          <lastName>Ashi</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+          </firstNames>
+          <lastName>Yonezawa</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1994</publicationDateString>
+      <publicationYear>1994</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref56</id>
+      <referenceIdString>b55</referenceIdString>
+      <source>Pro</source>
+      <authors/>
+      <volume>29</volume>
+      <pageFrom>31</pageFrom>
+      <pageTo>45</pageTo>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref57</id>
+      <referenceIdString>b56</referenceIdString>
+      <source>dings OOPSLA&apos;94</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref58</id>
+      <referenceIdString>b57</referenceIdString>
+      <title>State information in statically checked interfaces</title>
+      <source>Eighth International Workshop on</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>F</string>
+          </firstNames>
+          <lastName>Gam</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2003</publicationDateString>
+      <publicationYear>2003</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref59</id>
+      <referenceIdString>b58</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Ger-Many</string>
+          </firstNames>
+          <lastName>Darmstadt</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref60</id>
+      <referenceIdString>b59</referenceIdString>
+      <title>A behavioral type system and its application in Ptolemy II</title>
+      <source>Formal Aspects</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>E</string>
+            <string>A</string>
+          </firstNames>
+          <lastName>Xiong</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Y</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2004</publicationDateString>
+      <publicationYear>2004</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref61</id>
+      <referenceIdString>b60</referenceIdString>
+      <title>Behavioural types for a calculus of concurrent objects</title>
+      <source>Proceed</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+          </firstNames>
+          <lastName>Vasconcelos</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>V</string>
+            <string>T</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1997</publicationDateString>
+      <publicationYear>1997</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref62</id>
+      <referenceIdString>b61</referenceIdString>
+      <source>s Euro-Par&apos;97, number 1300 in Lecture Notes</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref63</id>
+      <referenceIdString>b62</referenceIdString>
+      <source>uter Science</source>
+      <publisher>Springer-Verlag</publisher>
+      <authors/>
+      <pageFrom>554</pageFrom>
+      <pageTo>561</pageTo>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref64</id>
+      <referenceIdString>b63</referenceIdString>
+      <source>Specifications and their</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>V</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>B</string>
+          </firstNames>
+          <lastName>Wing</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+            <string>M</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1993</publicationDateString>
+      <publicationYear>1993</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref65</id>
+      <referenceIdString>b64</referenceIdString>
+      <source>Proceedings OOPSLA&apos;93</source>
+      <authors/>
+      <pageFrom>16</pageFrom>
+      <pageTo>28</pageTo>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref66</id>
+      <referenceIdString>b65</referenceIdString>
+      <title>A model of components with non-regular protocols</title>
+      <source>Software Composition (SC</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+          </firstNames>
+          <lastName>Lt</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2005</publicationDateString>
+      <publicationYear>2005</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref67</id>
+      <referenceIdString>b66</referenceIdString>
+      <source>Analysis of in-heritance anomaly in object-oriented concurrent pro</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+          </firstNames>
+          <lastName>Oka</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+          </firstNames>
+          <lastName>Yonezawa</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1993</publicationDateString>
+      <publicationYear>1993</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref68</id>
+      <referenceIdString>b67</referenceIdString>
+      <source>Research Directions in Concurrent Object-Oriented Program-ming</source>
+      <publisher>The MIT Press</publisher>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref69</id>
+      <referenceIdString>b68</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>N</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>F</string>
+          </firstNames>
+          <lastName>Rinard</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <note>Incrementalized pointer</note>
+      <publicationDateString>2001</publicationDateString>
+      <publicationYear>2001</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref70</id>
+      <referenceIdString>b69</referenceIdString>
+      <source>PLDI &apos;01</source>
+      <publisher>ACM</publisher>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref71</id>
+      <referenceIdString>b70</referenceIdString>
+      <source>Static conflict anal-ysis for multi-threaded object-oriented programs</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>C</string>
+          </firstNames>
+          <lastName>Raun</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>T</string>
+            <string>R</string>
+          </firstNames>
+          <lastName>Gross</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2003</publicationDateString>
+      <publicationYear>2003</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref72</id>
+      <referenceIdString>b71</referenceIdString>
+      <source>Systematic concurrent object</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>B</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1993</publicationDateString>
+      <publicationYear>1993</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref73</id>
+      <referenceIdString>b72</referenceIdString>
+      <title>Protocol specifi-cations and component adaptors</title>
+      <source>ACM Transactions</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>N</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+            <string>M</string>
+          </firstNames>
+          <lastName>Strom</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+            <string>E</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1997</publicationDateString>
+      <publicationYear>1997</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref74</id>
+      <referenceIdString>b73</referenceIdString>
+      <title></title>
+      <source>Programming Languages and Systems</source>
+      <authors/>
+      <volume>19</volume>
+      <issue>2</issue>
+      <pageFrom>292</pageFrom>
+      <pageTo>333</pageTo>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref75</id>
+      <referenceIdString>b74</referenceIdString>
+      <source>Object-Oriented Software Construction</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>B</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1997</publicationDateString>
+      <publicationYear>1997</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref76</id>
+      <referenceIdString>b75</referenceIdString>
+      <title></title>
+      <source>Agha</source>
+      <authors/>
+      <publicationDateString>1992</publicationDateString>
+      <publicationYear>1992</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref77</id>
+      <referenceIdString>b76</referenceIdString>
+      <title></title>
+      <source>Arbab</source>
+      <authors/>
+      <publicationDateString>2005</publicationDateString>
+      <publicationYear>2005</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref78</id>
+      <referenceIdString>b77</referenceIdString>
+      <title></title>
+      <source>Bacon</source>
+      <authors/>
+      <publicationDateString>2000</publicationDateString>
+      <publicationYear>2000</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref79</id>
+      <referenceIdString>b78</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Meyer</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2003</publicationDateString>
+      <publicationYear>2003</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref80</id>
+      <referenceIdString>b79</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Brinch-Hansen</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1975</publicationDateString>
+      <publicationYear>1975</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref81</id>
+      <referenceIdString>b80</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Mezini</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2002</publicationDateString>
+      <publicationYear>2002</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref82</id>
+      <referenceIdString>b81</referenceIdString>
+      <title></title>
+      <source>Caromel</source>
+      <authors/>
+      <publicationDateString>1993</publicationDateString>
+      <publicationYear>1993</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref83</id>
+      <referenceIdString>b82</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Milner</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1992</publicationDateString>
+      <publicationYear>1992</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref84</id>
+      <referenceIdString>b83</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Choi</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1999</publicationDateString>
+      <publicationYear>1999</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref85</id>
+      <referenceIdString>b84</referenceIdString>
+      <title></title>
+      <source>Najm</source>
+      <authors/>
+      <publicationDateString>1997</publicationDateString>
+      <publicationYear>1997</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref86</id>
+      <referenceIdString>b85</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Nielson</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1993</publicationDateString>
+      <publicationYear>1993</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref87</id>
+      <referenceIdString>b86</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>De</string>
+          </firstNames>
+          <lastName>Alfaro</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2001</publicationDateString>
+      <publicationYear>2001</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref88</id>
+      <referenceIdString>b87</referenceIdString>
+      <title></title>
+      <source>Nierstrasz</source>
+      <authors/>
+      <publicationDateString>1993</publicationDateString>
+      <publicationYear>1993</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref89</id>
+      <referenceIdString>b88</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Flanagan</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1999</publicationDateString>
+      <publicationYear>1999</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref90</id>
+      <referenceIdString>b89</referenceIdString>
+      <title></title>
+      <source>Jacobsen</source>
+      <authors/>
+      <publicationDateString>1998</publicationDateString>
+      <publicationYear>1998</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref91</id>
+      <referenceIdString>b90</referenceIdString>
+      <title></title>
+      <source>Liskov</source>
+      <authors/>
+      <publicationDateString>1993</publicationDateString>
+      <publicationYear>1993</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref92</id>
+      <referenceIdString>b91</referenceIdString>
+      <title></title>
+      <source>Matsuoka</source>
+      <authors/>
+      <publicationDateString>1993</publicationDateString>
+      <publicationYear>1993</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref93</id>
+      <referenceIdString>b92</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Von</string>
+          </firstNames>
+          <lastName>Praun</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2003</publicationDateString>
+      <publicationYear>2003</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref94</id>
+      <referenceIdString>b93</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Meyer</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1993</publicationDateString>
+      <publicationYear>1993</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref95</id>
+      <referenceIdString>b94</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Meyer</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1997</publicationDateString>
+      <publicationYear>1997</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref96</id>
+      <referenceIdString>b95</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>H-Hansen</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1975</publicationDateString>
+      <publicationYear>1975</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+  </references>
+</Publication>

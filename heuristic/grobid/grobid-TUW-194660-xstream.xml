@@ -1,0 +1,178 @@
+<Publication>
+  <id>TUW-194660</id>
+  <title>Extensions for Interaction Nets</title>
+  <publicationType>BEITRAEGE_AUS_TAGUNGSBAENDEN</publicationType>
+  <abstractText>Interaction Nets are a novel model of computation based on graph rewriting. Their main properties are parallel evaluation and sharing of computation, which leads to efficient programs. However, Interaction Nets lack several features that allow for their convenient use as a programming language. In this paper , we describe the implementation of an extension for pattern matching of interaction rules. Furthermore, we show the cor-rectness of the implementation and discuss its complexity. rules model the addition of natural numbers (encoded by 0 and a successor function S): T +</abstractText>
+  <keywords/>
+  <authors>
+    <Author>
+      <firstNames>
+        <string>Eugen</string>
+      </firstNames>
+      <lastName>Jiresch</lastName>
+      <affiliations>
+        <Affiliation>
+          <id>aff0</id>
+          <institution>Vienna University of Technology Vienna</institution>
+          <department>Institute of Computer Languages</department>
+          <country>Austria</country>
+          <countryCode>AT</countryCode>
+        </Affiliation>
+      </affiliations>
+    </Author>
+    <Author>
+      <firstNames>
+        <string>Bernhard</string>
+      </firstNames>
+      <lastName>Gramlich</lastName>
+      <affiliations>
+        <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+      </affiliations>
+    </Author>
+  </authors>
+  <affiliations>
+    <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+  </affiliations>
+  <sections>
+    <Section>
+      <title>I. INTRODUCTION</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>II. NESTED PATTERN MATCHING AND ITS IMPLEMENTATION</title>
+      <referenceIds>
+        <string>ref1</string>
+        <string>ref2</string>
+        <string>ref3</string>
+        <string>ref4</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.</level>
+      <title>Translation of nested rules into ordinary rules</title>
+      <referenceIds>
+        <string>ref4</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>III. CONCLUSION AND OUTLOOK</title>
+      <referenceIds>
+        <string>ref2</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+  </sections>
+  <citationContexts/>
+  <references>
+    <Reference>
+      <id>ref1</id>
+      <referenceIdString>b0</referenceIdString>
+      <source>A rule is found in the AST. If the rule has a nested pattern, its well-formedness is verified</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref2</id>
+      <referenceIdString>b1</referenceIdString>
+      <source>If the rule is well-formed, it is translated: The first nested argument is removed from the rule and an auxiliary rule is generated</source>
+      <authors/>
+      <note>This rule is appended to the AST</note>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref3</id>
+      <referenceIdString>b2</referenceIdString>
+      <source>The remaining nested agents are not (yet) trans-lated. They are resolved by translating the auxiliary rule</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref4</id>
+      <referenceIdString>b3</referenceIdString>
+      <source>The AST is traversed until the next (unprocessed) rule is found. This algorithm allows for an arbitrary number of nested</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref5</id>
+      <referenceIdString>b4</referenceIdString>
+      <title>Interaction nets with nested patterns: An implementation. Full ver-sion of [4</title>
+      <source>Proceedings of the 17th ACM symposium on Principles of programming languages (POPL)</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Y</string>
+          </firstNames>
+          <lastName>Lafont</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>;</string>
+            <string>A</string>
+          </firstNames>
+          <lastName>Hassan</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+          </firstNames>
+          <lastName>Sato</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>;</string>
+            <string>A</string>
+          </firstNames>
+          <lastName>Hassan</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>E</string>
+          </firstNames>
+          <lastName>Jiresch</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+          </firstNames>
+          <lastName>Sato</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>;</string>
+            <string>A</string>
+          </firstNames>
+          <lastName>Hassan</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>E</string>
+          </firstNames>
+          <lastName>Jiresch</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+          </firstNames>
+          <lastName>Sato</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>203</volume>
+      <note>Proceedings of RULE&apos;09: Electr. Pro-ceed. in Theor. Comp. Sci. (EPTCS). to appear</note>
+      <pageFrom>14</pageFrom>
+      <pageTo>25</pageTo>
+      <publicationDateString>1990</publicationDateString>
+      <publicationYear>1990</publicationYear>
+      <url>http://www.interaction-nets.org/</url>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+  </references>
+</Publication>

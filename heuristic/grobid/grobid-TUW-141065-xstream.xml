@@ -1,0 +1,633 @@
+<Publication>
+  <id>TUW-141065</id>
+  <title>Analysing the Relationship between Learning Styles and Cognitive Traits*</title>
+  <publicationType>BEITRAEGE_AUS_TAGUNGSBAENDEN</publicationType>
+  <abstractText>* The need to provide more holistic adaptivity to students has brought us to investigate the relationship between learning styles and working memory capacity (WMC). The aim of this investigation is to study the relationship between learning styles and WMC in order to get additional information about the students. This information can be used to make more holistic adaptivity possible by improving the student modelling process of both learning styles and WMC. An experiment with 297 participants was conducted. Findings suggest that relationships from WMC to the active/reflective, the sensing/intuitive, and the visual/verbal learning styles exist, whereas the suggested relationship from WMC to sequential/global learning styles could not be found.</abstractText>
+  <keywords/>
+  <authors>
+    <Author>
+      <firstNames>
+        <string>Sabine</string>
+      </firstNames>
+      <lastName>Graf</lastName>
+      <email>sabine.graf@ieee.org</email>
+      <affiliations>
+        <Affiliation>
+          <id>aff0</id>
+          <institution>Women&apos;s Postgraduate College for Internet Technologies</institution>
+          <country>Austria</country>
+          <countryCode>AT</countryCode>
+        </Affiliation>
+      </affiliations>
+    </Author>
+    <Author>
+      <firstNames>
+        <string>Taiyu</string>
+      </firstNames>
+      <lastName>Lin</lastName>
+      <email>lin@gmail.com</email>
+      <affiliations>
+        <Affiliation>
+          <id>aff1</id>
+          <institution>Massey University</institution>
+          <department>Department of Information Systems</department>
+        </Affiliation>
+      </affiliations>
+    </Author>
+    <Author>
+      <firstNames/>
+      <lastName>Kinshuk</lastName>
+      <email>kinshuk@ieee.org</email>
+      <affiliations>
+        <Affiliation>
+          <id>aff2</id>
+          <institution>Athabasca University</institution>
+          <department>School of Computing and Information Systems</department>
+          <country>Canada</country>
+          <countryCode>CA</countryCode>
+        </Affiliation>
+      </affiliations>
+    </Author>
+  </authors>
+  <affiliations>
+    <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+    <Affiliation reference="/Publication[1]/authors[1]/Author[2]/affiliations[1]/Affiliation[1]"/>
+    <Affiliation reference="/Publication[1]/authors[1]/Author[3]/affiliations[1]/Affiliation[1]"/>
+  </affiliations>
+  <sections>
+    <Section>
+      <level>1.</level>
+      <title>Introduction</title>
+      <referenceIds>
+        <string>ref1</string>
+        <string>ref1</string>
+        <string>ref3</string>
+        <string>ref4</string>
+        <string>ref6</string>
+        <string>ref8</string>
+        <string>ref10</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.</level>
+      <title>Background</title>
+      <referenceIds>
+        <string>ref13</string>
+        <string>ref17</string>
+        <string>ref4</string>
+        <string>ref6</string>
+        <string>ref20</string>
+        <string>ref21</string>
+        <string>ref23</string>
+        <string>ref24</string>
+        <string>ref26</string>
+        <string>ref24</string>
+        <string>ref24</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>4.</level>
+      <title>Method for statistical data analysis</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.</level>
+      <title>Materials</title>
+      <referenceIds>
+        <string>ref21</string>
+        <string>ref27</string>
+        <string>ref20</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>5.</level>
+      <title>Results</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>5.1.</level>
+      <title>Measures of Web-OSPAN</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>5.2.</level>
+      <title>Active/reflective dimension</title>
+      <referenceIds>
+        <string>ref20</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>5.3.</level>
+      <title>Sensing/intuitive dimension</title>
+      <referenceIds>
+        <string>ref20</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>5.4.</level>
+      <title>Visual/verbal dimension</title>
+      <referenceIds>
+        <string>ref20</string>
+        <string>ref27</string>
+        <string>ref20</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>7.</level>
+      <title>References</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>5.5.</level>
+      <title>Sequential/global dimension</title>
+      <referenceIds>
+        <string>ref20</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>6.</level>
+      <title>Conclusion and future work</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+  </sections>
+  <citationContexts/>
+  <references>
+    <Reference>
+      <id>ref1</id>
+      <referenceIdString>b0</referenceIdString>
+      <source>Methods and techniques of adaptive</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>P</string>
+          </firstNames>
+          <lastName>Brusilovsky</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref2</id>
+      <referenceIdString>b1</referenceIdString>
+      <source>User Modeling and User-Adapted</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref3</id>
+      <referenceIdString>b2</referenceIdString>
+      <source>Learning and teaching</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+            <string>M</string>
+          </firstNames>
+          <lastName>Felder</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>L</string>
+            <string>K</string>
+          </firstNames>
+          <lastName>Silverman</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref4</id>
+      <referenceIdString>b3</referenceIdString>
+      <source>Cognitive profiling towards formal adaptive technologies in web-based learning</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>T</string>
+          </firstNames>
+          <lastName>Kinshuk</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Lin</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref5</id>
+      <referenceIdString>b4</referenceIdString>
+      <title></title>
+      <source>International Journal of WWW-based</source>
+      <authors/>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref6</id>
+      <referenceIdString>b5</referenceIdString>
+      <source>Cognitive profiling in life-long</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>T</string>
+          </firstNames>
+          <lastName>Lin</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Kinshuk</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref7</id>
+      <referenceIdString>b6</referenceIdString>
+      <source>Encyclopedia of International Computer-Based</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref8</id>
+      <referenceIdString>b7</referenceIdString>
+      <source>Addressing</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>C</string>
+            <string>A</string>
+          </firstNames>
+          <lastName>Carver</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+            <string>A</string>
+          </firstNames>
+          <lastName>Howard</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>W</string>
+            <string>D</string>
+          </firstNames>
+          <lastName>Lane</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref9</id>
+      <referenceIdString>b8</referenceIdString>
+      <title></title>
+      <source>E Transactions on Education</source>
+      <authors/>
+      <volume>42</volume>
+      <pageFrom>33</pageFrom>
+      <pageTo>38</pageTo>
+      <publicationDateString>1999</publicationDateString>
+      <publicationYear>1999</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref10</id>
+      <referenceIdString>b9</referenceIdString>
+      <source>A comparison of learning style</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+          </firstNames>
+          <lastName>Kuljis</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>F</string>
+          </firstNames>
+          <lastName>Liu</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref11</id>
+      <referenceIdString>b10</referenceIdString>
+      <source>Proceedings of</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref12</id>
+      <referenceIdString>b11</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Applications</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref13</id>
+      <referenceIdString>b12</referenceIdString>
+      <source>Investigating the relationship between two approaches to verbal information</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>L</string>
+            <string>A</string>
+          </firstNames>
+          <lastName>Richards-Ward</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref14</id>
+      <referenceIdString>b13</referenceIdString>
+      <source>An examination of the construct of working memory coupled with an</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref15</id>
+      <referenceIdString>b14</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Massey</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref16</id>
+      <referenceIdString>b15</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Palmerston</string>
+          </firstNames>
+          <lastName>Rsity</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>North</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <location>New Zealand</location>
+      <publicationDateString>1996</publicationDateString>
+      <publicationYear>1996</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref17</id>
+      <referenceIdString>b16</referenceIdString>
+      <source>The magic number seven, plus or minus</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>G</string>
+            <string>A</string>
+          </firstNames>
+          <lastName>Miller</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref18</id>
+      <referenceIdString>b17</referenceIdString>
+      <source>Some limit of our capacity for processing</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref19</id>
+      <referenceIdString>b18</referenceIdString>
+      <title></title>
+      <source>Psychology Review</source>
+      <authors/>
+      <volume>63</volume>
+      <pageFrom>81</pageFrom>
+      <pageTo>96</pageTo>
+      <publicationDateString>1956</publicationDateString>
+      <publicationYear>1956</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref20</id>
+      <referenceIdString>b19</referenceIdString>
+      <source>The relationship between learning styles and cognitive traits-Getting additional</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+          </firstNames>
+          <lastName>Graf</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>T</string>
+          </firstNames>
+          <lastName>Lin</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Kinshuk</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref21</id>
+      <referenceIdString>b20</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+            <string>M</string>
+          </firstNames>
+          <lastName>Felder</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>B</string>
+            <string>A</string>
+          </firstNames>
+          <lastName>Soloman</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <note>Index of</note>
+      <publicationDateString>1997</publicationDateString>
+      <publicationYear>1997</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref22</id>
+      <referenceIdString>b21</referenceIdString>
+      <title></title>
+      <source>rning Style questionnaire. Retrieved</source>
+      <authors/>
+      <volume>22</volume>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref23</id>
+      <referenceIdString>b22</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>-</string>
+          </firstNames>
+          <lastName>Web</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Ospan</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2007-02-22</publicationDateString>
+      <publicationYear>2007</publicationYear>
+      <publicationMonth>02</publicationMonth>
+      <publicationDay>22</publicationDay>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref24</id>
+      <referenceIdString>b23</referenceIdString>
+      <source>Is working memory</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+            <string>L</string>
+          </firstNames>
+          <lastName>Turner</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+            <string>W</string>
+          </firstNames>
+          <lastName>Engle</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref25</id>
+      <referenceIdString>b24</referenceIdString>
+      <title></title>
+      <source>Journal of Memory</source>
+      <authors/>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref26</id>
+      <referenceIdString>b25</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>W</string>
+          </firstNames>
+          <lastName>De Neys</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>G</string>
+          </firstNames>
+          <lastName>. D&amp;apos;ydewalle</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>W</string>
+          </firstNames>
+          <lastName>Schaeken</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>G</string>
+          </firstNames>
+          <lastName>Vos</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref27</id>
+      <referenceIdString>b26</referenceIdString>
+      <source>Applications, reliability and</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+            <string>M</string>
+          </firstNames>
+          <lastName>Felder</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+          </firstNames>
+          <lastName>Spurlin</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref28</id>
+      <referenceIdString>b27</referenceIdString>
+      <title></title>
+      <source>rnal on Engineering Education</source>
+      <authors/>
+      <volume>21</volume>
+      <pageFrom>103</pageFrom>
+      <pageTo>112</pageTo>
+      <publicationDateString>2005</publicationDateString>
+      <publicationYear>2005</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+  </references>
+</Publication>

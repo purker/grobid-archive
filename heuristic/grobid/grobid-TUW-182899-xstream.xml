@@ -1,0 +1,1333 @@
+<Publication>
+  <id>TUW-182899</id>
+  <title>Teachers&apos; and Tutors&apos; Social Reflection around SenseCam Images Rowanne Fleck a1</title>
+  <publicationType>BEITRAEGE_AUS_TAGUNGSBAENDEN</publicationType>
+  <note>tel: 01273 678530 fax: 01273 678058</note>
+  <abstractText>As photographic technologies continue to develop, so too do the social practices surrounding their use. The focus of this paper is on the social practices surrounding images captured from a new photographic device-SenseCam-which, rather than capturing individual images when triggered by the user, automatically captures a series of images. This paper is concerned with the use of SenseCam digital images in social contexts where there is a professional purpose: supporting the collaborative reflective practices of school teachers and university tutors as part of their professional development. Analysis of video data collected from 16 in-situ case studies of reflective discussions show evidence that reflection took place as defined in the literature. Further, the phototalk around SenseCam images was found to benefit reflection in these social situations through promoting a rich shared understanding of the lesson context: supporting return to the experience, sharing of background context, grounding conversations, illustrating and providing evidence, and allowing people to see more. The paper concludes with a discussion on how different features of SenseCam images, such as variable quality, lack of audio, incompleteness, helped in this reflection or not. Finally implications from this work and participants comments are used to suggest ways in which SenseCam may be used in the future in teacher and tutors social reflection.</abstractText>
+  <keywords>
+    <string>SenseCam, passive image capture</string>
+    <string>reflective practice</string>
+    <string>teacher training</string>
+  </keywords>
+  <authors>
+    <Author>
+      <firstNames>
+        <string>Geraldine</string>
+      </firstNames>
+      <lastName>Fitzpatrick</lastName>
+      <email>g.a.fitzpartrick@sussex.ac.uk</email>
+      <affiliations>
+        <Affiliation>
+          <id>aff0</id>
+          <department>Department of Informatics University of Sussex Falmer Brighton</department>
+          <country>UK</country>
+          <countryCode>GB</countryCode>
+        </Affiliation>
+        <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+        <Affiliation>
+          <id>aff2</id>
+        </Affiliation>
+      </affiliations>
+    </Author>
+  </authors>
+  <affiliations>
+    <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+    <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[3]"/>
+  </affiliations>
+  <sections>
+    <Section>
+      <level>1</level>
+      <title>Introduction</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2</level>
+      <title>Teachers&apos; reflective practice</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.1</level>
+      <title>Social reflection and discussion</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.1.1</level>
+      <title>Current practices of social reflection</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.1.2</level>
+      <title>Technology and social reflection</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3</level>
+      <title>Methodology</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.1</level>
+      <title>Participants</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.2</level>
+      <title>Design</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>P17: RQT P18: NQT P19: PGCE 28</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.3</level>
+      <title>Analysis</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>4</level>
+      <title>Findings</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>4.1</level>
+      <title>Images support a return to experience</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>4.2</level>
+      <title>Images prompt discussion of thoughts at the time</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>4.3</level>
+      <title>Images prompt sharing of background context</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>4.4</level>
+      <title>Images support reflective discussion</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>4.4.1</level>
+      <title>Images ground conversation</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>4.4.2</level>
+      <title>Illustrating and providing evidence</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>4.4.3</level>
+      <title>Images allow participants to see more</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>5</level>
+      <title>Discussion</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>5.1</level>
+      <title>Supported features of reflective discussion</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>5.2</level>
+      <title>Reflecting on the value of SenseCam features for reflection</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>5.3</level>
+      <title>Teacher suggestions for future SenseCam use</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>5.4</level>
+      <title>Implications and further Research</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+  </sections>
+  <citationContexts/>
+  <references>
+    <Reference>
+      <id>ref1</id>
+      <referenceIdString>b0</referenceIdString>
+      <source>Total recall</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Y</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2005-11</publicationDateString>
+      <publicationYear>2005</publicationYear>
+      <publicationMonth>11</publicationMonth>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref2</id>
+      <referenceIdString>b1</referenceIdString>
+      <source>Use of digital video technology in an elementary school</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>G</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>H.-H</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+            <string>H</string>
+          </firstNames>
+          <lastName>Rosenbusch</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2005</publicationDateString>
+      <publicationYear>2005</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref3</id>
+      <referenceIdString>b2</referenceIdString>
+      <title>eign language methods course</title>
+      <source>British Journal of Educational Technology</source>
+      <authors/>
+      <volume>36</volume>
+      <issue>5</issue>
+      <pageFrom>869</pageFrom>
+      <pageTo>880</pageTo>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref4</id>
+      <referenceIdString>b3</referenceIdString>
+      <source>Grounding in communication. Perspectives on socially shared</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>H</string>
+            <string>H</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+            <string>E</string>
+          </firstNames>
+          <lastName>Brennan</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1991</publicationDateString>
+      <publicationYear>1991</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref5</id>
+      <referenceIdString>b4</referenceIdString>
+      <source></source>
+      <publisher>American Psychological Association</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+          </firstNames>
+          <lastName>Levine</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+          </firstNames>
+          <lastName>Teasley</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <location>Washington, DC</location>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref6</id>
+      <referenceIdString>b5</referenceIdString>
+      <source>Characteristics of reflective thought during the student teaching experience</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+            <string>T</string>
+          </firstNames>
+          <lastName>Er</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1999</publicationDateString>
+      <publicationYear>1999</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref7</id>
+      <referenceIdString>b6</referenceIdString>
+      <source>Generating tailored examples to support learning via self</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>I</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>C</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>G</string>
+          </firstNames>
+          <lastName>Carenini</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2001</publicationDateString>
+      <publicationYear>2001</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref8</id>
+      <referenceIdString>b7</referenceIdString>
+      <source>International joint conference on artificial intelligence</source>
+      <authors/>
+      <volume>17</volume>
+      <pageFrom>1301</pageFrom>
+      <pageTo>1306</pageTo>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref9</id>
+      <referenceIdString>b8</referenceIdString>
+      <source>Collaborating around collections: informing the continued</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Ree</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>T</string>
+          </firstNames>
+          <lastName>Rodden</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2004</publicationDateString>
+      <publicationYear>2004</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref10</id>
+      <referenceIdString>b9</referenceIdString>
+      <source>Proceedings of the</source>
+      <authors/>
+      <publicationDateString>2004</publicationDateString>
+      <publicationYear>2004</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref11</id>
+      <referenceIdString>b10</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Chicago</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Usa</string>
+          </firstNames>
+          <lastName>Illinois</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Acm</string>
+          </firstNames>
+          <lastName>Press</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref12</id>
+      <referenceIdString>b11</referenceIdString>
+      <source>Characterizing productive reflection among preservice elementary teachers: Seeing</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>E</string>
+            <string>A</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2006</publicationDateString>
+      <publicationYear>2006</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref13</id>
+      <referenceIdString>b12</referenceIdString>
+      <title></title>
+      <source>Teaching and Teacher Education</source>
+      <authors/>
+      <volume>22</volume>
+      <issue>3</issue>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref14</id>
+      <referenceIdString>b13</referenceIdString>
+      <source>What do you mean by &apos;collaborative learning&apos;? Collaborative learning: Cognitive</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>P</string>
+          </firstNames>
+          <lastName>Nbourg</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1999</publicationDateString>
+      <publicationYear>1999</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref15</id>
+      <referenceIdString>b14</referenceIdString>
+      <title></title>
+      <source>d computational approaches. P. Dillenbourg. Oxford</source>
+      <publisher>Elsevier</publisher>
+      <authors/>
+      <pageFrom>1</pageFrom>
+      <pageTo>19</pageTo>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref16</id>
+      <referenceIdString>b15</referenceIdString>
+      <source>Exploring the potential of passive image capture to support reflection on experience</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2008</publicationDateString>
+      <publicationYear>2008</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref17</id>
+      <referenceIdString>b16</referenceIdString>
+      <source>Supporting collaborative reflection with passive image capture. COOP &apos;06</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>G</string>
+          </firstNames>
+          <lastName>Fitzpatrick</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <location>Carry-le-Rouet, France</location>
+      <publicationDateString>2006</publicationDateString>
+      <publicationYear>2006</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref18</id>
+      <referenceIdString>b17</referenceIdString>
+      <source>Audiophotography: bringing photos to life with sounds</source>
+      <publisher>Kluwer academic publishers</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+          </firstNames>
+          <lastName>Ich</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <location>Dordrecht</location>
+      <publicationDateString>2004</publicationDateString>
+      <publicationYear>2004</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref19</id>
+      <referenceIdString>b18</referenceIdString>
+      <source>The past is a different place: they do things differently there</source>
+      <publisher>DIS</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+          </firstNames>
+          <lastName>Randall</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2008</publicationDateString>
+      <publicationYear>2008</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref20</id>
+      <referenceIdString>b19</referenceIdString>
+      <title>Thanks for the memory</title>
+      <source>The 21st BCS HCI Group Conference</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+          </firstNames>
+          <lastName>Randell</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2007</publicationDateString>
+      <publicationYear>2007</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref21</id>
+      <referenceIdString>b20</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>N</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>N</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+          </firstNames>
+          <lastName>Smith</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <note>Reflection in teacher education: Towards definition and</note>
+      <publicationDateString>1995</publicationDateString>
+      <publicationYear>1995</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref22</id>
+      <referenceIdString>b21</referenceIdString>
+      <source>Teaching and Teacher Education</source>
+      <authors/>
+      <volume>11</volume>
+      <pageFrom>33</pageFrom>
+      <pageTo>49</pageTo>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref23</id>
+      <referenceIdString>b22</referenceIdString>
+      <source>Video, reflection and transformation: Action research in vocational</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>B</string>
+          </firstNames>
+          <lastName>Inson</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>P</string>
+          </firstNames>
+          <lastName>Bryson</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1997</publicationDateString>
+      <publicationYear>1997</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref24</id>
+      <referenceIdString>b23</referenceIdString>
+      <title></title>
+      <source>Educational action research</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Training</string>
+          </firstNames>
+          <lastName>Ucation</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>5</volume>
+      <issue>2</issue>
+      <pageFrom>283</pageFrom>
+      <pageTo>303</pageTo>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref25</id>
+      <referenceIdString>b24</referenceIdString>
+      <source>The possibilities and constraints of multimedia as a basis for critical</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>L</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>O</string>
+          </firstNames>
+          <lastName>Mcnamara</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2004</publicationDateString>
+      <publicationYear>2004</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref26</id>
+      <referenceIdString>b25</referenceIdString>
+      <title></title>
+      <source>Cambridge Journal of Education</source>
+      <authors/>
+      <volume>34</volume>
+      <issue>3</issue>
+      <pageFrom>279</pageFrom>
+      <pageTo>296</pageTo>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref27</id>
+      <referenceIdString>b26</referenceIdString>
+      <source>The ubiquitous camera: An in-depth study of camera phone</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>T</string>
+          </firstNames>
+          <lastName>Erg</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+          </firstNames>
+          <lastName>Spasojevic</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2005</publicationDateString>
+      <publicationYear>2005</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref28</id>
+      <referenceIdString>b27</referenceIdString>
+      <title></title>
+      <source>IEEE Pervasive Computing</source>
+      <authors/>
+      <volume>4</volume>
+      <issue>2</issue>
+      <pageFrom>42</pageFrom>
+      <pageTo>50</pageTo>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref29</id>
+      <referenceIdString>b28</referenceIdString>
+      <source>Understanding and assessing preservice teachers&apos; reflective thinking</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>H.-J</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <note>Teaching and</note>
+      <publicationDateString>2005</publicationDateString>
+      <publicationYear>2005</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref30</id>
+      <referenceIdString>b29</referenceIdString>
+      <title></title>
+      <source>cher Education</source>
+      <authors/>
+      <volume>21</volume>
+      <issue>6</issue>
+      <pageFrom>699</pageFrom>
+      <pageTo>715</pageTo>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref31</id>
+      <referenceIdString>b30</referenceIdString>
+      <title>Take a photograph: teacher reflection through narrative</title>
+      <source>Reflective Practice</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>N</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <volume>8</volume>
+      <issue>2</issue>
+      <publicationDateString>2007</publicationDateString>
+      <publicationYear>2007</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref32</id>
+      <referenceIdString>b31</referenceIdString>
+      <source>The relationship between approaches to learning and reflection</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+            <string>Y P</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+          </firstNames>
+          <lastName>Kember</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2003</publicationDateString>
+      <publicationYear>2003</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref33</id>
+      <referenceIdString>b32</referenceIdString>
+      <title></title>
+      <source>Educational Psychology</source>
+      <authors/>
+      <volume>23</volume>
+      <issue>1</issue>
+      <pageFrom>61</pageFrom>
+      <pageTo>71</pageTo>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref34</id>
+      <referenceIdString>b33</referenceIdString>
+      <source>Reflecting on oneself and on otehrs: Multiple perspectives via</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+            <string>E</string>
+          </firstNames>
+          <lastName>Ey</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+          </firstNames>
+          <lastName>Harper</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2009</publicationDateString>
+      <publicationYear>2009</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref35</id>
+      <referenceIdString>b34</referenceIdString>
+      <source>Designing for reflection on experience</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Cam</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <location>Boston, MAS</location>
+      <publicationDateString>2009</publicationDateString>
+      <publicationYear>2009</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref36</id>
+      <referenceIdString>b35</referenceIdString>
+      <source>Developing teaching knowledge through peer discourse</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+          </firstNames>
+          <lastName>Chehri</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <note>Teaching and Teacher</note>
+      <publicationDateString>2002</publicationDateString>
+      <publicationYear>2002</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref37</id>
+      <referenceIdString>b36</referenceIdString>
+      <source>Using video-story making to encourage deeper reflection on</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Nell</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>P</string>
+          </firstNames>
+          <lastName>Lloyd</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2002</publicationDateString>
+      <publicationYear>2002</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref38</id>
+      <referenceIdString>b37</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>London</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref39</id>
+      <referenceIdString>b38</referenceIdString>
+      <source>Reflection in learning and professional development</source>
+      <publisher>Kogan Page Limited</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+            <string>A</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <location>London</location>
+      <publicationDateString>1999</publicationDateString>
+      <publicationYear>1999</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref40</id>
+      <referenceIdString>b39</referenceIdString>
+      <source>The potential role of critical colleagueship in initial teacher education</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <note>To be</note>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref41</id>
+      <referenceIdString>b40</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Teaching</string>
+          </firstNames>
+          <lastName>Teachers</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref42</id>
+      <referenceIdString>b41</referenceIdString>
+      <source>Developing reflective practice in student teachers: collaboration</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+          </firstNames>
+          <lastName>Ns</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+          </firstNames>
+          <lastName>Stephenson</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2005</publicationDateString>
+      <publicationYear>2005</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref43</id>
+      <referenceIdString>b42</referenceIdString>
+      <title></title>
+      <source>Teachers and Teaching: Theory and Practice</source>
+      <authors/>
+      <volume>11</volume>
+      <issue>1</issue>
+      <pageFrom>95</pageFrom>
+      <pageTo>116</pageTo>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref44</id>
+      <referenceIdString>b43</referenceIdString>
+      <source>The evolution of social roletaking and guided reflection framework in teacher</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+            <string>J</string>
+          </firstNames>
+          <lastName>An</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1999</publicationDateString>
+      <publicationYear>1999</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref45</id>
+      <referenceIdString>b44</referenceIdString>
+      <source>ation: recent theory and quantitative synthesis of research</source>
+      <authors/>
+      <note>Teaching and Teacher Education</note>
+      <pageFrom>597</pageFrom>
+      <pageTo>612</pageTo>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref46</id>
+      <referenceIdString>b45</referenceIdString>
+      <source>The reflective practitioner: How professionals think in action</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+            <string>A</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <location>London, Temple Smith</location>
+      <publicationDateString>1983</publicationDateString>
+      <publicationYear>1983</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref47</id>
+      <referenceIdString>b46</referenceIdString>
+      <source>Do life-logging technologies support memory for the past?: an</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>N</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+            <string>J</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+          </firstNames>
+          <lastName>Fogg</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2007</publicationDateString>
+      <publicationYear>2007</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref48</id>
+      <referenceIdString>b47</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Usa</string>
+          </firstNames>
+          <lastName>California</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Acm</string>
+          </firstNames>
+          <lastName>Press</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref49</id>
+      <referenceIdString>b48</referenceIdString>
+      <source>Enhancing multipoint desktop video conferencing (MDVC) with lesson</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>E</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>L</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>C</string>
+          </firstNames>
+          <lastName>Hu</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2003</publicationDateString>
+      <publicationYear>2003</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref50</id>
+      <referenceIdString>b49</referenceIdString>
+      <source>recent developments in pre-service teaching practice in Singapore</source>
+      <authors/>
+      <note>Teaching and Teacher</note>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref51</id>
+      <referenceIdString>b50</referenceIdString>
+      <title></title>
+      <source>cation</source>
+      <authors/>
+      <volume>19</volume>
+      <issue>5</issue>
+      <pageFrom>529</pageFrom>
+      <pageTo>541</pageTo>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref52</id>
+      <referenceIdString>b51</referenceIdString>
+      <source>Using video to support teachers&apos; ability to interpret classroom</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>N</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+            <string>G</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>E</string>
+            <string>A</string>
+          </firstNames>
+          <lastName>Van Es</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2002</publicationDateString>
+      <publicationYear>2002</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref53</id>
+      <referenceIdString>b52</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Usa</string>
+          </firstNames>
+          <lastName>Tennessee</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Aace</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref54</id>
+      <referenceIdString>b53</referenceIdString>
+      <source>Using Video Interaction Guidance to assist student teachers</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>C</string>
+          </firstNames>
+          <lastName>On</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>L</string>
+          </firstNames>
+          <lastName>Macdougall</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2005</publicationDateString>
+      <publicationYear>2005</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref55</id>
+      <referenceIdString>b54</referenceIdString>
+      <source>reflections on their interactions with learners and bring about change in practice, Report for the Scottish Executive Education Department</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref56</id>
+      <referenceIdString>b55</referenceIdString>
+      <source>Using Video Interaction Guidance to assist student teachers</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>C</string>
+          </firstNames>
+          <lastName>On</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>L</string>
+          </firstNames>
+          <lastName>Macdougall</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2005</publicationDateString>
+      <publicationYear>2005</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref57</id>
+      <referenceIdString>b56</referenceIdString>
+      <source>reflections on their interactions with learners and bring about change in practice</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref58</id>
+      <referenceIdString>b57</referenceIdString>
+      <source>Reflection as a visible outcome for preservice teachers</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+            <string>R</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+            <string>S</string>
+          </firstNames>
+          <lastName>Mccotter</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <note>Teaching</note>
+      <publicationDateString>2004</publicationDateString>
+      <publicationYear>2004</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref59</id>
+      <referenceIdString>b58</referenceIdString>
+      <title></title>
+      <source>Teacher Education</source>
+      <authors/>
+      <volume>20</volume>
+      <issue>3</issue>
+      <pageFrom>243</pageFrom>
+      <pageTo>257</pageTo>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref60</id>
+      <referenceIdString>b59</referenceIdString>
+      <source>SenseCam-a personal memory recall device</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>L</string>
+          </firstNames>
+          <lastName>Ams</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>K</string>
+          </firstNames>
+          <lastName>Wood</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <note>unpublished report</note>
+      <publicationDateString>2004</publicationDateString>
+      <publicationYear>2004</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref61</id>
+      <referenceIdString>b60</referenceIdString>
+      <source>Video in Higher Education</source>
+      <publisher>Worcester, Billing &amp; Sons Limited</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>O</string>
+          </firstNames>
+          <lastName>Skerritt</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Ed</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1984</publicationDateString>
+      <publicationYear>1984</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+  </references>
+</Publication>

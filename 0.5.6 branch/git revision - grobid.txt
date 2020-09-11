@@ -1,3 +1,0 @@
-adaptions_0.5.6
-fe8ddd62234e9401d7f9efdc6a4f3ae3b6d7b793
-https://github.com/purker/MethodDemosGit.git

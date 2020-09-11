@@ -1,6 +1,7 @@
 <Publication>
   <id>TUW-247743</id>
   <title>MASTERARBEIT Coloring of the Self-Organising Maps based on class labels</title>
+  <publicationType>BEITRAEGE_AUS_TAGUNGSBAENDEN</publicationType>
   <note>Visualization can also involve the data itself so that it helps accessing information that are not available in the trained SOM, thereby enabling a deeper look inside the data. If the data comes with supervised class labels, these labels can be also involved in the visualization, thus enabling the user to have a clearer idea about the data and the structures learned by the SOM. In this work we propose a novel SOM visualization method, namely the SOM class coloring, which is based on the data class labels. This method nds a ii colored partitioning of the SOM lattice, that reects the class distribution. SOM class coloring helps discovering class information such as class topology, class clusters, and class distribution. Furthermore class labels can be assigned to new data items by estimating the point on the lattice, that best represents the data item and then assigning the class of the partition that includes this point to the data item.</note>
   <keywords/>
   <authors>

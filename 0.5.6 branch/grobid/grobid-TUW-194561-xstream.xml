@@ -1,6 +1,7 @@
 <Publication>
   <id>TUW-194561</id>
   <title>Extending Context-Sensitivity in Term Rewriting</title>
+  <publicationType>BEITRAEGE_AUS_TAGUNGSBAENDEN</publicationType>
   <source>9th Int. Workshop on Reduction Strategies in Rewriting and Programming (WRS&apos;09) EPTCS 15</source>
   <pageFrom>56</pageFrom>
   <pageTo>68</pageTo>

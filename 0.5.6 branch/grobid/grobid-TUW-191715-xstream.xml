@@ -1,6 +1,7 @@
 <Publication>
   <id>TUW-191715</id>
   <title>CURRENT TRENDS IN COMPUTER GRAPHICS</title>
+  <publicationType>BEITRAEGE_AUS_TAGUNGSBAENDEN</publicationType>
   <keywords>
     <string>computer graphics</string>
     <string>rendering</string>

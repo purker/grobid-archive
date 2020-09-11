@@ -1,0 +1,1772 @@
+<Publication>
+  <id>TUW-228620</id>
+  <title>Security and privacy in business networking</title>
+  <publicationType>BEITRAEGE_AUS_TAGUNGSBAENDEN</publicationType>
+  <note>Electron Markets PREFACE</note>
+  <doi>10.1007/s12525-014-0158-6</doi>
+  <abstractText>Business networking relies on application-specific quantity and quality of information in order to support social infrastructures in, e.g., energy allocation coordinated by smart grids, healthcare services with electronic health records, traffic management with personal sensors, RFID in retail and logistics , or integration of individuals&apos; social network information into good, services, and rescue operations. Due to the increasing reliance of networking applications on sharing ICT services , dependencies threaten privacy, security, and reliability of information and, thus, innovative business applications in smart societies. Resilience is becoming a new security approach , since it takes dependencies into account and aims at achieving equilibriums in case of opposite requirements. This special issue on &apos;Security and Privacy in Business Networking&apos; contributes to the journal &apos;Electronic Markets&apos; by introducing a different view on achieving acceptable secure business networking applications in spite of threats due to covert channels. This view is on adapting resilience to enforcement of IT security in business networking applications. Our analysis shows that privacy is an evidence to measure and improve trustworthy relationships and reliable interactions between participants of business processes and their IT systems. The articles of this special issue, which have been accepted after a double-blind peer review, contribute to this view on interdis-ciplinary security engineering in regard to the stages of security and privacy requirements analysis, enforcement of resulting security requirements for an information exchange, testing with a privacy-preserving detection of policy violations , and knowledge management for the purpose of keeping business processes resilient.</abstractText>
+  <keywords/>
+  <authors>
+    <Author>
+      <firstNames>
+        <string>Sven</string>
+      </firstNames>
+      <lastName>Wohlgemuth</lastName>
+      <affiliations/>
+    </Author>
+    <Author>
+      <firstNames>
+        <string>Stefan</string>
+      </firstNames>
+      <lastName>Sackmann</lastName>
+      <affiliations/>
+    </Author>
+    <Author>
+      <firstNames>
+        <string>Noboru</string>
+      </firstNames>
+      <lastName>Sonehara</lastName>
+      <affiliations/>
+    </Author>
+    <Author>
+      <firstNames>
+        <string>Min</string>
+      </firstNames>
+      <lastName>Tjoa</lastName>
+      <affiliations/>
+    </Author>
+    <Author>
+      <firstNames/>
+      <affiliations>
+        <Affiliation>
+          <id>aff0</id>
+          <institution>University of St</institution>
+          <department>System Security Lab</department>
+          <country>Germany</country>
+          <countryCode>DE</countryCode>
+        </Affiliation>
+      </affiliations>
+    </Author>
+    <Author>
+      <firstNames/>
+      <affiliations>
+        <Affiliation>
+          <id>aff1</id>
+          <institution>University Halle Wittenberg</institution>
+          <department>National Institute of Informatics, Information and Society Research Division</department>
+          <country>Germany, Japan</country>
+        </Affiliation>
+      </affiliations>
+    </Author>
+    <Author>
+      <firstNames/>
+      <affiliations>
+        <Affiliation>
+          <id>aff2</id>
+          <institution>Vienna University of Technology</institution>
+          <department>Institute for Software Technology</department>
+          <country>Austria</country>
+          <countryCode>AT</countryCode>
+        </Affiliation>
+      </affiliations>
+    </Author>
+  </authors>
+  <affiliations>
+    <Affiliation reference="/Publication[1]/authors[1]/Author[5]/affiliations[1]/Affiliation[1]"/>
+    <Affiliation reference="/Publication[1]/authors[1]/Author[6]/affiliations[1]/Affiliation[1]"/>
+    <Affiliation reference="/Publication[1]/authors[1]/Author[7]/affiliations[1]/Affiliation[1]"/>
+  </affiliations>
+  <sections>
+    <Section>
+      <title>Information exchange and intermediaries</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Security models and their enforcement</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>PET and dependencies</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Resilience as an approach for IT security and privacy</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Papers within ICT Resilience</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+  </sections>
+  <citationContexts/>
+  <references>
+    <Reference>
+      <id>ref1</id>
+      <referenceIdString>b0</referenceIdString>
+      <source>Cyber-physical systems. Driving force for innova</source>
+      <authors/>
+      <publicationDateString>2011</publicationDateString>
+      <publicationYear>2011</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref2</id>
+      <referenceIdString>b1</referenceIdString>
+      <source>health, energy and production, acatech-National</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref3</id>
+      <referenceIdString>b2</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Position</string>
+          </firstNames>
+          <lastName>Paper</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref4</id>
+      <referenceIdString>b3</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Ition_Cps_Englisch_Web</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2014-02-27</publicationDateString>
+      <publicationYear>2014</publicationYear>
+      <publicationMonth>02</publicationMonth>
+      <publicationDay>27</publicationDay>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref5</id>
+      <referenceIdString>b4</referenceIdString>
+      <source>BBox: A distributed secure log architecture</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Si</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2011</publicationDateString>
+      <publicationYear>2011</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref6</id>
+      <referenceIdString>b5</referenceIdString>
+      <source>Services and</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref7</id>
+      <referenceIdString>b6</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>N</string>
+          </firstNames>
+          <lastName>Davi</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>L</string>
+          </firstNames>
+          <lastName>Dmitrienko</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+          </firstNames>
+          <lastName>Heuser</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+          </firstNames>
+          <lastName>Kostiainen</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>K</string>
+          </firstNames>
+          <lastName>Reshetova</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref8</id>
+      <referenceIdString>b7</referenceIdString>
+      <source>Mobile platform security-Synthesis lectures on</source>
+      <authors/>
+      <publicationDateString>2013</publicationDateString>
+      <publicationYear>2013</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref9</id>
+      <referenceIdString>b8</referenceIdString>
+      <source>Basic concepts and taxonomy of dependable and secure computing</source>
+      <publisher>IEEE</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+          </firstNames>
+          <lastName>Enis</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J.-C</string>
+          </firstNames>
+          <lastName>Laprie</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>B</string>
+          </firstNames>
+          <lastName>Randell</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>C</string>
+          </firstNames>
+          <lastName>Landwehr</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2004</publicationDateString>
+      <publicationYear>2004</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref10</id>
+      <referenceIdString>b9</referenceIdString>
+      <title></title>
+      <source>ansactions on Dependable and Secure Computing</source>
+      <publisher>IEEE</publisher>
+      <authors/>
+      <volume>1</volume>
+      <issue>1</issue>
+      <pageFrom>11</pageFrom>
+      <pageTo>33</pageTo>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref11</id>
+      <referenceIdString>b10</referenceIdString>
+      <source>Poisoning attacks against</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>O</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>B</string>
+          </firstNames>
+          <lastName>Nelson</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>B</string>
+          </firstNames>
+          <lastName>Laskov</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>P</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2012</publicationDateString>
+      <publicationYear>2012</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref12</id>
+      <referenceIdString>b11</referenceIdString>
+      <source>port vector machines. 29th Int. Conf. on Machine Learning (ICML)</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref13</id>
+      <referenceIdString>b12</referenceIdString>
+      <source>Banking in the</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+            <string>W H</string>
+          </firstNames>
+          <lastName>Alt</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+          </firstNames>
+          <lastName>Lee</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>H</string>
+            <string>G</string>
+          </firstNames>
+          <lastName>Weber</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>B</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2012</publicationDateString>
+      <publicationYear>2012</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref14</id>
+      <referenceIdString>b13</referenceIdString>
+      <source>Bundesamt für Sicherheit in der Informationstechnik (BSI)-Federal</source>
+      <publisher>Springer</publisher>
+      <authors/>
+      <volume>22</volume>
+      <pageFrom>197</pageFrom>
+      <pageTo>202</pageTo>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref15</id>
+      <referenceIdString>b14</referenceIdString>
+      <source>The IT security situation</source>
+      <authors/>
+      <publicationDateString>2011</publicationDateString>
+      <publicationYear>2011</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref16</id>
+      <referenceIdString>b15</referenceIdString>
+      <source>Why and where: A</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>P</string>
+          </firstNames>
+          <lastName>An</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+          </firstNames>
+          <lastName>Khanna</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>W</string>
+            <string>C</string>
+          </firstNames>
+          <lastName>Tan</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2001</publicationDateString>
+      <publicationYear>2001</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref17</id>
+      <referenceIdString>b16</referenceIdString>
+      <title></title>
+      <source>LNCS</source>
+      <authors/>
+      <publicationDateString>1973</publicationDateString>
+      <publicationYear>1973</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref18</id>
+      <referenceIdString>b17</referenceIdString>
+      <source>An efficient system for non-transferable anonymous credentials with optional anonymity revo</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+          </firstNames>
+          <lastName>Isch</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+          </firstNames>
+          <lastName>Lysanskaya</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2001</publicationDateString>
+      <publicationYear>2001</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref19</id>
+      <referenceIdString>b18</referenceIdString>
+      <title></title>
+      <source>LNCS 2045</source>
+      <publisher>Springer</publisher>
+      <authors/>
+      <pageFrom>93</pageFrom>
+      <pageTo>118</pageTo>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref20</id>
+      <referenceIdString>b19</referenceIdString>
+      <source>Security without identification: transaction systems to</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1985</publicationDateString>
+      <publicationYear>1985</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref21</id>
+      <referenceIdString>b20</referenceIdString>
+      <title></title>
+      <source>Communications of the ACM</source>
+      <authors/>
+      <volume>28</volume>
+      <issue>10</issue>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref22</id>
+      <referenceIdString>b21</referenceIdString>
+      <source>Annual incident reports</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+          </firstNames>
+          <lastName>Karsberg</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>C</string>
+          </firstNames>
+          <lastName>Lakka</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2013</publicationDateString>
+      <publicationYear>2013</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref23</id>
+      <referenceIdString>b22</referenceIdString>
+      <source>analysis of article 13a incident reports</source>
+      <authors/>
+      <location>European Union</location>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref24</id>
+      <referenceIdString>b23</referenceIdString>
+      <title>Deutsches Institut für Vertrauen und Sicherheit im Internet (DIVSI)</title>
+      <source>DIVSI Milieu study on trust and security on the Internet</source>
+      <authors/>
+      <publicationDateString>2012</publicationDateString>
+      <publicationYear>2012</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref25</id>
+      <referenceIdString>b24</referenceIdString>
+      <source>On the security of public key protocols</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+          </firstNames>
+          <lastName>Yao</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+            <string>C</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1983</publicationDateString>
+      <publicationYear>1983</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref26</id>
+      <referenceIdString>b25</referenceIdString>
+      <title></title>
+      <source>E Transactions on Information Theory</source>
+      <publisher>IEEE Computer Society</publisher>
+      <authors/>
+      <volume>29</volume>
+      <issue>2</issue>
+      <pageFrom>198</pageFrom>
+      <pageTo>208</pageTo>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref27</id>
+      <referenceIdString>b26</referenceIdString>
+      <source>A few useful things to know about machine</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>P</string>
+          </firstNames>
+          <lastName>Gos</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2012</publicationDateString>
+      <publicationYear>2012</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref28</id>
+      <referenceIdString>b27</referenceIdString>
+      <title></title>
+      <source>Communications of the ACM</source>
+      <publisher>ACM</publisher>
+      <authors/>
+      <volume>55</volume>
+      <issue>10</issue>
+      <pageFrom>78</pageFrom>
+      <pageTo>87</pageTo>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref29</id>
+      <referenceIdString>b28</referenceIdString>
+      <source>Directive 2009/140/EC of the European</source>
+      <authors/>
+      <publicationDateString>2009</publicationDateString>
+      <publicationYear>2009</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref30</id>
+      <referenceIdString>b29</referenceIdString>
+      <source>tives 2002/21/EC on a common regulatory framework for</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref31</id>
+      <referenceIdString>b30</referenceIdString>
+      <source>/19/EC on</source>
+      <authors/>
+      <publicationDateString>2002</publicationDateString>
+      <publicationYear>2002</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref32</id>
+      <referenceIdString>b31</referenceIdString>
+      <source>A digital agenda for Europe</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Ean Commission</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2010</publicationDateString>
+      <publicationYear>2010</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref33</id>
+      <referenceIdString>b32</referenceIdString>
+      <source>the European Economic and Social Committee and the</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref34</id>
+      <referenceIdString>b33</referenceIdString>
+      <source>ittee of the Regions, COM 245 final/2</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref35</id>
+      <referenceIdString>b34</referenceIdString>
+      <source>Impossibility of</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+            <string>J</string>
+          </firstNames>
+          <lastName>Er</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>N</string>
+            <string>A</string>
+          </firstNames>
+          <lastName>Lynch</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+            <string>S</string>
+          </firstNames>
+          <lastName>Paterson</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1985</publicationDateString>
+      <publicationYear>1985</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref36</id>
+      <referenceIdString>b35</referenceIdString>
+      <source>Non-interactive</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>E</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>E</string>
+          </firstNames>
+          <lastName>Hofheinz</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+          </firstNames>
+          <lastName>Kiltz</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>E</string>
+          </firstNames>
+          <lastName>Paterson</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>K</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2013</publicationDateString>
+      <publicationYear>2013</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref37</id>
+      <referenceIdString>b36</referenceIdString>
+      <source>PKC 2013</source>
+      <publisher>Springer</publisher>
+      <authors/>
+      <volume>7778</volume>
+      <pageFrom>254</pageFrom>
+      <pageTo>271</pageTo>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref38</id>
+      <referenceIdString>b37</referenceIdString>
+      <source>Institutions and economic theory</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>E</string>
+            <string>G</string>
+          </firstNames>
+          <lastName>Otn</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+          </firstNames>
+          <lastName>Richter</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2005</publicationDateString>
+      <publicationYear>2005</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref39</id>
+      <referenceIdString>b38</referenceIdString>
+      <source>the new institutional economics</source>
+      <authors/>
+      <note>2nd ed.</note>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref40</id>
+      <referenceIdString>b39</referenceIdString>
+      <source>Fundaments of fault-tolerant distributed computing in</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Er</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>F</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1999</publicationDateString>
+      <publicationYear>1999</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref41</id>
+      <referenceIdString>b40</referenceIdString>
+      <title></title>
+      <source>nchronous environments. ACM Computing Surveys</source>
+      <publisher>ACM</publisher>
+      <authors/>
+      <volume>31</volume>
+      <issue>1</issue>
+      <pageFrom>1</pageFrom>
+      <pageTo>26</pageTo>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref42</id>
+      <referenceIdString>b41</referenceIdString>
+      <source>Privacy and identity</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+          </firstNames>
+          <lastName>Ot</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>V</string>
+          </firstNames>
+          <lastName>Matyas</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+          </firstNames>
+          <lastName>Wohlgemuth</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2009</publicationDateString>
+      <publicationYear>2009</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref43</id>
+      <referenceIdString>b42</referenceIdString>
+      <title></title>
+      <source>Future of Identity on the Information Society</source>
+      <publisher>Springer</publisher>
+      <authors/>
+      <pageFrom>351</pageFrom>
+      <pageTo>390</pageTo>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref44</id>
+      <referenceIdString>b43</referenceIdString>
+      <title>On the definition of resilience in systems</title>
+      <source>Risk</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Y</string>
+            <string>Y</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2009</publicationDateString>
+      <publicationYear>2009</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref45</id>
+      <referenceIdString>b44</referenceIdString>
+      <title>Society for Risk Analysis</title>
+      <source>lysis</source>
+      <authors/>
+      <volume>29</volume>
+      <issue>4</issue>
+      <pageFrom>498</pageFrom>
+      <pageTo>501</pageTo>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref46</id>
+      <referenceIdString>b45</referenceIdString>
+      <source>On obligations</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+          </firstNames>
+          <lastName>Basin</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+          </firstNames>
+          <lastName>Pretschner</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2005</publicationDateString>
+      <publicationYear>2005</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref47</id>
+      <referenceIdString>b46</referenceIdString>
+      <source>RICS&apos;05</source>
+      <publisher>Springer</publisher>
+      <authors/>
+      <volume>3679</volume>
+      <pageFrom>98</pageFrom>
+      <pageTo>117</pageTo>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref48</id>
+      <referenceIdString>b47</referenceIdString>
+      <source>Understanding the complexity of economic</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>C</string>
+            <string>S</string>
+          </firstNames>
+          <lastName>Ng</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2001</publicationDateString>
+      <publicationYear>2001</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref49</id>
+      <referenceIdString>b48</referenceIdString>
+      <source>gical, and social systems</source>
+      <publisher>Springer</publisher>
+      <authors/>
+      <volume>4</volume>
+      <pageFrom>390</pageFrom>
+      <pageTo>405</pageTo>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref50</id>
+      <referenceIdString>b49</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>L</string>
+          </firstNames>
+          <lastName>Joseph</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+            <string>D</string>
+          </firstNames>
+          <lastName>Nelson</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>B</string>
+          </firstNames>
+          <lastName>Rubenstein</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>I</string>
+          </firstNames>
+          <lastName>Tygar</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2011</publicationDateString>
+      <publicationYear>2011</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref51</id>
+      <referenceIdString>b50</referenceIdString>
+      <title></title>
+      <source>versarial Machine Learning. 4th ACM Workshop on Security</source>
+      <authors/>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref52</id>
+      <referenceIdString>b51</referenceIdString>
+      <source>ificial Intelligence, ACM</source>
+      <authors/>
+      <pageFrom>43</pageFrom>
+      <pageTo>58</pageTo>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref53</id>
+      <referenceIdString>b52</referenceIdString>
+      <source>A mandate for change is a mandate for smart</source>
+      <authors/>
+      <publicationDateString>2008</publicationDateString>
+      <publicationYear>2008</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref54</id>
+      <referenceIdString>b53</referenceIdString>
+      <source>Platform for enterprise</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>G</string>
+          </firstNames>
+          <lastName>Th</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+          </firstNames>
+          <lastName>Schunter</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+          </firstNames>
+          <lastName>Waidner</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2002</publicationDateString>
+      <publicationYear>2002</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref55</id>
+      <referenceIdString>b54</referenceIdString>
+      <source>Privacy-enabled management of customer data</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref56</id>
+      <referenceIdString>b55</referenceIdString>
+      <source>d International Conference on Privacy-Enhancing Technologies (PET&apos;02</source>
+      <publisher>Springer</publisher>
+      <authors/>
+      <pageFrom>69</pageFrom>
+      <pageTo>84</pageTo>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref57</id>
+      <referenceIdString>b56</referenceIdString>
+      <source>Can homomorphic</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+          </firstNames>
+          <lastName>Ig</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>K</string>
+          </firstNames>
+          <lastName>Lauter</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>V</string>
+          </firstNames>
+          <lastName>Vaikuntanathan</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2011</publicationDateString>
+      <publicationYear>2011</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref58</id>
+      <referenceIdString>b57</referenceIdString>
+      <source>cryption be practical? 3rd ACM Workshop on Cloud Computing</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref59</id>
+      <referenceIdString>b58</referenceIdString>
+      <source></source>
+      <publisher>Anonymity, unlinkability</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+          </firstNames>
+          <lastName>Mann</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+          </firstNames>
+          <lastName>Hansen</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2010</publicationDateString>
+      <publicationYear>2010</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref60</id>
+      <referenceIdString>b59</referenceIdString>
+      <source>lidated proposal for terminology. Anon Terminology v0</source>
+      <authors/>
+      <volume>34</volume>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref61</id>
+      <referenceIdString>b60</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>B</string>
+          </firstNames>
+          <lastName>Mann</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+          </firstNames>
+          <lastName>Waidner</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1992</publicationDateString>
+      <publicationYear>1992</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref62</id>
+      <referenceIdString>b61</referenceIdString>
+      <source>STACS&apos;92</source>
+      <authors/>
+      <volume>577</volume>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref63</id>
+      <referenceIdString>b62</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+          </firstNames>
+          <lastName>Chner</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+          </firstNames>
+          <lastName>Hilty</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+          </firstNames>
+          <lastName>Basin</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <note>Distributed usage control</note>
+      <publicationDateString>2006</publicationDateString>
+      <publicationYear>2006</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref64</id>
+      <referenceIdString>b63</referenceIdString>
+      <title></title>
+      <source>munications of the ACM</source>
+      <publisher>ACM</publisher>
+      <authors/>
+      <volume>49</volume>
+      <issue>9</issue>
+      <pageFrom>39</pageFrom>
+      <pageTo>44</pageTo>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref65</id>
+      <referenceIdString>b64</referenceIdString>
+      <source>Minister of Japan and His Cabinet</source>
+      <authors/>
+      <note>Declaration to be the</note>
+      <publicationDateString>2013</publicationDateString>
+      <publicationYear>2013</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref66</id>
+      <referenceIdString>b65</referenceIdString>
+      <source>s most advanced IT nation. Strategic headquarters for the promotion of an advanced information and telecommunications</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref67</id>
+      <referenceIdString>b66</referenceIdString>
+      <title>IT security and multilateral security</title>
+      <source>Multilateral Security in Communications</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>K</string>
+          </firstNames>
+          <lastName>Nberg</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+          </firstNames>
+          <lastName>Pfitzmann</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>G</string>
+          </firstNames>
+          <lastName>Müller</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>1999</publicationDateString>
+      <publicationYear>1999</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref68</id>
+      <referenceIdString>b67</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Economy</string>
+          </firstNames>
+          <lastName>Infrastructure</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Addison-Wesley-Longman</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref69</id>
+      <referenceIdString>b68</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>K</string>
+          </firstNames>
+          <lastName>Steinfield</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>C</string>
+          </firstNames>
+          <lastName>Vogel</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2009</publicationDateString>
+      <publicationYear>2009</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref70</id>
+      <referenceIdString>b69</referenceIdString>
+      <title></title>
+      <source>EM-Electronic Markets</source>
+      <publisher>Springer</publisher>
+      <authors/>
+      <volume>19</volume>
+      <issue>4</issue>
+      <pageFrom>181</pageFrom>
+      <pageTo>188</pageTo>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref71</id>
+      <referenceIdString>b70</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>T</string>
+          </firstNames>
+          <lastName>Npart</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>E</string>
+          </firstNames>
+          <lastName>Tromer</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>H</string>
+          </firstNames>
+          <lastName>Shacham</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+          </firstNames>
+          <lastName>Savage</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <note>Hey, you</note>
+      <publicationDateString>2009</publicationDateString>
+      <publicationYear>2009</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref72</id>
+      <referenceIdString>b71</referenceIdString>
+      <source>Exploring information leakage in third-party</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref73</id>
+      <referenceIdString>b72</referenceIdString>
+      <source>16th ACM CCS, ACM</source>
+      <authors/>
+      <pageFrom>199</pageFrom>
+      <pageTo>212</pageTo>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref74</id>
+      <referenceIdString>b73</referenceIdString>
+      <title>Personalization in privacy-aware highly dynamic systems</title>
+      <source>Communications</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Ann</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+          </firstNames>
+          <lastName>Strüker</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+          </firstNames>
+          <lastName>Accorsi</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>R</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2006</publicationDateString>
+      <publicationYear>2006</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref75</id>
+      <referenceIdString>b74</referenceIdString>
+      <title></title>
+      <source>Access control</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>P</string>
+          </firstNames>
+          <lastName>Ati</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+          </firstNames>
+          <lastName>De Capitani Di Vimercati</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2001</publicationDateString>
+      <publicationYear>2001</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref76</id>
+      <referenceIdString>b75</referenceIdString>
+      <title></title>
+      <source>LNCS</source>
+      <authors/>
+      <volume>2171</volume>
+      <publicationDateString>2000</publicationDateString>
+      <publicationYear>2000</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref77</id>
+      <referenceIdString>b76</referenceIdString>
+      <title>Isolation in cloud computing and privacy-enhancing technologies. Special Issue &apos;Sustainable Cloud Computing</title>
+      <source>BISE</source>
+      <publisher>Gabler</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Ara</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>N</string>
+          </firstNames>
+          <lastName>Echizen</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>I</string>
+          </firstNames>
+          <lastName>Wohlgemuth</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <volume>3</volume>
+      <issue>3</issue>
+      <pageFrom>155</pageFrom>
+      <pageTo>162</pageTo>
+      <publicationDateString>2011</publicationDateString>
+      <publicationYear>2011</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref78</id>
+      <referenceIdString>b77</referenceIdString>
+      <title>Process mining</title>
+      <source>Communications of the ACM</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>W</string>
+          </firstNames>
+          <lastName>Er Aalst</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2012</publicationDateString>
+      <publicationYear>2012</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref79</id>
+      <referenceIdString>b78</referenceIdString>
+      <source>Placing humans in the feedback loop of social infrastructures-NII research strategies on cyber-physical</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>W</string>
+          </firstNames>
+          <lastName>Ter</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>G</string>
+          </firstNames>
+          <lastName>Müller</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2013</publicationDateString>
+      <publicationYear>2013</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref80</id>
+      <referenceIdString>b79</referenceIdString>
+      <title></title>
+      <source>tems. Informatik Spektrum</source>
+      <publisher>Springer</publisher>
+      <authors/>
+      <volume>36</volume>
+      <issue>6</issue>
+      <pageFrom>520</pageFrom>
+      <pageTo>529</pageTo>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref81</id>
+      <referenceIdString>b80</referenceIdString>
+      <source>The dilemma of covert channels searching</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>C</string>
+          </firstNames>
+          <lastName>Ju</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2006</publicationDateString>
+      <publicationYear>2006</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref82</id>
+      <referenceIdString>b81</referenceIdString>
+      <source>mation Security and Cryptology-ICISC 2005</source>
+      <authors/>
+      <volume>3935</volume>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref83</id>
+      <referenceIdString>b82</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>D</string>
+            <string>J</string>
+          </firstNames>
+          <lastName>Abelson</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>H</string>
+          </firstNames>
+          <lastName>Berners-Lee</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>T</string>
+          </firstNames>
+          <lastName>Feigenbaum</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+          </firstNames>
+          <lastName>Hendler</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+          </firstNames>
+          <lastName>Sussman</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>G</string>
+            <string>J</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <note>Information accountability</note>
+      <publicationDateString>2008</publicationDateString>
+      <publicationYear>2008</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref84</id>
+      <referenceIdString>b83</referenceIdString>
+      <title></title>
+      <source>munications of the ACM</source>
+      <publisher>ACM</publisher>
+      <authors/>
+      <volume>51</volume>
+      <issue>6</issue>
+      <pageFrom>82</pageFrom>
+      <pageTo>87</pageTo>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref85</id>
+      <referenceIdString>b84</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+          </firstNames>
+          <lastName>En</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+            <string>D</string>
+          </firstNames>
+          <lastName>Tygar</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <note>Why Johnny can&apos;t encrypt: A</note>
+      <publicationDateString>1999</publicationDateString>
+      <publicationYear>1999</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref86</id>
+      <referenceIdString>b85</referenceIdString>
+      <source>PGP 5.0&apos;, 8th USENIX Security Symposium</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref87</id>
+      <referenceIdString>b86</referenceIdString>
+      <source>SSYM&apos;99)</source>
+      <authors/>
+      <volume>8</volume>
+      <pageFrom>169</pageFrom>
+      <pageTo>184</pageTo>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref88</id>
+      <referenceIdString>b87</referenceIdString>
+      <source>Privacy with delegation of rights</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+          </firstNames>
+          <lastName>Emuth</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>G</string>
+          </firstNames>
+          <lastName>Müller</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2006</publicationDateString>
+      <publicationYear>2006</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref89</id>
+      <referenceIdString>b88</referenceIdString>
+      <source>ETRICS 2006</source>
+      <publisher>Springer</publisher>
+      <authors/>
+      <volume>3995</volume>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref90</id>
+      <referenceIdString>b89</referenceIdString>
+      <source>Tagging disclosures of personal data to third parties to preserve privacy</source>
+      <publisher>SEC</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+          </firstNames>
+          <lastName>Emuth</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>I</string>
+          </firstNames>
+          <lastName>Echizen</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>N</string>
+          </firstNames>
+          <lastName>Sonehara</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>G</string>
+          </firstNames>
+          <lastName>Müller</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2010</publicationDateString>
+      <publicationYear>2010</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref91</id>
+      <referenceIdString>b90</referenceIdString>
+      <title></title>
+      <source>IFIP AICT</source>
+      <authors/>
+      <volume>330</volume>
+      <note>IFIP</note>
+      <pageFrom>241</pageFrom>
+      <pageTo>252</pageTo>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+  </references>
+</Publication>

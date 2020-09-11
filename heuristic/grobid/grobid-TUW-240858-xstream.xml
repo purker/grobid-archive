@@ -1,0 +1,221 @@
+<Publication>
+  <id>TUW-240858</id>
+  <title>Chase Termination for Guarded Existential Rules</title>
+  <publicationType>BEITRAEGE_AUS_TAGUNGSBAENDEN</publicationType>
+  <abstractText>The chase procedure is considered as one of the most fundamental al-gorithmic tools in database theory. It has been successfully applied to different database problems such as data exchange, and query answering and containment under constraints, to name a few. One of the central problems regarding the chase procedure is all-instance termination, that is, given a set of tuple-generating dependencies (TGDs) (a.k.a. existential rules), decide whether the chase under that set terminates, for every input database. It is well-known that this problem is un-decidable, no matter which version of the chase we consider. The crucial question that comes up is whether existing restricted classes of TGDs, proposed in different contexts such as ontological reasoning, make the above problem decidable. In this work, we focus our attention on the oblivious and the semi-oblivious versions of the chase procedure, and we give a positive answer for classes of TGDs that are based on the notion of guardedness.</abstractText>
+  <keywords/>
+  <authors>
+    <Author>
+      <firstNames>
+        <string>Marco</string>
+      </firstNames>
+      <lastName>Calautti</lastName>
+      <email>calautti@dimes.unical.it</email>
+      <affiliations>
+        <Affiliation>
+          <id>aff0</id>
+          <institution>University of Calabria</institution>
+          <department>DIMES</department>
+          <country>Italy</country>
+          <countryCode>IT</countryCode>
+        </Affiliation>
+      </affiliations>
+    </Author>
+    <Author>
+      <firstNames>
+        <string>Georg</string>
+      </firstNames>
+      <lastName>Gottlob</lastName>
+      <email>georg.gottlob@cs.ox.ac.uk</email>
+      <affiliations>
+        <Affiliation>
+          <id>aff1</id>
+          <institution>University of Oxford</institution>
+          <department>Department of Computer Science</department>
+          <country>UK</country>
+          <countryCode>GB</countryCode>
+        </Affiliation>
+      </affiliations>
+    </Author>
+    <Author>
+      <firstNames>
+        <string>Andreas</string>
+      </firstNames>
+      <lastName>Pieris</lastName>
+      <email>pieris@dbai.tuwien.ac.at</email>
+      <affiliations>
+        <Affiliation>
+          <id>aff2</id>
+          <institution>Vienna University of Technology</institution>
+          <department>Institute of Information Systems</department>
+          <country>Austria</country>
+          <countryCode>AT</countryCode>
+        </Affiliation>
+      </affiliations>
+    </Author>
+  </authors>
+  <affiliations>
+    <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+    <Affiliation reference="/Publication[1]/authors[1]/Author[2]/affiliations[1]/Affiliation[1]"/>
+    <Affiliation reference="/Publication[1]/authors[1]/Author[3]/affiliations[1]/Affiliation[1]"/>
+  </affiliations>
+  <sections>
+    <Section>
+      <level>1</level>
+      <title>Introduction</title>
+      <referenceIds>
+        <string>ref1</string>
+        <string>ref3</string>
+        <string>ref4</string>
+        <string>ref3</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2</level>
+      <title>The Chase Termination Problem</title>
+      <referenceIds>
+        <string>ref3</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3</level>
+      <title>The Complexity of Chase Termination</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.1</level>
+      <title>Linearity</title>
+      <referenceIds>
+        <string>ref2</string>
+        <string>ref2</string>
+      </referenceIds>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.2</level>
+      <title>Guardedness</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+  </sections>
+  <citationContexts/>
+  <references>
+    <Reference>
+      <id>ref1</id>
+      <referenceIdString>b0</referenceIdString>
+      <title>Stratification criteria and rewriting techniques for checking chase termination</title>
+      <source>PVLDB</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>S</string>
+          </firstNames>
+          <lastName>Greco</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>F</string>
+          </firstNames>
+          <lastName>Spezzano</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>I</string>
+          </firstNames>
+          <lastName>Trubitsyna</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>4</volume>
+      <issue>11</issue>
+      <pageFrom>1158</pageFrom>
+      <pageTo>1168</pageTo>
+      <publicationDateString>2011</publicationDateString>
+      <publicationYear>2011</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref2</id>
+      <referenceIdString>b1</referenceIdString>
+      <title>CWA-solutions for data exchange settings with target depen-dencies</title>
+      <source>PODS. pp</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>A</string>
+          </firstNames>
+          <lastName>Hernich</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>N</string>
+          </firstNames>
+          <lastName>Schweikardt</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <pageFrom>113</pageFrom>
+      <pageTo>122</pageTo>
+      <publicationDateString>2007</publicationDateString>
+      <publicationYear>2007</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref3</id>
+      <referenceIdString>b2</referenceIdString>
+      <title>Generalized schema-mappings: From termination to tractability</title>
+      <source>PODS. pp</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>B</string>
+          </firstNames>
+          <lastName>Marnette</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <pageFrom>13</pageFrom>
+      <pageTo>22</pageTo>
+      <publicationDateString>2009</publicationDateString>
+      <publicationYear>2009</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref4</id>
+      <referenceIdString>b3</referenceIdString>
+      <title>On chase termination beyond stratification</title>
+      <source>PVLDB</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+          </firstNames>
+          <lastName>Meier</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+          </firstNames>
+          <lastName>Schmidt</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>G</string>
+          </firstNames>
+          <lastName>Lausen</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>2</volume>
+      <issue>1</issue>
+      <pageFrom>970</pageFrom>
+      <pageTo>981</pageTo>
+      <publicationDateString>2009</publicationDateString>
+      <publicationYear>2009</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+  </references>
+</Publication>

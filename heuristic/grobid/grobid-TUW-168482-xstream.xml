@@ -1,0 +1,1344 @@
+<Publication>
+  <id>TUW-168482</id>
+  <title>Dialogue Games for Fuzzy Logics DIPLOMARBEIT zur Erlangung des akademischen Grades Computational Intelligence eingereicht von _______________________ ______________________ Dialogue Games for Fuzzy Logics</title>
+  <publicationType>BEITRAEGE_AUS_TAGUNGSBAENDEN</publicationType>
+  <note>Betreuer: Ao.Prof.Dipl-Ing.Dr.techn. Christian G. Fermüller Wien, Master Thesis Performed at the Department of Computer Languages Vienna University of Technology advised by Ao.Prof.Dipl.-Ing.Dr.techn. Christian G. Fermüller by</note>
+  <abstractText>Zusammenfassung Formale Dialogspiele werden schon seit langem dazu verwendet, die Semantik verschiedener Logiken zu charakterisieren. In den 70er Jahren präsentierte Robin Giles seinen Versuch, eine operationale Grundlage für formales Schließen zu definieren, basierend auf atomaren Exper-imenten, welche Dispersion aufweisen können. Diese Masterarbeit motiviert und beschreibt seinen Ansatz und die Verbindung zu t-Norm-basierten Fuzzy-Logiken. Wir geben eine kurze Einführung in t-Normen und mehrwertige Fuzzy-Logiken, die auf diese Bezug nehmen. Im Speziellen liegt der Schwerpunkt auf drei solchen fundamen-talen Fuzzy-Logiken: Lukasiewicz-Logik, Gödel-Logik und Produkt-Logik. Verschiedene Möglichkeiten, die Spielregeln von Giles&apos; Spiel zü andern, um dieses adäquat für Gödel-und Produkt-Logik zu machen, werden präsentiert und diskutiert. Darüber hinaus beschreiben wir die starke Verbindung zwischen Gewinnstrategien im Spiel und Ableitungen in einem analytischen Kalkül, der auf relationalen Hypersequenten basiert. Eine andere Art von Dialogspielen sind sogenannte &quot;Truth Comparison Games&quot;. Diese sind besonders geeignet für Gödel-Logik, da sie der gradbasierten Semantik der Gödel-Logik mehr entsprechen als Giles&apos; Spiel. Wir präsentieren das Spiel und diskutieren Gewinnstrate-gien für beide Spieler, welche als Beweis für die Gültigkeit oder Widerlegbarkeit einer Formel gesehen werden können. Zusätzlich werden mehrere Hilfsprogramme vorgestellt, die im Kontext dieser Master-arbeit entwickelt wurden. Darunter befindet sich auch eine webbasierte Anwendung zur interaktiven Exploration von Giles&apos; Spiel und dessen Erweiterungen. i Abstract Formal dialogue games are a traditional approach to characterize the semantics of logics. In the 1970s Robin Giles attempted to provide an operational foundation for formal reasoning in physical theories by dialogue games based on atomic experiments that may show dispersion. This thesis motivates, describes and analyzes his approach and the connection to t-norm based fuzzy logics. We give a short introduction into t-norms and many-valued logics based on t-norms. In particular we focus on three fundamental t-norm based fuzzy logics: Lukasiewicz Logic, Gödel Logic, and Product Logic. We present and discuss several approaches for extending the game rules of Giles&apos;s Game in order to make it adequate for Gödel Logic and Product Logic. Moreover, we give hints at a strong correspondence between winning strategies in the game and derivations in an analytic proof system based on relational hypersequents. Another type of dialogue games are truth comparison games. This type is suitable for Gödel Logic and relates more to the degree based semantics of that logic than Giles&apos;s Game. We present the game and discuss winning strategies for both players indicating the validity or refutability of a formula. Additionally, several utilities implemented in the context of this thesis are presented. Amongst these is a web-based application which allows for the interactive exploration of Giles&apos;s Game and its extensions. ii</abstractText>
+  <keywords/>
+  <authors>
+    <Author>
+      <firstNames/>
+      <lastName>Diplom-Ingenieur</lastName>
+      <affiliations>
+        <Affiliation>
+          <id>aff0</id>
+          <institution>Technische Universität Wien</institution>
+          <department>Fakultät für Informatik</department>
+        </Affiliation>
+      </affiliations>
+    </Author>
+    <Author>
+      <firstNames>
+        <string>Christoph</string>
+      </firstNames>
+      <lastName>Roschger</lastName>
+      <affiliations>
+        <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+      </affiliations>
+    </Author>
+    <Author>
+      <firstNames>
+        <string>Christoph</string>
+      </firstNames>
+      <lastName>Roschger</lastName>
+      <affiliations>
+        <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+      </affiliations>
+    </Author>
+  </authors>
+  <affiliations>
+    <Affiliation reference="/Publication[1]/authors[1]/Author[1]/affiliations[1]/Affiliation[1]"/>
+  </affiliations>
+  <sections>
+    <Section>
+      <title>Bertrand Russell</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>CHAPTER 1 Introduction</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>1.</level>
+      <title>Introduction</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Anselm Adams</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>CHAPTER 2 T-Norm Based Fuzzy Logics</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.1</level>
+      <title>Design Choices</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.2.</level>
+      <title>T-Norms</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.</level>
+      <title>T-Norm Based Fuzzy Logics</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.2</level>
+      <title>T-Norms</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.2.</level>
+      <title>T-Norms</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.</level>
+      <title>T-Norm Based Fuzzy Logics</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>3</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.2.</level>
+      <title>T-Norms</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.</level>
+      <title>T-Norm Based Fuzzy Logics</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.3.</level>
+      <title>Lukasiewicz Logic 2. T-Norm Based Fuzzy Logics</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.3</level>
+      <title>Lukasiewicz Logic Lukasiewicz Logic</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.4.</level>
+      <title>Gödel Logic</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.</level>
+      <title>T-Norm Based Fuzzy Logics</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.4</level>
+      <title>Gödel Logic</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.5.</level>
+      <title>Product Logic</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.</level>
+      <title>T-Norm Based Fuzzy Logics</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.5</level>
+      <title>Product Logic</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>2.6</level>
+      <title>A Uniform Hypersequent System</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.1</level>
+      <title>Motivation</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.2</level>
+      <title>Betting on Positive Results</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.3</level>
+      <title>Decomposing Propositions</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Implication</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Negation</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Disjunction</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Conjunction</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>An example dialogue</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.4</level>
+      <title>Analyzing Giles&apos;s Game</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.4.1</level>
+      <title>Risk Values and Valuations</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.4.</level>
+      <title>Analyzing Giles&apos;s Game</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.</level>
+      <title>Giles&apos;s Game</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.4.2</level>
+      <title>Stability of Results</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.5</level>
+      <title>Devising Rules for Other Connectives</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Strong Conjunction</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Strong Disjunction</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.6</level>
+      <title>Logical Equivalences as Game Equivalencies</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Minimum</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Maximum</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>3.7</level>
+      <title>Remarks on Quantifiers</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>CHAPTER 4 Extending Giles&apos;s Game to Other Logics</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>4.1</level>
+      <title>Different Ways of Combining Bets</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>4.1.1</level>
+      <title>Summing Up Bets</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>4.1.2</level>
+      <title>Joint Bets</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>4.1.3</level>
+      <title>Selecting Representative Bets</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>4.1.4</level>
+      <title>Winning conditions</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>4.2</level>
+      <title>Rules for Decomposing Complex Assertions</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>4.3</level>
+      <title>Adequateness of the Rules</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>G∈Γ</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>D∈∆</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>4.4</level>
+      <title>Alternative Rules</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>4.5</level>
+      <title>Rules for Other Connectives</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>CHAPTER 5 Truth Comparison Games</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>5.</level>
+      <title>Truth Comparison Games</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Winning strategies for O</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Winning strategies for P</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>5.1</level>
+      <title>Extending G by Additional Operators</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>CHAPTER 6 Implementation of Giles&apos;s Game</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>6.1</level>
+      <title>Webgame</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>In</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>In</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>6.2.</level>
+      <title>Giles</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>6.</level>
+      <title>Implementation of Giles&apos;s Game</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>6.2</level>
+      <title>Giles</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>6.3.</level>
+      <title>Hypseq</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>6.</level>
+      <title>Implementation of Giles&apos;s Game</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>6.3</level>
+      <title>Hypseq</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <level>6.4</level>
+      <title>TCGame</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Notation used</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Atom</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Prop</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+    <Section>
+      <title>Exper</title>
+      <referenceIds/>
+      <referenceCitations/>
+    </Section>
+  </sections>
+  <citationContexts/>
+  <references>
+    <Reference>
+      <id>ref1</id>
+      <referenceIdString>b0</referenceIdString>
+      <source>logical consequence and intermediate logics for</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref2</id>
+      <referenceIdString>b1</referenceIdString>
+      <title>Analytic calculi for projective logics</title>
+      <source>Annals of Mathematics and Artificial Intelligence</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>G</string>
+          </firstNames>
+          <lastName>Christian</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Fermüller</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>4</volume>
+      <issue>3</issue>
+      <pageFrom>225</pageFrom>
+      <pageTo>248</pageTo>
+      <publicationDateString>1991</publicationDateString>
+      <publicationYear>1991</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref3</id>
+      <referenceIdString>b2</referenceIdString>
+      <source>TABLEAUX &apos;99: Proceedings of the International Conference on Automated</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref4</id>
+      <referenceIdString>b3</referenceIdString>
+      <source>soning with Analytic Tableaux and Related Methods</source>
+      <authors/>
+      <pageFrom>36</pageFrom>
+      <pageTo>50</pageTo>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref5</id>
+      <referenceIdString>b4</referenceIdString>
+      <source>Uniform Rules</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Agata</string>
+          </firstNames>
+          <lastName>Ciabattoni</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Christian</string>
+            <string>G</string>
+          </firstNames>
+          <lastName>Fermüller</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>George</string>
+          </firstNames>
+          <lastName>Metcalfe</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref6</id>
+      <referenceIdString>b5</referenceIdString>
+      <title></title>
+      <source>Lecture Notes in Computer Science</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Lpar</string>
+          </firstNames>
+          <lastName>Rs</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>3452</volume>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref7</id>
+      <referenceIdString>b6</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Springer</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2004</publicationDateString>
+      <publicationYear>2004</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref8</id>
+      <referenceIdString>b7</referenceIdString>
+      <title>A propositional calculus with denumerable matrix</title>
+      <source>J. Symbolic</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>M</string>
+          </firstNames>
+          <lastName>Dummett</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref9</id>
+      <referenceIdString>b8</referenceIdString>
+      <title></title>
+      <source>ic</source>
+      <authors/>
+      <volume>24</volume>
+      <issue>2</issue>
+      <pageFrom>97</pageFrom>
+      <pageTo>106</pageTo>
+      <publicationDateString>1959</publicationDateString>
+      <publicationYear>1959</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref10</id>
+      <referenceIdString>b9</referenceIdString>
+      <source>Fuzzy sets and systems</source>
+      <authors/>
+      <volume>124</volume>
+      <pageFrom>271</pageFrom>
+      <pageTo>288</pageTo>
+      <publicationDateString>2001</publicationDateString>
+      <publicationYear>2001</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref11</id>
+      <referenceIdString>b10</referenceIdString>
+      <title>Hoops and Fuzzy Logic</title>
+      <source>Journal</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>F</string>
+          </firstNames>
+          <lastName>Esteva</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>L</string>
+          </firstNames>
+          <lastName>Godo</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>P</string>
+          </firstNames>
+          <lastName>Hájek</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>F</string>
+          </firstNames>
+          <lastName>Montagna</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref12</id>
+      <referenceIdString>b11</referenceIdString>
+      <title></title>
+      <source>Logic and Computation</source>
+      <authors/>
+      <volume>13</volume>
+      <issue>4</issue>
+      <pageFrom>532</pageFrom>
+      <pageTo>555</pageTo>
+      <publicationDateString>2003</publicationDateString>
+      <publicationYear>2003</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref13</id>
+      <referenceIdString>b12</referenceIdString>
+      <title></title>
+      <source>Dialogue Games,</source>
+      <authors/>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref14</id>
+      <referenceIdString>b13</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Tero</string>
+          </firstNames>
+          <lastName>Ahti-Veikko Pietarinen</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Tulenheimo</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref15</id>
+      <referenceIdString>b14</referenceIdString>
+      <source>tors, Games: Unifying Logic, Language, and Philosophy</source>
+      <authors/>
+      <volume>15</volume>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref16</id>
+      <referenceIdString>b15</referenceIdString>
+      <source>Fermuller and R. Kosik. Combining Supervaluation and Degree Based</source>
+      <publisher>Springer</publisher>
+      <authors/>
+      <publicationDateString>2009</publicationDateString>
+      <publicationYear>2009</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref17</id>
+      <referenceIdString>b16</referenceIdString>
+      <title>Fermüller and Norbert Preining. A Dialogue Game for Intuitionistic Fuzzy Logic Based on Comparisons of Degrees of Truth</title>
+      <source>Proceedings of</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Vagueness</string>
+          </firstNames>
+          <lastName>Ning Under</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>4246</volume>
+      <publicationDateString>2006</publicationDateString>
+      <publicationYear>2006</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref18</id>
+      <referenceIdString>b17</referenceIdString>
+      <source>ech&apos;03 (Fourth International Conference on Intelligent Technologies</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref19</id>
+      <referenceIdString>b18</referenceIdString>
+      <source>Investigations into logical deduction. The Collected Papers of Ger</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>;</string>
+            <string>G</string>
+          </firstNames>
+          <lastName>Thailand</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Gentzen</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publicationDateString>2003-12</publicationDateString>
+      <publicationYear>2003</publicationYear>
+      <publicationMonth>12</publicationMonth>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref20</id>
+      <referenceIdString>b19</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Gentzen</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <note>Gil74</note>
+      <pageFrom>68</pageFrom>
+      <pageTo>131</pageTo>
+      <publicationDateString>1969</publicationDateString>
+      <publicationYear>1969</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref21</id>
+      <referenceIdString>b20</referenceIdString>
+      <title>Gil82] Robin Giles. Semantics for Fuzzy Reasoning</title>
+      <source>International Journal of Man</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Giles</string>
+          </firstNames>
+          <lastName>In</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>33</volume>
+      <issue>4</issue>
+      <note>Studia Logica</note>
+      <pageFrom>397</pageFrom>
+      <pageTo>415</pageTo>
+      <publicationDateString>1974</publicationDateString>
+      <publicationYear>1974</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref22</id>
+      <referenceIdString>b21</referenceIdString>
+      <source>Göd32] K. Gödel. Zum intuitionisticschen Aussagenkalkül. Anzeiger Akademie der Wis</source>
+      <authors/>
+      <volume>17</volume>
+      <note>hine Studies</note>
+      <pageFrom>401</pageFrom>
+      <pageTo>415</pageTo>
+      <publicationDateString>1982</publicationDateString>
+      <publicationYear>1982</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref23</id>
+      <referenceIdString>b22</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Schaften Wien</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Klasse</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>32</volume>
+      <pageFrom>65</pageFrom>
+      <pageTo>66</pageTo>
+      <publicationDateString>1932</publicationDateString>
+      <publicationYear>1932</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref24</id>
+      <referenceIdString>b23</referenceIdString>
+      <title>The logic of inexact concepts</title>
+      <source>Synthése</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Goguen</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>19</volume>
+      <issue>3</issue>
+      <pageFrom>325</pageFrom>
+      <pageTo>373</pageTo>
+      <publicationDateString>1969</publicationDateString>
+      <publicationYear>1969</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref25</id>
+      <referenceIdString>b24</referenceIdString>
+      <source>Fuzzy logic and probability</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Petr</string>
+          </firstNames>
+          <lastName>Hájek</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Lluis</string>
+          </firstNames>
+          <lastName>Godo</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Francesc</string>
+          </firstNames>
+          <lastName>Esteva</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref26</id>
+      <referenceIdString>b25</referenceIdString>
+      <source>11th Annual Conference on Uncertainty in Artificial Intelli</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref27</id>
+      <referenceIdString>b26</referenceIdString>
+      <source>ce (UAI-95)</source>
+      <publisher>Morgan Kaufmann</publisher>
+      <authors/>
+      <pageFrom>237</pageFrom>
+      <pageTo>244</pageTo>
+      <publicationDateString>1995</publicationDateString>
+      <publicationYear>1995</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref28</id>
+      <referenceIdString>b27</referenceIdString>
+      <source>A complete many-valued logic with product</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>P</string>
+          </firstNames>
+          <lastName>Hájek</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>L</string>
+          </firstNames>
+          <lastName>Godo</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>F</string>
+          </firstNames>
+          <lastName>Esteva</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref29</id>
+      <referenceIdString>b28</referenceIdString>
+      <title></title>
+      <source>Archive for Mathematical Logic</source>
+      <authors/>
+      <volume>35</volume>
+      <issue>3</issue>
+      <pageFrom>191</pageFrom>
+      <pageTo>208</pageTo>
+      <publicationDateString>1996</publicationDateString>
+      <publicationYear>1996</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref30</id>
+      <referenceIdString>b29</referenceIdString>
+      <title>Metamathematics of Fuzzy Logic</title>
+      <source>Trends in Logic</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Hájek</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>4</volume>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref31</id>
+      <referenceIdString>b30</referenceIdString>
+      <source>Triangular Norms</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>E</string>
+            <string>P</string>
+          </firstNames>
+          <lastName>Klement</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Radko</string>
+          </firstNames>
+          <lastName>Mesiar</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Endre</string>
+          </firstNames>
+          <lastName>Pap</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>8</volume>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref32</id>
+      <referenceIdString>b31</referenceIdString>
+      <title></title>
+      <source>PWN. Proceed. Symp. Foundations of Math</source>
+      <authors/>
+      <note>Luk20</note>
+      <publicationDateString>1961</publicationDateString>
+      <publicationYear>1961</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref33</id>
+      <referenceIdString>b32</referenceIdString>
+      <title></title>
+      <source>Ruch Filozoficzny</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Lukasiewicz</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>5</volume>
+      <publicationDateString>1920</publicationDateString>
+      <publicationYear>1920</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref34</id>
+      <referenceIdString>b33</referenceIdString>
+      <source>Analytic Proof Calculi for</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>George</string>
+          </firstNames>
+          <lastName>Metcalfe</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Nicola</string>
+          </firstNames>
+          <lastName>Olivetti</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Dov</string>
+          </firstNames>
+          <lastName>Gabbay</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref35</id>
+      <referenceIdString>b34</referenceIdString>
+      <title></title>
+      <source>Logics. Archive for Mathematical Logic</source>
+      <authors/>
+      <volume>43</volume>
+      <issue>7</issue>
+      <pageFrom>859</pageFrom>
+      <pageTo>889</pageTo>
+      <publicationDateString>2004</publicationDateString>
+      <publicationYear>2004</publicationYear>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref36</id>
+      <referenceIdString>b35</referenceIdString>
+      <source>Sequent and hypersequent calculi for abelian and</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>George</string>
+          </firstNames>
+          <lastName>Metcalfe</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Nicola</string>
+          </firstNames>
+          <lastName>Olivetti</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Dov</string>
+          </firstNames>
+          <lastName>Gabbay</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref37</id>
+      <referenceIdString>b36</referenceIdString>
+      <title></title>
+      <source>kasiewicz logics. ACM Trans. Comput. Logic</source>
+      <authors/>
+      <volume>6</volume>
+      <issue>3</issue>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref38</id>
+      <referenceIdString>b37</referenceIdString>
+      <source>Fuzzy Logic Technology and Applications I</source>
+      <publisher>IEEE Press</publisher>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>J</string>
+          </firstNames>
+          <lastName>Ii Robert</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames/>
+          <lastName>Marks</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref39</id>
+      <referenceIdString>b38</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>N</string>
+            <string>J</string>
+          </firstNames>
+          <lastName>Taway</lastName>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Usa</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <note>Sca62] B. Scarpellini. Die Nichtaxiomatisierbarkeit des unendlichwertigen</note>
+      <publicationDateString>1994</publicationDateString>
+      <publicationYear>1994</publicationYear>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref40</id>
+      <referenceIdString>b39</referenceIdString>
+      <title></title>
+      <source>Journal of Symbolic Logic</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Lukasiewicz</string>
+          </firstNames>
+          <lastName>Dikatenkalküls Von</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <volume>27</volume>
+      <issue>2</issue>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref41</id>
+      <referenceIdString>b40</referenceIdString>
+      <title></title>
+      <source>identification and control. Fuzzy</source>
+      <authors/>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref42</id>
+      <referenceIdString>b41</referenceIdString>
+      <title>List of Figures</title>
+      <source>Fuzzy Logic, and Fuzzy Systems: Selected Papers</source>
+      <authors/>
+      <publicationDateString>1996</publicationDateString>
+      <publicationYear>1996</publicationYear>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref43</id>
+      <referenceIdString>b42</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>.</string>
+            <string>.</string>
+          </firstNames>
+          <lastName>Lukasiewicz T-Norm</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref44</id>
+      <referenceIdString>b43</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>.</string>
+            <string>.</string>
+          </firstNames>
+          <lastName>Gödel T-Norm</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref45</id>
+      <referenceIdString>b44</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>.</string>
+            <string>.</string>
+          </firstNames>
+          <lastName>Product T-Norm</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref46</id>
+      <referenceIdString>b45</referenceIdString>
+      <source>Sample proof for a&amp;(a → b)</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref47</id>
+      <referenceIdString>b46</referenceIdString>
+      <source>Game Tree for the Game Starting With (a ∧ b) → (¬b ∨ a)</source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>. . . .</string>
+          </firstNames>
+        </ReferenceAuthor>
+      </authors>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref48</id>
+      <referenceIdString>b47</referenceIdString>
+      <source>Game Tree for a&amp;(a → b)</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref49</id>
+      <referenceIdString>b48</referenceIdString>
+      <title>→ b) → b) ∧ ((b → a) → a)</title>
+      <source>Game Tree for</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref50</id>
+      <referenceIdString>b49</referenceIdString>
+      <source>Winning strategy for P for the game starting with (a ∧ b) → (b ∧ a)</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref51</id>
+      <referenceIdString>b50</referenceIdString>
+      <source>Step 1: Choosing the Logic</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref52</id>
+      <referenceIdString>b51</referenceIdString>
+      <source>Step 2: Choosing an Initial Game State</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref53</id>
+      <referenceIdString>b52</referenceIdString>
+      <title>Probabilities for Atomic Experiments</title>
+      <source>Step</source>
+      <authors/>
+      <volume>3</volume>
+      <type>j</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref54</id>
+      <referenceIdString>b53</referenceIdString>
+      <source>Step 5: Evaluating the Final Game State</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref55</id>
+      <referenceIdString>b54</referenceIdString>
+      <source></source>
+      <authors>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>T-Norms</string>
+          </firstNames>
+        </ReferenceAuthor>
+        <ReferenceAuthor>
+          <firstNames>
+            <string>Their</string>
+            <string>. .</string>
+          </firstNames>
+          <lastName>Residua</lastName>
+        </ReferenceAuthor>
+      </authors>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+    <Reference>
+      <id>ref56</id>
+      <referenceIdString>b55</referenceIdString>
+      <source>Game Rules for the Extended Truth Comparison Game</source>
+      <authors/>
+      <type>m</type>
+      <publication reference="/Publication[1]"/>
+    </Reference>
+  </references>
+</Publication>
